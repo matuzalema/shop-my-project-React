@@ -2,11 +2,11 @@ import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { MainLayout } from "./components/MainLayout";
-import { Home } from "./components/Home";
-import { User } from "./components/User";
-import { FAQ } from "./components/FAQ";
-import { Contact } from "./components/Contact";
+import { MainLayout } from "./modules/Main/MainLayout";
+import { Home } from "./modules/Home/HomeLayout";
+import { Rules } from "./modules/Rules/RulesLayout";
+import { FAQ } from "./modules/FAQ/FAQLayout";
+import { Contact } from "./modules/Contact/ContactLayout";
 
 
 class App extends React.Component {
@@ -16,8 +16,8 @@ class App extends React.Component {
         <MainLayout>
           <Switch>
             <Route exact path={"/"} component={Home} />
-            <Route exact path={"/user"} component={User} />
             <Route exact path={"/FAQ"} component={FAQ} />
+            <Route exact path={"/Rules"} component={Rules} />
             <Route exact path={"/Contact"} component={Contact} />
           </Switch>
         </MainLayout>
