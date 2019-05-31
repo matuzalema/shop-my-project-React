@@ -1,0 +1,36 @@
+.homeContainer {
+	display: flex;
+	flex-direction: row;
+	// background-color: green;
+	.wrapperHomeLeft {
+		width: 50%;
+		h1{
+			font-size: 24px;
+			font-weight: 400;
+		}
+	}
+	.wrapperHomeRight {
+		display: flex;
+		flex-wrap: wrap;
+		.product {
+			background-color: #bdc3c7;
+			width: 400px;
+			height: 500px;
+			padding: 30px;
+			margin: 0 20px 30px 20px;
+			h1, h2 {
+				font-size: 18px;
+				font-weight: 400;
+				letter-spacing: 0.9px;
+			}
+		}
+	}
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 10px;
+	li {
+		margin-top: 5px;
+	}
+ }
