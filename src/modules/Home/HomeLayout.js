@@ -1,6 +1,11 @@
 import React from "react";
 import styles from './Home.scss';
-import {renderProducts} from './HomeContainer.js';
+
+import product_1 from '../../img/Product_1.png';
+import product_2 from '../../img/Product_2.png';
+import product_3 from '../../img/Product_3.png';
+import product_4 from '../../img/Product_4.png';
+import {Products} from '../Products/Products.js';
 
 export class Home extends React.Component {
 	render() {
@@ -16,31 +21,8 @@ export class Home extends React.Component {
 		    				<li className="sort">price descending</li>
 		    			</ul>
 		    		</div>
-		    		<div className='wrapperHomeRight'>
-						<div className='product'>
-							<h1>New</h1>
-							<img src='img/Product_1.png'/>
-							<h2>Product name</h2>
-							<h2>$159</h2>
-						</div>
-						<div className='product'>
-							<h1>New</h1>
-							<img src='img/Product_1.png'/>
-							<h2>Product name</h2>
-							<h2>$159</h2>
-						</div>
-						<div className='product'>
-							<h1>New</h1>
-							<img src='img/Product_1.png'/>
-							<h2>Product name</h2>
-							<h2>$159</h2>
-						</div>
-						<div className='product'>
-							<h1>New</h1>
-							<img src='img/Product_1.png'/>
-							<h2>Product name</h2>
-							<h2>$159</h2>
-						</div>
+		    		<div>
+						<Products />	
 		    		</div>
 	    		</div>
 	    	</div>

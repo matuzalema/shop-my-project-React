@@ -1,8 +1,8 @@
 .homeContainer {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	// background-color: green;
+	justify-content: space-between;
+
 	.wrapperHomeLeft {
 		width: 30%;
 		h1{
@@ -17,18 +17,7 @@
 	.wrapperHomeRight {
 		display: flex;
 		flex-wrap: wrap;
-		.product {
-			background-color: #bdc3c7;
-			width: 400px;
-			height: 500px;
-			padding: 30px;
-			margin: 0 20px 30px 20px;
-			h1, h2 {
-				font-size: 18px;
-				font-weight: 400;
-				letter-spacing: 0.9px;
-			}
-		}
+
 	}
 }
 
@@ -38,4 +27,5 @@ ul {
 	li {
 		margin-top: 5px;
 	}
- }
+}
+
