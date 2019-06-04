@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Home.scss';
+import {renderProducts} from './HomeContainer.js';
 
 export class Home extends React.Component {
 	render() {
@@ -9,10 +10,10 @@ export class Home extends React.Component {
 	    			<div className='wrapperHomeLeft'>
 		    			<h1>Sort</h1>
 		    			<ul>
-		    				<li>Name A-Z</li>
-		    				<li>Name Z-A</li>
-		    				<li>price ascending</li>
-		    				<li>price descending</li>
+		    				<li className="sort">Name A-Z</li>
+		    				<li className="sort">Name Z-A</li>
+		    				<li className="sort">price ascending</li>
+		    				<li className="sort">price descending</li>
 		    			</ul>
 		    		</div>
 		    		<div className='wrapperHomeRight'>

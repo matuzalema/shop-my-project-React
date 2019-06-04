@@ -1,12 +1,17 @@
 .homeContainer {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	// background-color: green;
 	.wrapperHomeLeft {
-		width: 50%;
+		width: 30%;
 		h1{
 			font-size: 24px;
 			font-weight: 400;
+		}
+		.sort {
+			margin-left: -40px;
+			padding: 0;
 		}
 	}
 	.wrapperHomeRight {

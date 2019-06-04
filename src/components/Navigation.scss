@@ -17,18 +17,10 @@
 	}
 }
 
-.top {
-	display: flex;
-	flex-direction: row;
-	margin-top: 10px;
-	margin-bottom: 100px;
-	h1 {
-		font-size: 26px;
-		font-weight: 400;
-		text-transform: uppercase;
-		flex:1;
-		padding-top: 16px;
-		letter-spacing: 6px;
-	}
-
+a,
+a:visited {
+  color: black;
+}
+a.active {
+  color: red;
 }
