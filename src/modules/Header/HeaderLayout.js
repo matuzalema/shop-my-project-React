@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Navigation } from "../../components/Navigation.js"
+import { Navigation } from "../../components/Navigation.js";
 import styles from "./Header.scss";
 
 export const Header = props => {
