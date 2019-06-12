@@ -60,8 +60,16 @@ export class Products extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>procucts </h1>
+      <div className="wrapperHomeRight">
+        {this.state.products.map(product => (
+          <div className="product">
+            <h1 className="productStore">{product.store} </h1>
+            <img className="productImg" src={product.src} alt={product.name} />
+            <h2 className="productName">{product.name}</h2>
+            <h2 className="productPrice">{product.price}</h2>
+          </div>
+        ))}
+        ;
       </div>
     );
   }
