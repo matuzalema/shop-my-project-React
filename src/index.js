@@ -1,31 +1,22 @@
 import React from "react";
-import { render } from "react-dom";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import * as serviceWorker from "./serviceWorker";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import reducer from "./reducers/Reducer";
+import App from "./App";
 
-import { MainLayout } from "./modules/Main/MainLayout";
-import { Home } from "./modules/Home/HomeLayout";
-import { Rules } from "./modules/Rules/RulesLayout";
-import { FAQ } from "./modules/FAQ/FAQLayout";
-import { Contact } from "./modules/Contact/ContactLayout";
-import { NoMatch } from "./components/NoMatch.js";
+const store = createStore(reducer);
 
-class App extends React.Component {
-  render() {
-    return (
-      <BrowserRouter basename="/">
-        <MainLayout>
-          <Switch>
-            <Route exact path={"/"} component={Home} />
-            <Route exact path={"/FAQ"} component={FAQ} />
-            <Route exact path={"/Rules"} component={Rules} />
-            <Route exact path={"/Contact"} component={Contact} />
-            <Route component={NoMatch} />
-          </Switch>
-        </MainLayout>
-      </BrowserRouter>
-    );
-  }
-}
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
 
-const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

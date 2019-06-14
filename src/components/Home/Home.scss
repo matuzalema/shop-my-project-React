@@ -27,3 +27,16 @@ ul {
     margin-top: 5px;
   }
 }
+
+.btnSort {
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: background 0.3s;
+  &:hover {
+    background: #dddddd;
+    cursor: pointer;
+  }
+}

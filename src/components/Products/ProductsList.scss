@@ -1,3 +1,7 @@
+  .wrapperHomeRight {
+    display: flex;
+    flex-wrap: wrap;
+  }
 .product {
   background-color: #f2f2f2;
   width: 400px;
@@ -26,7 +30,7 @@
     font-weight: 400;
     letter-spacing: 0.9px;
   }
-  .productStore {
+  .productInf {
     position: absolute;
     top: 20px;
     font-size: 18px;
