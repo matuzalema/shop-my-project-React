@@ -13,8 +13,7 @@ export class ProductsList extends React.Component {
 
   render() {
     return (
-      <div className="wrapperHomeRight">
-        
+      <div className="wrapperHomeRight">     
         {this.props.products.map(product => (
           <div className="product" key={product.id}>
             <h1 className="productInf">{product.inf} </h1>
