@@ -8,7 +8,6 @@ export class ProductsList extends React.Component {
     this.state = {
       currentPage: 0
     };
-    console.log(this.props);
   }
 
   render() {
