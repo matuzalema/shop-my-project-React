@@ -8,32 +8,40 @@ class Home extends React.Component {
     super(props);
     this.state = {
       products: props.products,
-      direction: {
-        Price: "asc"
-      }
+      direction: "asc",
+      lastSortKey: ""
     };
-    //  this.sortBy = this.sortBy.bind(this);
-    // this.sortByKey = this.sortByKey.bind(this);
-  }
-  
-  mySort() {
-    this.state.products.sort((a,b) => a.price - b.price );
   }
 
-  sortByKey(key){
-    return this.state.products.sort((a, b) => {
-      if (isNaN(a[key])) {
-        return (a[key]).localeCompare(b[key]);
+  sortByKey(key) {
+    let direction;
+    if (key === this.state.lastSortKey){
+      direction = this.state.direction === "asc" ? "desc" : "asc"
+    } else {
+      direction = "asc"
+    }
+
+   let products = this.state.products.sort((a, b) => {
+      if(isNaN(a[key])){
+        if (direction === "asc") {
+          return (a[key]).localeCompare(b[key])
+        } else {
+          return (b[key]).localeCompare(a[key])
+        }
       } else {
-        return (parseFloat(a[key]) - parseFloat(b[key]));
+        if (direction === "asc") {
+          return parseFloat(a[key]) - parseFloat(b[key])
+        } else {
+          return parseFloat(b[key]) - parseFloat(a[key])
+        }
       }
     })
-  }
-  sortBy(key) {
     this.setState({
-      products: this.sortByKey(key)
-          })
-        }
+      products: products,
+      direction: direction,
+      lastSortKey: key
+    })
+  }
 
   render() {
     return (
@@ -41,13 +49,11 @@ class Home extends React.Component {
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
             <button className="btnSort" >
-              Sort
+              Sort by
             </button>
             <ul>
-              <button className="sort" onClick={() => this.sortBy("name")}>Name A-Z</button>
-              <button className="sort">Name Z-A</button>
-              <button className="sort" onClick={() => this.sortBy("price")}>price ascending</button>
-              <button className="sort">price descending</button>
+              <button className="btnSort" onClick={() => this.sortByKey("name")}>Sort by name</button>
+              <button className="btnSort" onClick={() => this.sortByKey("price")}>sort by price</button>
             </ul>
           </div>        
             <ProductsList products={this.state.products}/> 
