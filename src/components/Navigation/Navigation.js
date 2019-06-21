@@ -11,7 +11,7 @@ export const Navigation = props => {
         <NavLink exact to="/FAQ" activeClassName="active">FAQ</NavLink>
         <NavLink exact to="/Rules" activeClassName="active">Rules</NavLink>
         <NavLink exact to="/Contact" activeClassName="active">Contact</NavLink>
-        <NavLink exact to="/Card" activeClassName="active">Card</NavLink>
+        <NavLink exact to="/Cart" activeClassName="active">Cart</NavLink>
       </nav>
     </div>
   );
