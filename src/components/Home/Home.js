@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import styles from "./Home.scss";
-import { ProductsList } from "../Products/ProductsList.js";
+import { ProductsList } from "../ProductComponents/ProductList/ProductsList";
 
 class Home extends React.Component {
   constructor(props) {
@@ -48,9 +48,9 @@ class Home extends React.Component {
       <div>
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
-            <button className="btnSort" >
+            <p>
               Sort by
-            </button>
+            </p>
             <ul>
               <button className="btnSort" onClick={() => this.sortByKey("name")}>Sort by name</button>
               <button className="btnSort" onClick={() => this.sortByKey("price")}>sort by price</button>

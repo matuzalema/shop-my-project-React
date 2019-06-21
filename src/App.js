@@ -7,7 +7,7 @@ import Home from './components/Home/Home';
 import {Contact} from './components/Contact/Contact';
 import {FAQ} from './components/FAQ/FAQ';
 import {Rules} from './components/Rules/Rules';
-
+import Product from './components/ProductComponents/Product/Product';
 
 
 class App extends React.Component {
@@ -21,6 +21,8 @@ class App extends React.Component {
             <Route exact path={'/contact'} component={Contact} />
             <Route exact path={'/FAQ'} component={FAQ} />
             <Route exact path={'/rules'} component={Rules} />
+            <Route exact path={'/product/:id'} component={Product} />
+
           </Switch>
         </Layout>
       </BrowserRouter>
