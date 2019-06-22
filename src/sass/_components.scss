@@ -1,11 +1,23 @@
-.btn .btn-add-to-cart {
-    padding: 10px;
-    margin-top: 130px;
-    background-color: #858585;
-    border: 1px solid #858585;
-    border-radius: 2px;
-    color: #fff;
-    letter-spacing: 0.5px;
+@import "./variables.scss";
+.btn{
+    padding: 15px;
+    background-color: $btn-color;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    // letter-spacing: 0.5px;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        background-color: $btn-color-hover;
+    }
+}
+
+.btn-sort {
+    margin-top: 10px;
+    width: 120px;
 }

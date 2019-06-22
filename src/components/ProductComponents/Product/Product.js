@@ -28,7 +28,7 @@ class Product extends React.Component{
                         <p className="product-price">$ {this.props.products[this.props.match.params.id].price}</p>
                         <p className="product-description">{this.props.products[this.props.match.params.id].detail}</p>
                      <NavLink 
-                        exact to={"/cart"} className="btn-add-to-cart" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
+                        exact to={"/cart"} className="btn btn-add-to-card" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
                     </NavLink>
                     </div>
                 </div>

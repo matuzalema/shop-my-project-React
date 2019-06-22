@@ -5,14 +5,21 @@ const initialState = {
     sum: 0
 }
 
+function containsObject(obj, list) {
+
+    return list.some(elem => elem.id === obj.id)
+}
+
 export default function(state = initialState, action) {
-    let dupa = "dupa";
-    alert('dupa');
-    dupa = dupa + "ja";
     switch (action.type) {
         case ADD_TO_CART:
-            const test = 13;
-            alert('dupa');
+            if(containsObject(action.product, state.cartContent)){
+
+            } else {
+                return {
+                    cartContent: [...state.cartContent, action.product]
+                }
+            }
             return state;
         default: return state;
     }

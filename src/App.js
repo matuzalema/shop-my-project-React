@@ -8,7 +8,7 @@ import {Contact} from './components/Contact/Contact';
 import {FAQ} from './components/FAQ/FAQ';
 import {Rules} from './components/Rules/Rules';
 import Product from './components/ProductComponents/Product/Product';
-import {Cart} from './components/Cart/Cart';
+import Cart from './components/Cart/Cart';
 
 
 class App extends React.Component {

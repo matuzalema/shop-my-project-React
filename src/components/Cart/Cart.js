@@ -1,11 +1,27 @@
 import React from "react";
+// import EmptyCart from "./EmptyCart";
+import { CartProduct } from "./CartProduct";
+import { connect } from "react-redux";
 
-export class Cart extends React.Component {
+class Cart extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            products: props.products
+        };
+    }
     render() {
         return (
             <div>
-                <h1> my Cart</h1>
+                {/* <EmptyCart />               */}
+            <CartProduct />
             </div>
         );
     }
 }
+
+const mapStateToProps = state => ({
+    products: state.products
+});
+
+export default connect(mapStateToProps)(Cart);
