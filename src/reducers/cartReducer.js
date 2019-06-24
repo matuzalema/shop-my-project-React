@@ -1,8 +1,7 @@
 import { ADD_TO_CART } from "../actions/cartActions";
 
 const initialState = {
-    cartContent: [],
-    sum: 0
+    cartContent: []
 }
 
 // function containsObject(obj, list) {

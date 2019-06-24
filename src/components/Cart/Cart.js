@@ -2,26 +2,34 @@ import React from "react";
 // import EmptyCart from "./EmptyCart";
 import { CartProduct } from "./CartProduct";
 import { connect } from "react-redux";
+import CartProductsList from "./CartProductsList";
 
 class Cart extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            products: props.products
+            products: props.products,
+            cartContent: props.cartContent
         };
     }
+
     render() {
+        // console.log(this.props.cartContent)
         return (
             <div>
+                <h1>Twój koszyk</h1>
+                
+                <CartProductsList cartContent={this.props.cartContent}/>
                 {/* <EmptyCart />               */}
-            <CartProduct />
+            {/* <CartProduct /> */}
             </div>
         );
     }
 }
 
 const mapStateToProps = state => ({
-    products: state.products
+    products: state.products,
+    cartContent: state.cartContent.cartContent
 });
 
 export default connect(mapStateToProps)(Cart);
