@@ -1,8 +1,9 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { CartProduct } from './CartProduct';
-import EmptyCart from './EmptyCart';
-import Cart from './Cart';
+// import { connect } from 'react-redux';
+// import { CartProduct } from './CartProduct';
+// import EmptyCart from './EmptyCart';
+// import Cart from './Cart';
+import "./CartProductsList.scss";
 
 const CartProductsList = props => (
     <div>
@@ -10,18 +11,29 @@ const CartProductsList = props => (
             <ul>
                 {props.cartContent.map((product, i) => {
                    return (
-                       <div className="product-wrapper">
-                           <div className="product-wrapper-letf">
-                               <img
+                       <div className="cart-product-wrapper">
+                           <div className="cart-product-wrapper-letf">
+                               <img className="cart-img"
                                    src={product.img}
                                    alt={product.name}
                                />
                            </div>
-                           <div className="product-wrapper-right">
-                               <p className="product-inf">{product.inf}</p>
-                               <h1 className="product-names">{product.name}</h1>
-                               <p className="product-price">$ {product.price}</p>
-                               <p className="product-description">{product.detail}</p>
+                           <div className="cart-product-wrapper-right">
+                               <div className="cart-col">
+                                    <h1 className="cart-product-names">{product.name}</h1>
+                                    <p className="cart-product-description">{product.desc}</p>
+                               </div>
+                               <div className="cart-col">
+                                    <p className="cart-product-price">$ {product.price}</p>
+                               </div>
+                               <div className="cart-col cart-quantity">
+                                   <button className="btn btn-quantity">+</button>
+                                   Ilość
+                                   <button className="btn btn-quantity">-</button>
+                               </div>
+                               <div className="cart-col">
+                                   <button className="btn">Usuń</button>
+                               </div>
                            </div>
                        </div>
                    )

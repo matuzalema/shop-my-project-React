@@ -3,6 +3,7 @@ import React from "react";
 import { CartProduct } from "./CartProduct";
 import { connect } from "react-redux";
 import CartProductsList from "./CartProductsList";
+import "./Cart.scss";
 
 class Cart extends React.Component {
     constructor(props){
@@ -17,7 +18,7 @@ class Cart extends React.Component {
         // console.log(this.props.cartContent)
         return (
             <div>
-                <h1>Twój koszyk</h1>
+                <h1 className="cart-header">Twój koszyk</h1>
                 
                 <CartProductsList cartContent={this.props.cartContent}/>
                 {/* <EmptyCart />               */}

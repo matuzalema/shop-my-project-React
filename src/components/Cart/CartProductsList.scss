@@ -1,0 +1,52 @@
+@import "../../sass/components";
+@import "../../sass/variables";
+
+.cart-product-wrapper {
+    display: flex;
+    flex-direction: row;
+    color: $paragraph-letters;
+    margin: 20px 0;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 20px;
+}
+
+.cart-product-wrapper-letf{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    background-color:$bg-color-second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cart-img {
+        width: 100px;
+    }
+}
+.cart-product-wrapper-right {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .cart-product-names {
+        min-width: 100%;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .cart-product-description {
+        line-height: 30px;
+    }
+
+    .cart-product-price {
+        font-weight: 600;
+        font-size: 20px;
+        min-width: 100px;
+        text-align: center;
+    }
+    .cart-quantity {
+        min-width: 150px;
+    }
+    .btn-quantity {
+        margin: 0 5px;
+    }
+}
