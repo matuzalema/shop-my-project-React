@@ -1,4 +1,7 @@
 export const ADD_TO_CART = "ADD_TO_CART";
+export const ADD_QUANTITY = "ADD_QUANTITY";
+export const SUBSTRACT_QUANTITY = "SUBSTRACT_QUANTITY";
+export const REMOVE_CART_PRODUCT = "REMOVE_CART_PRODUCT";
 
 export const addToCart = (product) => {
     return {
@@ -6,3 +9,24 @@ export const addToCart = (product) => {
         product
     };
 };
+
+export const addQuantity = productId => {
+    return {
+        type: ADD_QUANTITY,
+        productId
+    }
+}
+
+export const substractQuantity = productId => {
+    return {
+        type: SUBSTRACT_QUANTITY,
+        productId
+    }
+}
+
+export const removeCartProduct = productId => {
+    return {
+        type: REMOVE_CART_PRODUCT,
+        productId
+    }
+}

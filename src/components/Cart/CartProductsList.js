@@ -4,6 +4,7 @@ import React from 'react';
 // import EmptyCart from './EmptyCart';
 // import Cart from './Cart';
 import "./CartProductsList.scss";
+import { substractQuantity } from '../../actions/cartActions';
 
 const CartProductsList = props => (
     <div>
@@ -27,12 +28,12 @@ const CartProductsList = props => (
                                     <p className="cart-product-price">$ {product.price}</p>
                                </div>
                                <div className="cart-col cart-quantity">
-                                   <button className="btn btn-quantity">+</button>
-                                   Ilość
-                                   <button className="btn btn-quantity">-</button>
+                                   <button className="btn btn-quantity" onClick={() => props.addQuantity(product.id)}>+</button>
+                                   Ilość {product.quantity}
+                                   <button className="btn btn-quantity" onClick={() => props.substractQuantity(product.id)}>-</button>
                                </div>
                                <div className="cart-col">
-                                   <button className="btn">Usuń</button>
+                                   <button className="btn" onClick={() => props.removeCartProduct(product.id)}>Usuń</button>
                                </div>
                            </div>
                        </div>

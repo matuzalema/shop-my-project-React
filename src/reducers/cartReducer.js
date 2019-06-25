@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from "../actions/cartActions";
+import { ADD_TO_CART, ADD_QUANTITY, SUBSTRACT_QUANTITY, REMOVE_CART_PRODUCT } from "../actions/cartActions";
 
 const initialState = {
     cartContent: []
@@ -29,6 +29,32 @@ export default function(state = initialState, action) {
             return {
                 cartContent : cartContent
             }
+
+            case ADD_QUANTITY:
+                const addQuantity = state.cartContent.map(product => {
+                    return product.id === action.productId
+                        ? Object.assign({}, product, {quantity: product.quantity + 1})
+                        : product;
+                });
+                return Object.assign({}, state, {
+                    cartContent: addQuantity,
+                })
+            
+            case SUBSTRACT_QUANTITY:
+                const substractQuantity = state.cartContent.map(product => {
+                    return product.id === action.productId
+                        ? Object.assign({}, product, {quantity: product.quantity -1}) 
+                        : product;
+                });
+                return Object.assign({}, state, {
+                    cartContent: substractQuantity.filter(product => product.quantity > 0
+       
+                    )
+                })
+
+            case REMOVE_CART_PRODUCT:
+                return Object.assign({}, state, {cartContent: state.cartContent.filter(product => product.id !== action.productId)})
+
         default: return state;
     }
 }

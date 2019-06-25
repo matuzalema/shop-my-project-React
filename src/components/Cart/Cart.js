@@ -4,6 +4,7 @@ import { CartProduct } from "./CartProduct";
 import { connect } from "react-redux";
 import CartProductsList from "./CartProductsList";
 import "./Cart.scss";
+import { addQuantity, addToCart, substractQuantity, removeCartProduct} from "../../actions/cartActions";
 
 class Cart extends React.Component {
     constructor(props){
@@ -15,14 +16,16 @@ class Cart extends React.Component {
     }
 
     render() {
-        // console.log(this.props.cartContent)
         return (
             <div>
                 <h1 className="cart-header">Twój koszyk</h1>
                 
-                <CartProductsList cartContent={this.props.cartContent}/>
+                <CartProductsList 
+                    cartContent={this.props.cartContent}
+                    addQuantity={this.props.addQuantity.bind(this)}
+                    substractQuantity={this.props.substractQuantity.bind(this)}
+                    removeCartProduct={this.props.removeCartProduct.bind(this)}/>
                 {/* <EmptyCart />               */}
-            {/* <CartProduct /> */}
             </div>
         );
     }
@@ -33,4 +36,13 @@ const mapStateToProps = state => ({
     cartContent: state.cartContent.cartContent
 });
 
-export default connect(mapStateToProps)(Cart);
+const mapDispatchToProps = {
+   addQuantity,
+   substractQuantity,
+   removeCartProduct
+};
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Cart);
