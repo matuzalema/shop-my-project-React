@@ -4,14 +4,15 @@ import { CartProduct } from "./CartProduct";
 import { connect } from "react-redux";
 import CartProductsList from "./CartProductsList";
 import "./Cart.scss";
-import { addQuantity, addToCart, substractQuantity, removeCartProduct} from "../../actions/cartActions";
+import { addQuantity, addToCart, substractQuantity, removeCartProduct, overallPrice} from "../../actions/cartActions";
 
 class Cart extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             products: props.products,
-            cartContent: props.cartContent
+            cartContent: props.cartContent,
+            overallPrice: props.overallPrice
         };
     }
 
@@ -26,6 +27,12 @@ class Cart extends React.Component {
                     substractQuantity={this.props.substractQuantity.bind(this)}
                     removeCartProduct={this.props.removeCartProduct.bind(this)}/>
                 {/* <EmptyCart />               */}
+                <form class="payForm">
+                    <input placeholder="kod rabatowy" className="discount" type="text" name="input" />
+                    
+                    <h2 className="sum">Do zapłaty: {this.state.overallPrice}</h2>
+                    <button type="submit" className="btn-pay">Zamów</button>
+                </form>
             </div>
         );
     }
@@ -33,7 +40,8 @@ class Cart extends React.Component {
 
 const mapStateToProps = state => ({
     products: state.products,
-    cartContent: state.cartContent.cartContent
+    cartContent: state.cartContent.cartContent,
+    overallPrice: state.cartContent.overallPrice
 });
 
 const mapDispatchToProps = {

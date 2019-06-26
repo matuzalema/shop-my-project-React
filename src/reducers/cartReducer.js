@@ -1,7 +1,8 @@
 import { ADD_TO_CART, ADD_QUANTITY, SUBSTRACT_QUANTITY, REMOVE_CART_PRODUCT } from "../actions/cartActions";
 
 const initialState = {
-    cartContent: []
+    cartContent: [],
+    overallPrice: 0
 }
 
 // function containsObject(obj, list) {
@@ -11,6 +12,17 @@ const initialState = {
 //         return elem.id === obj.id
 //     })
 // }
+function sum(x,y) {
+    return x + y;
+};
+
+function sumCartPrices(cart){
+    // let pricesArray = cart.map(product => product.price);
+    let sumPrices = cart.reduce(function(prev, cur){
+        return prev + (cur.price * cur.quantity);
+    }, 0);
+    return sumPrices.toFixed(2);   
+}
 
 export default function(state = initialState, action) {
     switch (action.type) {
@@ -26,8 +38,10 @@ export default function(state = initialState, action) {
             if(!quantityUpdated) {
                 cartContent = [...cartContent, action.product];
             }
+
             return {
-                cartContent : cartContent
+                cartContent : cartContent,
+                overallPrice: sumCartPrices(cartContent)
             }
 
             case ADD_QUANTITY:
@@ -36,8 +50,12 @@ export default function(state = initialState, action) {
                         ? Object.assign({}, product, {quantity: product.quantity + 1})
                         : product;
                 });
+
+                // let pricesArray = cartContent.map(product => product.price);
+                
                 return Object.assign({}, state, {
                     cartContent: addQuantity,
+                    // overallPrice: sumCartPrices(cartContent)
                 })
             
             case SUBSTRACT_QUANTITY:
@@ -54,6 +72,9 @@ export default function(state = initialState, action) {
 
             case REMOVE_CART_PRODUCT:
                 return Object.assign({}, state, {cartContent: state.cartContent.filter(product => product.id !== action.productId)})
+
+    
+
 
         default: return state;
     }
