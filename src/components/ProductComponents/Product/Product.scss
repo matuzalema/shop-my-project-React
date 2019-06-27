@@ -4,12 +4,12 @@
 .product-wrapper {
     display: flex;
     flex-direction: row;
-    color: $paragraph-letters;
+    color: $dark-color;
 }
 
 .product-wrapper-letf{
     padding: 100px;
-    background-color:$bg-color-second;
+    background-color:$second-color;
 }
 .product-wrapper-right {
     margin-left: 50px;
@@ -32,4 +32,11 @@
         font-weight: 600;
         font-size: 20px;
     }
+}
+
+.btn.btn-add-to-card {
+    margin-right: 20px;
+    background-color: $dark-color;
+    color: $main-color;
+    padding: 8px 20px;
 }

@@ -4,9 +4,9 @@
 .cart-product-wrapper {
     display: flex;
     flex-direction: row;
-    color: $paragraph-letters;
+    color: $dark-color;
     margin: 20px 0;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $third-color;
     padding-bottom: 20px;
 }
 
@@ -14,7 +14,7 @@
     padding: 20px;
     width: 150px;
     height: 150px;
-    background-color:$bg-color-second;
+    background-color:$second-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
         text-align: center;
     }
     .cart-quantity {
-        min-width: 150px;
+        min-width: 180px;
     }
     .btn-quantity {
         margin: 0 5px;

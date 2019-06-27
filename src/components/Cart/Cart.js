@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import CartProductsList from "./CartProductsList";
 import "./Cart.scss";
 import { addQuantity, addToCart, substractQuantity, removeCartProduct, overallPrice} from "../../actions/cartActions";
-
+import { bindActionCreators } from 'redux';
 class Cart extends React.Component {
     constructor(props){
         super(props);
@@ -27,7 +27,7 @@ class Cart extends React.Component {
                     substractQuantity={this.props.substractQuantity.bind(this)}
                     removeCartProduct={this.props.removeCartProduct.bind(this)}/>
                 {/* <EmptyCart />               */}
-                <form class="payForm">
+                <form className="payForm">
                     <input placeholder="kod rabatowy" className="discount" type="text" name="input" />
                     
                     <h2 className="sum">Do zapłaty: {this.state.overallPrice}</h2>
@@ -41,16 +41,21 @@ class Cart extends React.Component {
 const mapStateToProps = state => ({
     products: state.products,
     cartContent: state.cartContent.cartContent,
-    overallPrice: state.cartContent.overallPrice
+    overallPrice: state.cartContent.overallPrice,
 });
 
-const mapDispatchToProps = {
-   addQuantity,
-   substractQuantity,
-   removeCartProduct
-};
+// const mapDispatchToProps = {
+//    addQuantity,
+//    substractQuantity,
+//    removeCartProduct
+// };
+function matchDispatchToProps(dispatch) {
+    return bindActionCreators(
+        { addQuantity: addQuantity, substractQuantity: substractQuantity, removeCartProduct: removeCartProduct }, dispatch
+    )
+}
 
 export default connect(
     mapStateToProps,
-    mapDispatchToProps
+    matchDispatchToProps
 )(Cart);

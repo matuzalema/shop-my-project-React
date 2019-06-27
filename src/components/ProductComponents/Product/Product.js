@@ -30,6 +30,9 @@ class Product extends React.Component{
                      <NavLink 
                         exact to={"/cart"} className="btn btn-add-to-card" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
                     </NavLink>
+                    <NavLink
+                        exact to={"/home"} className="btn"> Wróć 
+                    </NavLink>
                     </div>
                 </div>
         
