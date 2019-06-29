@@ -10,17 +10,19 @@
     cursor: pointer;
     text-decoration: none;
     transition: 0.5s;
+    text-decoration: none;
     &:focus {
         outline: none;
     }
     &:hover {
-        background-color: $fourth-color;
+        background-color: #dfdede;
     }
 }
 
 .btn-sort {
-    margin-top: 10px;
-    width: 120px;
+    // margin-top: 10px;
+    background-color: inherit;
+    width: 100%;
 }
 
 .btn.btn-primary {
@@ -31,8 +33,4 @@
     &:hover {
         background-color: rgb(46, 46, 46);
     }
-}
-
-Link {
-    text-decoration: none;
 }

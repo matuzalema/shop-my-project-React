@@ -1,34 +1,43 @@
-// .topNav {
-// 	display: flex;
-// 	justify-content: flex-end;
-// 	padding: 20px;
-// 	padding-right: 30px;
-// 	a {
-// 		text-decoration: none;
-// 		margin-left: 20px;
-// 		color: white;
-// 		text-transform: uppercase;
-// 		letter-spacing: 6px;
-// 		font-size: 14px;
-// 		color: #000000;
-// 		&:hover {
-// 			color: #34495e;
-// 		}
-// 	}
-// }
-
+@import url('https://fonts.googleapis.com/css?family=Literata:600,700|Orbitron:400,700,900&display=swap');
 .top {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 30px;
 	margin-top: 10px;
 	margin-bottom: 50px;
-	h1 {
-		font-size: 26px;
-		font-weight: 400;
-		text-transform: uppercase;
-		flex:1;
-		padding-top: 16px;
-		letter-spacing: 6px;
+	.logo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 30px;
+		margin-top: 10px;
+		.logo-wrapper{
+			display: flex;
+			flex-direction: row;
+			position: relative;
+			.logo-header {
+				font-size: 24px;
+				font-weight: 900;
+				flex:1;
+				padding-top: 16px;
+				letter-spacing: 6px;
+				font-family: 'Orbitron', sans-serif;
+				color: red;
+			}
+			.logo-icon {
+				position: absolute;
+				top: 9px;
+    			left: 46px;
+			}
+		}
+		.logo-header-second {
+			color: #000;
+			font-family: 'Orbitron', sans-serif;
+			font-size: 24px;
+		}
+		.logo-icon {
+			font-size: 40px;
+		}
 	}
-
 }

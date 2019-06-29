@@ -23,7 +23,6 @@ export class ProductsList extends React.Component {
           //   <h2 className="productPrice">{product.price}</h2>
           // </div>
         ))}
-        ;
       </div>
     );
   }

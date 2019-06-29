@@ -1,10 +1,12 @@
+@import "../../../sass/variables";
   .wrapperHomeRight {
     display: flex;
     flex-wrap: wrap;
   }
 .product {
-  background-color: #f2f2f2;
-  width: 400px;
+  background-color: #fff;
+  border: 1px solid $fourth-color;
+  width: 368px;
   height: 500px;
   padding: 30px;
   margin: 0 20px 30px 20px;
@@ -14,27 +16,32 @@
     text-align: center;
     margin: 0 auto;
     display: block;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .productName {
     position: absolute;
-    bottom: 60px;
+    bottom: 88px;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.9px;
   }
   .productPrice {
     position: absolute;
-    bottom: 20px;
+    bottom: 55px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.9px;
   }
   .productInf {
     position: absolute;
     top: 20px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.9px;
+    color: red;
+  }
+  .btn-product-list{
+    position: absolute;
+    bottom: 25px;
   }
 }

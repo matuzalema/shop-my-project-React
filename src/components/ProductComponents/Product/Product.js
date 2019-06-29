@@ -25,7 +25,7 @@ class Product extends React.Component{
                     <div className="product-wrapper-right">
                         <p className="product-inf">{this.props.products[this.props.match.params.id].inf}</p>
                         <h1 className="product-names">{this.props.products[this.props.match.params.id].name}</h1>
-                        <p className="product-price">$ {this.props.products[this.props.match.params.id].price}</p>
+                        <p className="product-price">{this.props.products[this.props.match.params.id].price} PLN</p>
                         <p className="product-description">{this.props.products[this.props.match.params.id].detail}</p>
                      <Link 
                         exact to={"/cart"} className="btn btn-primary" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart

@@ -2,8 +2,29 @@
 
 
 .container {
-	max-width: 1200px;
+	// max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
+}
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #000;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 8px 70px 8px 0;
+	.top-nav-item {
+		color: #fff;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+		font-weight: 300;
+		.top-nav-icon {
+			margin: 5px;
+			font-size: 14px;
+		}
+	}
 }

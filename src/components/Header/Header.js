@@ -6,7 +6,15 @@ import {addToCart} from "../../actions/cartActions";
 
 const Header = props => (
   <div className="top">
-    <h1>Shop name</h1>
+    <div className="logo">
+      <div className="logo-wrapper">
+        <h1 className="logo-header">Ph&nbsp;&nbsp;&nbsp;</h1>
+        <i className="material-icons logo-icon">
+          photo_camera
+        </i><h1 className="logo-header">to</h1>
+      </div>
+      <h1 className="logo-header-second">inventions</h1>
+    </div>
     <Navigation cartProductsQuantity={props.cartProductsQuantity} />
   </div>
 

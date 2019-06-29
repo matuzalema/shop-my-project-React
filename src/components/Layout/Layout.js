@@ -19,6 +19,20 @@ class Layout extends React.Component {
   render() {
     return (
       <div className="container">
+        <div className='top-nav'>
+          <p className="top-nav-item">
+            <i className="material-icons top-nav-icon">perm_identity</i>
+            Zaloguj się
+          </p>
+          <p className="top-nav-item">
+            <i className="material-icons top-nav-icon"> mail_outline </i>
+            Newsletter
+          </p>
+          <p className="top-nav-item">
+            <i class="material-icons top-nav-icon">contact_mail</i>
+          Feedback
+          </p>
+        </div>
         <Header cartProductsQuantity={this.props.cartProductsQuantity}/>
         {this.props.children}
         <Footer />

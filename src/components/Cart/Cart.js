@@ -32,7 +32,7 @@ class Cart extends React.Component {
                 <form className="payForm">
                     <input placeholder="kod rabatowy" className="discount" type="text" name="input" />
                     
-                    <h2 className="sum">Do zapłaty: {this.props.overallPrice}</h2>
+                    <h2 className="sum">Do zapłaty: {this.props.overallPrice} PLN</h2>
                     <Link
                         exact to={"/order"}>
                         <button type="submit" className="btn-pay">Zamów</button> </Link>

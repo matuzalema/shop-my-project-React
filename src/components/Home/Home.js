@@ -54,6 +54,15 @@ class Home extends React.Component {
             </p>
               <button className="btn btn-sort" onClick={() => this.sortByKey("name")}>Sort by name</button>
               <button className="btn btn-sort" onClick={() => this.sortByKey("price")}>Sort by price</button>
+            <p className="sort-by">
+              Kategorie
+            </p>
+            <button className="btn btn-sort" >Aparaty fotograficzne</button>
+            <button className="btn btn-sort" >Drony</button>
+            <button className="btn btn-sort" >Głowice</button>
+            <button className="btn btn-sort" >Mikrofony</button>
+            <button className="btn btn-sort" >Nośniki pamięci</button>
+
           </div>        
             <ProductsList products={this.state.products}/> 
         </div>

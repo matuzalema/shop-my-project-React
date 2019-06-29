@@ -5,11 +5,12 @@
     display: flex;
     flex-direction: row;
     color: $dark-color;
+    margin-top: -30px;
 }
 
 .product-wrapper-letf{
     padding: 100px;
-    background-color:$second-color;
+    background-color:#fff;
 }
 .product-wrapper-right {
     margin-left: 50px;

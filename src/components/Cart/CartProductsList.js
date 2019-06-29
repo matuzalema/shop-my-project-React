@@ -25,7 +25,7 @@ const CartProductsList = props => (
                                     <p className="cart-product-description">{product.desc}</p>
                                </div>
                                <div className="cart-col">
-                                    <p className="cart-product-price">$ {product.price}</p>
+                                    <p className="cart-product-price">{product.price} PLN</p>
                                </div>
                                <div className="cart-col cart-quantity">
                                    <button className="btn btn-quantity" onClick={() => props.addQuantity(product.id)}>+</button>

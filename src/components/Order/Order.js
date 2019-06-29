@@ -44,12 +44,8 @@ class Order extends React.Component {
                         {this.renderTableData()}
                     </tbody>
                 </table>
-                <h2 className="sum">Do zapłaty: {this.state.overallPrice}</h2>
+                <h2 className="sum">Do zapłaty: {this.state.overallPrice} PLN</h2>
                 <button type="submit" className="btn btn-primary pay">zapłać</button>
-                <Link style={{ textDecoration: 'none' }}
-                    exact to={"/home"}>
-                    <button type="submit" className="btn btn-back">wróć do zakupów</button>
-                </Link>
             </div>
         )
     }   
