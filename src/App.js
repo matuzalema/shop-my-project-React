@@ -9,6 +9,7 @@ import {FAQ} from './components/FAQ/FAQ';
 import {Rules} from './components/Rules/Rules';
 import Product from './components/ProductComponents/Product/Product';
 import Cart from './components/Cart/Cart';
+import Order from './components/Order/Order';
 
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
             <Route exact path={'/rules'} component={Rules} />
             <Route exact path={'/product/:id'} component={Product} />
             <Route exact path={'/cart'} component={Cart} />
+            <Route exact path={'/order'} component={Order} />
           </Switch>
         </Layout>
       </BrowserRouter>

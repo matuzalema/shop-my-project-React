@@ -6,6 +6,8 @@ import CartProductsList from "./CartProductsList";
 import "./Cart.scss";
 import { addQuantity, addToCart, substractQuantity, removeCartProduct, overallPrice} from "../../actions/cartActions";
 import { bindActionCreators } from 'redux';
+import { Link } from 'react-router-dom';
+
 class Cart extends React.Component {
     constructor(props){
         super(props);
@@ -30,8 +32,10 @@ class Cart extends React.Component {
                 <form className="payForm">
                     <input placeholder="kod rabatowy" className="discount" type="text" name="input" />
                     
-                    <h2 className="sum">Do zapłaty: {this.state.overallPrice}</h2>
-                    <button type="submit" className="btn-pay">Zamów</button>
+                    <h2 className="sum">Do zapłaty: {this.props.overallPrice}</h2>
+                    <Link
+                        exact to={"/order"}>
+                        <button type="submit" className="btn-pay">Zamów</button> </Link>
                 </form>
             </div>
         );

@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux';
 import "./Product.scss";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {addToCart} from "../../../actions/cartActions";
 import { bindActionCreators } from 'redux';
 
@@ -27,12 +27,12 @@ class Product extends React.Component{
                         <h1 className="product-names">{this.props.products[this.props.match.params.id].name}</h1>
                         <p className="product-price">$ {this.props.products[this.props.match.params.id].price}</p>
                         <p className="product-description">{this.props.products[this.props.match.params.id].detail}</p>
-                     <NavLink 
-                        exact to={"/cart"} className="btn btn-add-to-card" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
-                    </NavLink>
-                    <NavLink
+                     <Link 
+                        exact to={"/cart"} className="btn btn-primary" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
+                    </Link>
+                    <Link
                         exact to={"/home"} className="btn"> Wróć 
-                    </NavLink>
+                    </Link>
                     </div>
                 </div>
         
