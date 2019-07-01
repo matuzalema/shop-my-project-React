@@ -10,6 +10,7 @@ import {Rules} from './components/Rules/Rules';
 import Product from './components/ProductComponents/Product/Product';
 import Cart from './components/Cart/Cart';
 import Order from './components/Order/Order';
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 
 class App extends React.Component {

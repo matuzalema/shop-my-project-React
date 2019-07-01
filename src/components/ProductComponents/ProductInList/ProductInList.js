@@ -2,6 +2,12 @@ import React from "react";
 import "./ProductInList.scss";
 import { NavLink } from 'react-router-dom';
 import {Link} from 'react-router-dom';
+// import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import "../../Pagrination/bootstrap-pagination.css";
+// import "../../Pagrination/bootstrap-pagination.js";
+// import "../../Pagrination/bootstrap-theme-pagination.css";
 
 export const ProductInList = (props) => (
     <NavLink 

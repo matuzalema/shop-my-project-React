@@ -1,17 +1,39 @@
 import React from "react";
 import { connect } from "react-redux";
 import styles from "./Home.scss";
-import { ProductsList } from "../ProductComponents/ProductList/ProductsList";
+import cloneDeep from 'lodash/cloneDeep';
+import {ProductsList} from "../ProductComponents/ProductList/ProductsList";
 import "../../sass/_components.scss";
+import PaginationComponent from "react-reactstrap-pagination";
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
+    this.pageSize = 6;
     this.state = {
-      products: props.products,
+      selectedPage: 1,
+      products: cloneDeep(props.products),
+      productsToDisplay: cloneDeep(props.products).slice(0, this.pageSize),
+      
       direction: "asc",
-      lastSortKey: ""
+      lastSortKey: "name"
     };
+    this.handleSelected = this.handleSelected.bind(this);
+  }
+
+  filterByCategory(category) {
+    let productsAfterFilter;
+    if(category==='all'){
+      productsAfterFilter = this.props.products;
+    }else{
+      productsAfterFilter = this.props.products.filter(product => product.category === category)
+    }
+    this.setState({
+      products: cloneDeep(productsAfterFilter),
+      selectedPage: 1,
+      productsToDisplay: productsAfterFilter.slice((this.pageSize) - this.pageSize, (this.pageSize))
+    });
+    
   }
 
   sortByKey(key) {
@@ -22,7 +44,7 @@ class Home extends React.Component {
       direction = "asc"
     }
 
-   let products = this.state.products.sort((a, b) => {
+   let productsSorted = this.state.products.sort((a, b) => {
       if(isNaN(a[key])){
         if (direction === "asc") {
           return (a[key]).localeCompare(b[key])
@@ -38,11 +60,25 @@ class Home extends React.Component {
       }
     })
     this.setState({
-      products: products,
+      products: productsSorted,
       direction: direction,
-      lastSortKey: key
+      lastSortKey: key,
+      selectedPage: 1,
+      productsToDisplay: productsSorted.slice((this.pageSize) - this.pageSize, (this.pageSize))
     })
   }
+
+  
+
+  handleSelected(selectedPage) {
+    this.setState({
+      selectedPage: selectedPage,
+      productsToDisplay: this.state.products.slice((selectedPage * this.pageSize) - this.pageSize, (selectedPage * this.pageSize))
+    
+    })
+  }
+  
+  
 
   render() {
     return (
@@ -57,14 +93,23 @@ class Home extends React.Component {
             <p className="sort-by">
               Kategorie
             </p>
-            <button className="btn btn-sort" >Aparaty fotograficzne</button>
+            <button className="btn btn-sort" onClick={() => this.filterByCategory("all")}>Wszystkie</button>
+            <button className="btn btn-sort" onClick={() => this.filterByCategory("aparaty fotograficzne")}>Aparaty fotograficzne</button>
             <button className="btn btn-sort" >Drony</button>
             <button className="btn btn-sort" >Głowice</button>
             <button className="btn btn-sort" >Mikrofony</button>
             <button className="btn btn-sort" >Nośniki pamięci</button>
 
           </div>        
-            <ProductsList products={this.state.products}/> 
+            <ProductsList products={this.state.productsToDisplay}/>
+          <div className="container-fluid">
+            <PaginationComponent
+              totalItems={this.state.products.length}
+              pageSize={this.pageSize}
+              onSelect={this.handleSelected}
+              activePage={this.state.selectedPage}
+            />
+          </div>
         </div>
       </div>
     );

@@ -1,22 +1,8 @@
 export default function () {
   return [
+    
     {
       id: 0,
-      name: "CANON EOS 4000D",
-      img: "../../images/aparat.jpg",
-      price: 1145.00,
-      desc: "Matryca o wyskoiej rozdzielczości 18mpix. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+. Ekran LCD o przekątnej 4.8 cm.",
-
-      inf: "Sale",
-      quantity: 1,
-      detail: 
-        "Idealny aparat do nauki fotografii. Matryca o wyskoiej rozdzielczości 18mpix około 20x większa niż w smartfonie. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+, ekran LCD o przekątnej 4.8 cm ułatwiający kadrowanie.",
-      category: "aparat fotograficzny",
-      producent: "canon",
-      addInf: "Matryca CMOS 18.0 mega pixela. Filtry kreatywne – stosowanie wyjątkowych efektów. Łącze bezprzewodowe – Wi Fi Certified. Inteligentna scena auto – łatwe kadrowanie i robienie zdjęć. Filmy EOS – Cinematic1080p. Przewodnik po funkcjach – łatwe do zrozumienia wskazówki. Wizjer optyczny – 9 punktowy autofokus. Wyświetlacz LCD – 2, 7 cala."
-    },
-    {
-      id: 1,
       name: "BENRO głowica do tripodu B-0",
       img: "../../images/glowicaBenro1min.jpg",
       price: 359.00,
@@ -30,22 +16,8 @@ export default function () {
       addInf: "Głowica Benro B-0 jest kompatybilna z głowicami Arca-Swiss."
     },
     {
-      id: 2,
-      name: "PANASONIC aparat cyfrowy Lumix DMC-TZ100",
-      img: "../../images/panasonicLumix1min.jpg",
-      price: 2275.00,
-      desc:
-        "Matryca MOS o wysokiej czułości (typ 1) / Całkowita liczba pikseli 20,9 megapikseli / Podstawowy filtr koloru.",
-      inf: "New",
-      quantity: 1,
-      detail: "PANASONIC LUMIX DMC-TZ100 został zaprojektowany z zachowaniem równowagi pomiędzy mocą a funkcjonalnością. Krystalicznie wyraźny obiektyw zmiennoogniskowy LEICA charakteryzuje się stylowym i zgrabnym kształtem. Koniec z ogromnymi torbami i topornym sprzętem – doskonała harmonia pomiędzy mocą a mobilnością. 5-płaszczyznowy system HYBRID O.I.S. +/ Kompensacja w 5 płaszczyznach umożliwia nagrywanie filmów z wyjątkiem filmów wideo w rozdzielczości 4K.",
-      category: "aparaty fotograficzne",
-      producent: "panasonic",
-      addInf: "Wymiary: 110,5 x 64,5 x 44,3 mm/4,35 x 2,54 x 1,74 cali. Długość ogniskowej f = 9,1–91 mm/(odpowiednik 27–270 mm dla kliszy 35 mm w formacie 4:3)/(odpowiednik 25–250 mm dla kliszy 35 mm w formacie 3:2)/(odpowiednik 26–260 mm dla kliszy 35 mm w formacie 16:9)/(odpowiednik 32–320 mm dla kliszy 35 mm w formacie 1:1)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 4:3)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 3:2)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 16:9)/(odpowiednik 40–400 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 1:1)/(odpowiada 26–260 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 28–280 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 31–310 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wł. funkcja Level Shot)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu wideo w formacie 4K)    "
-    },
-    {
-      id: 3,
-      name: "PANASONIC aparat cyfrowy Lumix DMC-LX100",
+      id: 1,
+      name: "Aparat cyfrowy Lumix DMC-LX100",
       img: "../../images/Panasonic1min.jpg",
       price: 2059.00,
       desc:
@@ -57,6 +29,36 @@ export default function () {
       producent: "canon",
       addInf: "Aparat LUMIX LX100 wyposażono w nowo opracowany dla firmy Panasonic obiektyw LEICA DC VARIO-SUMMILUX F1.7–F2.8, umożliwiający rejestrację zdjęć o doskonałej wyrazistości i ostrości, oszałamiających realizmem odwzorowania rzeczywistości. Oferowany przez obiektyw uniwersalny zakres ogniskowych wynoszący 24–75 mm (odpowiednik w standardzie 35 mm) sprawdza się w wielu sytuacjach, od fotografii ulicznej po portretową, natomiast szeroki kąt dla ogniskowej 24 mm oraz matryca zapewniają wiele proporcji obrazu pozwalając na fotografowanie krajobrazów w proporcjach 4:3, 3:2 lub 16:9"
     },
+    {
+      id: 2,
+      name: "Dron DJI MAVIC",
+      img: "../../images/dronCombo3min.jpg",
+      price: 5245.00,
+      desc:
+        "Dron DJI MAVIC Pro Combo Quadrocopter",
+      inf: "Sale",
+      quantity: 1,
+      detail: "Mavic Pro to kompaktowy dron w ofercie DJI, którego niewielkie rozmiary umożliwiają z łatwością umieszczenie go w damskiej torebce czy kieszeni kurtki (waży 734 g). Uruchomienie drona zabiera dosłownie kilka chwil, dzięki rozkładanym ramionom i śmigłom. Mimo swoich niewielkich gabarytów jest tak funkcjonalny, jak większe platformy. DJI Mavic Pro może wykonywać nieporuszone zdjęcia i kręcić stabilne filmy, a to wszystko dzięki 3-osiowemu gimbalowi oraz kamerze wyposażonej w sensor 1/2.3”12 Mpix, która umożliwia rejestrowanie materiału wideo 4k/30fps 60 Mbps oraz wykonywanie zdjęć w rozdzielczości 4000x3000 również w trybie RAW. Posiada innowacyjny system wykrywania i omijania przeszkód z przodu oraz od dołu. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot. Dzięki nowej technologii nowo opracowanego systemu OcuSync zasięg transmisji w terenie wolnym od zakłóceń wynosi do 4 km, ale istnieje możliwość sterowania dronem w odległości do 80 m za pomocą samego smartfona lub tabletu (po uprzednim przełączeniu go w tryb WiFi). Dronem można sterować również za pomocą samego kontrolera. Prędkość maksymalna drona w trybie Sport to 65 km/h, szacunkowy czas lotu to 27 min, a ładowanie akumulatora nie przekracza 90 min.",
+      category: "drony",
+      producent: "DJI",
+      addInf: "DJI Mavic Pro posiada inteligentne tryby lotu: Follow Me, ActiveTrack, Gesture Mode czy Tripod."
+    },
+    {
+      id: 3,
+      name: "CANON EOS 4000D",
+      img: "../../images/aparat.jpg",
+      price: 1145.00,
+      desc: "Matryca o wyskoiej rozdzielczości 18mpix. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+. Ekran LCD o przekątnej 4.8 cm.",
+
+      inf: "Sale",
+      quantity: 1,
+      detail:
+        "Idealny aparat do nauki fotografii. Matryca o wyskoiej rozdzielczości 18mpix około 20x większa niż w smartfonie. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+, ekran LCD o przekątnej 4.8 cm ułatwiający kadrowanie.",
+      category: "aparaty fotograficzne",
+      producent: "canon",
+      addInf: "Matryca CMOS 18.0 mega pixela. Filtry kreatywne – stosowanie wyjątkowych efektów. Łącze bezprzewodowe – Wi Fi Certified. Inteligentna scena auto – łatwe kadrowanie i robienie zdjęć. Filmy EOS – Cinematic1080p. Przewodnik po funkcjach – łatwe do zrozumienia wskazówki. Wizjer optyczny – 9 punktowy autofokus. Wyświetlacz LCD – 2, 7 cala."
+    },
+   
     
     {
       id: 4,
@@ -88,7 +90,7 @@ export default function () {
     },
     {
       id: 6,
-      name: "LEXAR Professional 1000X 64GB SDHC/SDXC",
+      name: "LEXAR Professional 1000X 64GB",
       img: "../../images/kartaPamieci1min.jpg",
       price: 199.00,
       desc:
@@ -96,13 +98,13 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "Wykonuj wysokiej jakości obrazy i filmy w rozdzielczości 1080p Full-HD, 3D i 4K wideo za pomocą aparatu, kamery HD lub kamery 3D. Duża pojemność pozwala cieszyć się dłuższym robieniem zdęć bez konieczności zamiany karty. Szybki transfer plików z karty na komputer, aby znacznie przyspieszyć czas pracy.",
-      category: "aparat fotograficzny",
+      category: "karty pamięci",
       producent: "Lexar",
       addInf: "Karta zawiera oprogramowanie do pobrania Image Rescue® do odzyskiwania zdjęć i plików wideo."
     },
     {
       id: 7,
-      name: "SanDisk EXTREME PRO SDXC 128 GB",
+      name: "SanDisk EXTREME 128 GB",
       img: "../../images/kartaPamieciSanDisk1min.jpg",
       price: 159.00,
       desc:
@@ -110,7 +112,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "SANDISK EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3 to najbardziej zaawansowana karta pamięci SD™ UHS-I zapewnia wydajność, która przeniesie Twoją kreatywność na wyższy poziom. Dzięki szybkości zapisu nawet do 90 MB/s* i klasie szybkości nagrywania UHS 3 (U3)2 możesz nagrywać płynne filmy w fantastycznej jakości 4K UHD1. A ponieważ nie zwalniasz tempa również po zakończeniu zdjęć, zapewnia szybkość przesyłania danych aż do 170 MB/s [64 GB-512 GB], aby usprawnić przepływ pracy na etapie postprodukcji. Ponadto karta jest przystosowana do pracy w trudnych warunkach pogodowych i odporna na wodę oraz wstrząsy, więc możesz na niej polegać w każdych okolicznościach.",
-      category: "aparat fotograficzny",
+      category: "karty pamięci",
       producent: "SanDisk",
       addInf: "Czasami potrzebujesz szybkości. Karta SanDisk Extreme PRO® SD™ UHS-I zapewnia wydajność umożliwiającą płynne nagrywanie wspaniałych filmów w jakości 4K UHD. Dzięki klasie szybkości UHS 3 (U3) i Video Speed Class 30 (V30)2 karta SanDisk Extreme PRO® SD™ UHS-I umożliwia natychmiastowe zapisywanie zdjęć seryjnych. Zaprojektowana i przetestowana pod kątem pracy w trudnych warunkach3 karta Extreme PRO® SD™ UHS-I jest odporna na wstrząsy oraz działanie temperatury, wody i promieni rentgenowskich. Oferta obejmuje oprogramowanie do odzyskiwana danych RescuePRO® Deluxe do pobrania (licencja na 2 lata), umożliwiające odzyskiwanie przypadkowo skasowanych zdjęć."
     },
@@ -152,7 +154,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "RØDELink reprezentuje kolejną generację cyfrowych systemów bezprzewodowych (nakamerowych). Korzystając z cyfrowej transmisji 2,4Ghz (Seria II) z 128-bitowym szyfrowaniem, może ciągle monitorować i przeskakiwać pomiędzy częstotliwościami, aby zachować najsilniejszy poziom sygnału w zakresie do 100 metrów (ponad 100 jardów). RØDELink Filmmaker Kit zapewnia wszystko, czego potrzeba do bezprzewodowego nagrywania filmów, łącznie z odbiornikiem, nadajnikiem i mikrofonem typu lavalier o jakości emisyjnej.Odbiornik(RX - CAM) wyposażony jest w wyświetlacz OLED, dostarczający informacje o poziomie sygnału, poziomie baterii(w odbiorniku i nadajniku), wyciszeniu i wyborze kanału.Urządzenie można zamontować w standardowej stopce aparatu, na gwincie 3/8 lub przy pomocy klipsa do paska. Można też umieścić stopkę w dwóch pozycjach. Lekki nadajnik(TX- BELT) można przytwierdzić do paska lub ubrania.",
-      category: "aparat fotograficzny",
+      category: "mikrofony",
       producent: "mikrofony",
       addInf: "RØDELink dodatkowo posiada gwintowane złącze, zapewniając najbezpieczniejsze podłączenie mikrofonu.Dołączony do zestawu mikrofon RØDE Lavalier o charakterystyce dookólnej zapewnia najwyższą jakość reprodukcji dźwięku."
     },
@@ -214,17 +216,17 @@ export default function () {
     },
     {
       id: 15,
-      name: "Dron DJI MAVIC Pro Combo Quadrocopter",
-      img: "../../images/dronCombo3min.jpg",
-      price: 5245.00,
+      name: "PANASONIC aparat cyfrowy Lumix DMC-TZ100",
+      img: "../../images/panasonicLumix1min.jpg",
+      price: 2275.00,
       desc:
-        "Dron DJI MAVIC Pro Combo Quadrocopter",
-      inf: "Sale",
+        "Matryca MOS o wysokiej czułości (typ 1) / Całkowita liczba pikseli 20,9 megapikseli / Podstawowy filtr koloru.",
+      inf: "New",
       quantity: 1,
-      detail: "Mavic Pro to kompaktowy dron w ofercie DJI, którego niewielkie rozmiary umożliwiają z łatwością umieszczenie go w damskiej torebce czy kieszeni kurtki (waży 734 g). Uruchomienie drona zabiera dosłownie kilka chwil, dzięki rozkładanym ramionom i śmigłom. Mimo swoich niewielkich gabarytów jest tak funkcjonalny, jak większe platformy. DJI Mavic Pro może wykonywać nieporuszone zdjęcia i kręcić stabilne filmy, a to wszystko dzięki 3-osiowemu gimbalowi oraz kamerze wyposażonej w sensor 1/2.3”12 Mpix, która umożliwia rejestrowanie materiału wideo 4k/30fps 60 Mbps oraz wykonywanie zdjęć w rozdzielczości 4000x3000 również w trybie RAW. Posiada innowacyjny system wykrywania i omijania przeszkód z przodu oraz od dołu. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot. Dzięki nowej technologii nowo opracowanego systemu OcuSync zasięg transmisji w terenie wolnym od zakłóceń wynosi do 4 km, ale istnieje możliwość sterowania dronem w odległości do 80 m za pomocą samego smartfona lub tabletu (po uprzednim przełączeniu go w tryb WiFi). Dronem można sterować również za pomocą samego kontrolera. Prędkość maksymalna drona w trybie Sport to 65 km/h, szacunkowy czas lotu to 27 min, a ładowanie akumulatora nie przekracza 90 min.",
-      category: "drony",
-      producent: "DJI",
-      addInf: "DJI Mavic Pro posiada inteligentne tryby lotu: Follow Me, ActiveTrack, Gesture Mode czy Tripod."
+      detail: "PANASONIC LUMIX DMC-TZ100 został zaprojektowany z zachowaniem równowagi pomiędzy mocą a funkcjonalnością. Krystalicznie wyraźny obiektyw zmiennoogniskowy LEICA charakteryzuje się stylowym i zgrabnym kształtem. Koniec z ogromnymi torbami i topornym sprzętem – doskonała harmonia pomiędzy mocą a mobilnością. 5-płaszczyznowy system HYBRID O.I.S. +/ Kompensacja w 5 płaszczyznach umożliwia nagrywanie filmów z wyjątkiem filmów wideo w rozdzielczości 4K.",
+      category: "aparaty fotograficzne",
+      producent: "panasonic",
+      addInf: "Wymiary: 110,5 x 64,5 x 44,3 mm/4,35 x 2,54 x 1,74 cali. Długość ogniskowej f = 9,1–91 mm/(odpowiednik 27–270 mm dla kliszy 35 mm w formacie 4:3)/(odpowiednik 25–250 mm dla kliszy 35 mm w formacie 3:2)/(odpowiednik 26–260 mm dla kliszy 35 mm w formacie 16:9)/(odpowiednik 32–320 mm dla kliszy 35 mm w formacie 1:1)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 4:3)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 3:2)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 16:9)/(odpowiednik 40–400 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 1:1)/(odpowiada 26–260 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 28–280 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 31–310 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wł. funkcja Level Shot)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu wideo w formacie 4K)    "
     },
     {
       id: 16,
