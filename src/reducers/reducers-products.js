@@ -18,7 +18,7 @@ export default function () {
     {
       id: 1,
       name: "BENRO głowica do tripodu B-0",
-      img: "../../images/glowicaBenro1.jpg",
+      img: "../../images/glowicaBenro1min.jpg",
       price: 359.00,
       desc:
         "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy.",
@@ -32,7 +32,7 @@ export default function () {
     {
       id: 2,
       name: "PANASONIC aparat cyfrowy Lumix DMC-TZ100",
-      img: "../../images/panasonicLumix1.jpg",
+      img: "../../images/panasonicLumix1min.jpg",
       price: 2275.00,
       desc:
         "Matryca MOS o wysokiej czułości (typ 1) / Całkowita liczba pikseli 20,9 megapikseli / Podstawowy filtr koloru.",
@@ -46,7 +46,7 @@ export default function () {
     {
       id: 3,
       name: "PANASONIC aparat cyfrowy Lumix DMC-LX100",
-      img: "../../images/Panasonic1.jpg",
+      img: "../../images/Panasonic1min.jpg",
       price: 2059.00,
       desc:
         "LUMIX LX100 należy do najwyższej klasy aparatów kompaktowych Panasonic.",
@@ -61,7 +61,7 @@ export default function () {
     {
       id: 4,
       name: "CANON Speedlite 600EX-RT",
-      img: "../../images/lampaBlyskowa1.jpg",
+      img: "../../images/lampaBlyskowa1min.jpg",
       price: 2315.00,
       desc:
         "Wszechstronna, wydajna lampa błyskowa montowana na aparacie lub poza nim. To pierwsza lampa błyskowa firmy Canon wyposażona we wbudowaną bezprzewodową łączność radiową. Zastępuje ona model Speedlite 580EX II.",
@@ -75,7 +75,7 @@ export default function () {
     {
       id: 5,
       name: "Lampa błyskowa MEIKE MK-320",
-      img: "../../images/lampaBlyskowaMeike1.jpg",
+      img: "../../images/lampaBlyskowaMeike1min.jpg",
       price: 359.00,
       desc:
         "Lampa Meike 320 jest kompaktową lampą błyskową, (110mm długość, 65mm szerokość, 36mm wysokość) oraz wadze jedynie 150 gramów. Idealnie nadaje się do niewielkich lustrzanek, aparatów bez-lusterkowych (CSC) i kompaktowych.",
@@ -89,7 +89,7 @@ export default function () {
     {
       id: 6,
       name: "LEXAR Professional 1000X 64GB SDHC/SDXC",
-      img: "../../images/kartaPamieci1.jpg",
+      img: "../../images/kartaPamieci1min.jpg",
       price: 199.00,
       desc:
         "LEXAR Professional 1000X 64GB SDHC/SDXC UHS-II szybkie przechwytywanie i przesyłanie wysokiej jakości zdjęć oraz wideo 1080p, 3D i 4K, z prędkością odczytu do 1000x (150 MB / s). Karty wykorzystują technologię UHS-II (UHS Speed ​​Class 3 (U3) ) dla wysokiej wydajności.",
@@ -103,7 +103,7 @@ export default function () {
     {
       id: 7,
       name: "SanDisk EXTREME PRO SDXC 128 GB",
-      img: "../../images/kartaPamieciSanDisk1.jpg",
+      img: "../../images/kartaPamieciSanDisk1min.jpg",
       price: 159.00,
       desc:
         "SanDisk EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3",
@@ -117,7 +117,7 @@ export default function () {
     {
       id: 8,
       name: "COMMLITE Mikrofon do kamer i aparatów",
-      img: "../../images/mikrofon1.jpg",
+      img: "../../images/mikrofon1min.jpg",
       price: 139.00,
       desc:
         "Commlite CVM-10 to kierunkowy mikrofon mocowany do gorącej stopki kamer lub aparatów cyfrowych wyposażonych w wejście mini stereo ( Jack 3,5 mm ).",
@@ -131,7 +131,7 @@ export default function () {
     {
       id: 9,
       name: "RODE mikrofon zewnętrzny Stereo VideoMic X",
-      img: "../../images/mikrofonRode1.jpg",
+      img: "../../images/mikrofonRode1min.jpg",
       price: 3555.00,
       desc:
         "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej),przeznaczonym do montażu na kamerach i aparatach.",
@@ -145,7 +145,7 @@ export default function () {
     {
       id: 10,
       name: "RODE RodeLink Filmmaker Kit do bezprzewodowego nagrywania dźwięku ",
-      img: "../../images/mikrofonRodeLink.jpg",
+      img: "../../images/mikrofonRodeLinkmin.jpg",
       price: 1559.00,
       desc:
         "RØDELink Filmmaker Kit zapewnia wszystko, czego potrzeba do bezprzewodowego nagrywania filmów, łącznie z odbiornikiem, nadajnikiem i mikrofonem typu lavalier o jakości emisyjnej.",
@@ -159,7 +159,7 @@ export default function () {
     {
       id: 11,
       name: "SARAMONIC SmartMixer",
-      img: "../../images/mikrofonSmartMixer1.jpg",
+      img: "../../images/mikrofonSmartMixer1min.jpg",
       price: 159.00,
       desc:
         "SARAMONIC SmartMixer to dwukanałowy adapter audio przeznaczony dla urządzeń pracujących pod kontrolą systemów iOS i Android oraz kamer i aparatów VDSLR wyposażonych w gniazdo mikrofonowe stereo mini-jack 3,5 mm. ",
@@ -173,7 +173,7 @@ export default function () {
     {
       id: 12,
       name: "BENRO głowica do tripodu IB2",
-      img: "../../images/glowicaDoTripodu1.jpg",
+      img: "../../images/glowicaDoTripodu1min.jpg",
       price: 415.00,
       desc:
         "Wysokiej jakości, solidna głowica adresowana do zaawansowanych fotografów.",
@@ -187,7 +187,7 @@ export default function () {
     {
       id: 13,
       name: "NIKON D3400 Body",
-      img: "../../images/nikon1.jpg",
+      img: "../../images/nikon1min.jpg",
       price: 1559.00,
       desc:
         "Lustrzanka cyfrowa Nikon D3400 zapewnia niezrównaną szybkość, precyzję i łatwość obsługi.",
@@ -215,7 +215,7 @@ export default function () {
     {
       id: 15,
       name: "Dron DJI MAVIC Pro Combo Quadrocopter",
-      img: "../../images/dronCombo3.jpg",
+      img: "../../images/dronCombo3min.jpg",
       price: 5245.00,
       desc:
         "Dron DJI MAVIC Pro Combo Quadrocopter",
@@ -229,7 +229,7 @@ export default function () {
     {
       id: 16,
       name: "DJI Phantom 4 Advanced Quadrocopter",
-      img: "../../images/dronPhanton1.jpg",
+      img: "../../images/dronPhanton1min.jpg",
       price: 5095.00,
       desc:
         "DJI Phantom 4 Advanced Quadrocopter",
@@ -243,7 +243,7 @@ export default function () {
     {
       id: 17,
       name: "DJI SPARK Fly More Combo Quadrocopter",
-      img: "../../images/dronSPARK1.jpg",
+      img: "../../images/dronSPARK1min.jpg",
       price: 2695.00,
       desc:
         "DJI Spark to mini quadrocopter, który mimo swoich kompaktowych rozmiarów (143×143×55 mm), oraz wagi (zaledwie 300g) posiada wszystkie niesamowite rozwiązania znane z poprzednich wersji quadrocopterów DJI, jak np. inteligentne tryby lotu ActiveTrack, TapFly oraz dwa nowe.",
