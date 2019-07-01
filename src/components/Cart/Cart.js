@@ -20,7 +20,7 @@ class Cart extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="cart">
                 <h1 className="cart-header">Twój koszyk</h1>
                 
                 <CartProductsList 

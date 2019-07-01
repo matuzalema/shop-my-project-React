@@ -1,6 +1,10 @@
 @import "../../sass/components";
 @import "../../sass/variables";
 
+.cart {
+    max-width: 90%;
+    margin: 0 auto;
+}
 .cart-header{
     text-align: center;
     font-size: 20px;

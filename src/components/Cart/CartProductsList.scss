@@ -7,14 +7,13 @@
     color: $dark-color;
     margin: 20px 0;
     border-bottom: 1px solid $third-color;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .cart-product-wrapper-letf{
     padding: 20px;
     width: 150px;
-    height: 150px;
-    background-color:#fff;
+    // height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,17 +30,20 @@
     .cart-product-names {
         min-width: 100%;
         font-size: 20px;
+        margin-bottom: 10px;
         text-transform: capitalize;
     }
     .cart-product-description {
         line-height: 30px;
+        max-width: 700px;
     }
 
     .cart-product-price {
         font-weight: 600;
         font-size: 20px;
-        min-width: 100px;
+        min-width: 120px;
         text-align: center;
+        margin: 0 10px;
     }
     .cart-quantity {
         min-width: 180px;

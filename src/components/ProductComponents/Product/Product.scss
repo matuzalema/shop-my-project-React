@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     color: $dark-color;
-    margin-top: -30px;
+    max-width: 90%;
 }
 
 .product-wrapper-letf{
@@ -14,14 +14,17 @@
 }
 .product-wrapper-right {
     margin-left: 50px;
+    margin-top: 30px;
     
     .product-names {
         text-align: center;
         min-width: 100%;
         text-transform: capitalize;
+        margin: 20px 0;
     }
     .product-description {
         line-height: 30px;
+        margin-bottom: 30px;
     }
     .product-inf {
         color: red;
@@ -32,6 +35,7 @@
     .product-price {
         font-weight: 600;
         font-size: 20px;
+        margin-bottom: 20px;
     }
 }
 
