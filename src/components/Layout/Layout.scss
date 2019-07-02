@@ -2,9 +2,11 @@
 
 
 .container {
-	width: 100%;
-	margin: 0 auto;
+	// width: 100%;
+	// margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+	// position: relative;
 }
 
 .top-nav {

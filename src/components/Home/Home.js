@@ -94,7 +94,7 @@ class Home extends React.Component {
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
             <p className="sort-by">
-              Sort products
+              Sortuj
             </p>
               <button className="btn btn-sort" onClick={() => this.sortByKey("name")}>Sort by name</button>
               <button className="btn btn-sort" onClick={() => this.sortByKey("price")}>Sort by price</button>

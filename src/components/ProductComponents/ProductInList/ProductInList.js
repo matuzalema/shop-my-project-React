@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 // import "../../Pagrination/bootstrap-theme-pagination.css";
 
 export const ProductInList = (props) => (
-    <NavLink 
+    <div 
         exact to={"/product/" + props.product.id}
         // id = {props.product.id} 
         >
@@ -19,10 +19,14 @@ export const ProductInList = (props) => (
             <img className="productImg" src={props.product.img} alt={props.product.name} />
             <h2 className="productName">{props.product.name}</h2>
             <h2 className="productPrice">{props.product.price} PLN</h2>
-            {/* <Link
+            <Link
                 exact to={"/cart"} onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])} > 
-                <button type="submit" className="btn btn-primary btn-product-list">Add to cart </button>
-            </Link> */}
+                <button type="submit" className="btn btn-primary btn-product-list">dodaj do koszyka </button>
+            </Link>
+            <Link
+                exact to={"/product/" + props.product.id} >
+                <button type="submit" className="btn btn-more">więcej &nbsp;>></button>
+            </Link>
         </div>
-    </NavLink>
+    </div>
 );

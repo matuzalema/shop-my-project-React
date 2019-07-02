@@ -2,8 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import styles from "./ProductsList.scss";
 import { ProductInList } from "../ProductInList/ProductInList";
-import Pagination from "react-reactstrap-pagination";
-import "../../Pagination/Pagination.scss";
 
 // import "../../Pagrination/bootstrap-pagination.css";
 // import "../../Pagrination/bootstrap-theme-pagination.css";

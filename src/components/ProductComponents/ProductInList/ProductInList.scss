@@ -1,8 +1,5 @@
 @import "../../../sass/variables";
-  .wrapperHomeRight {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
 .product {
   background-color: #fff;
   border: 1px solid $fourth-color;
@@ -40,5 +37,11 @@
   .btn-product-list{
     position: absolute;
     bottom: 25px;
+  }
+  .btn-more {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    padding: 9px 21px;
   }
 }
