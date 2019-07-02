@@ -19,10 +19,10 @@ export const ProductInList = (props) => (
             <img className="productImg" src={props.product.img} alt={props.product.name} />
             <h2 className="productName">{props.product.name}</h2>
             <h2 className="productPrice">{props.product.price} PLN</h2>
-            <Link
+            {/* <Link
                 exact to={"/cart"} onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])} > 
                 <button type="submit" className="btn btn-primary btn-product-list">Add to cart </button>
-            </Link>
+            </Link> */}
         </div>
     </NavLink>
 );

@@ -4,7 +4,8 @@ import styles from "./Home.scss";
 import cloneDeep from 'lodash/cloneDeep';
 import {ProductsList} from "../ProductComponents/ProductList/ProductsList";
 import "../../sass/_components.scss";
-import PaginationComponent from "react-reactstrap-pagination";
+import Pagination from "react-reactstrap-pagination";
+import "../Pagination/Pagination.scss"
 
 class Home extends React.Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class Home extends React.Component {
   }
 
   filterByCategory(category) {
+    debugger
     let productsAfterFilter;
     if(category==='all'){
       productsAfterFilter = this.props.products;
@@ -83,6 +85,12 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Pagination className="pagination-top"
+          totalItems={this.state.products.length}
+          pageSize={this.pageSize}
+          onSelect={this.handleSelected}
+          activePage={this.state.selectedPage}
+        />
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
             <p className="sort-by">
@@ -100,17 +108,18 @@ class Home extends React.Component {
             <button className="btn btn-sort" >Mikrofony</button>
             <button className="btn btn-sort" >Nośniki pamięci</button>
 
-          </div>        
+          </div> 
+                 
             <ProductsList products={this.state.productsToDisplay}/>
+        </div>
           <div className="container-fluid">
-            <PaginationComponent
+            <Pagination className="pagination-bottom"
               totalItems={this.state.products.length}
               pageSize={this.pageSize}
               onSelect={this.handleSelected}
               activePage={this.state.selectedPage}
             />
           </div>
-        </div>
       </div>
     );
   }

@@ -1,50 +1,23 @@
 export default function () {
   return [
     
+    
     {
       id: 0,
-      name: "BENRO głowica do tripodu B-0",
-      img: "../../images/glowicaBenro1min.jpg",
-      price: 359.00,
+      name: "RODE mikrofon zewnętrzny Stereo VideoMic X",
+      img: "../../images/mikrofonRode1min.jpg",
+      price: 3555.00,
       desc:
-        "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy.",
+        "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej),przeznaczonym do montażu na kamerach i aparatach.",
       inf: "Sale",
       quantity: 1,
-      detail: "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy. Głowice posiadają niezależne pokrętła regulacyjne do zamykania, panoramowania i kontroli naprężenia. Każde pokrętło regulacyjne umieszczone jest w wygodnym miejscu, zapewnia pewny chwyt oraz pozwala na dokładne ustawienie aparatu. Skala do panoramowania jest dodatkowym atutem głowicy. Dzięki niej bez problemu można ustawić prawidłowy kadr.",
-      category: "głowice",
-      producent: "Benro",
-      addInf: "Głowica Benro B-0 jest kompatybilna z głowicami Arca-Swiss."
+      detail: "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej), przeznaczonym do montażu na kamerach i aparatach. W pełni metalowa konstrukcja zapewnia wyjątkową odporność, przez mikrofon co idealnie nadaje się do regularnego, profesjonalnego wykorzystania, pozostając przy tym wyjątkowo odpornym na zakłócenia wywoływane przez fale radiowe. Mikrofon został wyposażony w parę kapsuł pojemnościowych(prawdziwie kondensatorowych), ustawionych w konfiguracji X- Y, zapewniających wysoce immersyjny pejzaż dźwiękowy.Każda z kapsuł jest wspierana przez antywstrząsowy system montażu Rycote Lyre, zapewniający izolację od wibracji a także puknięć i uderzeń. Cyfrowe przełączniki na tylnym panelu SVMX pozwalają użytkownikowi na regulację poziomu(-10 dB lub + 20 dB), filtra górnoprzepustowego(0 / 75 / 150 Hz) oraz innowacyjnego podbicia wysokich częstotliwości(+6 dB przy X Hz), zaprojektowanego w celu poprawy zrozumiałości dialogów.",
+      category: "mikrofony",
+      producent: "Rode",
+      addInf: "Rode Stereo VideoMic X Jako pierwszy mikrofon z serii VideoMic, w uzupełnieniu do ekranowanego kabla stereo 3, 5 mm, został wyposażony w profesjonalne wyjście symetryczne, umieszczone z boku obudowy. Konstrukcja zewnętrznej kopuły chroni delikatne kapsuły przed uszkodzeniami, redukując jednocześnie szum wiatru w taki sam sposób, jak zdobywca nagrody RedDot - RØDE Blimp."
     },
     {
       id: 1,
-      name: "Aparat cyfrowy Lumix DMC-LX100",
-      img: "../../images/Panasonic1min.jpg",
-      price: 2059.00,
-      desc:
-        "LUMIX LX100 należy do najwyższej klasy aparatów kompaktowych Panasonic.",
-      inf: "Last item",
-      quantity: 1,
-      detail: "Dzięki matrycy MOS o wysokiej czułości i wielkości 4/3 cala oraz nowemu procesorowi obrazu Venus Engine aparat LUMIX LX100 oferuje wysoką jakość obrazu niezależnie od warunków. Duża wielkość matrycy oznacza płytką głębię ostrości na zdjęciach, natomiast doskonały stosunek poziomu sygnału do szumów zapewnia niezwykle skuteczne zmniejszenie zaszumienia na fotografiach robionych przy wysokiej czułości ISO. Świeżo opracowany procesor obrazu Venus Engine stworzony został w oparciu o czterordzeniowy procesor. Oferuje podwyższone parametry pracy oraz przetwarzanie danych z wysoką wydajnością niezbędną dla rejestracji nagrań wideo w jakości 4K. Nowy procesor Venus Engine zawiera także wiele nowych programów redukcji szumów, takich jak Multi Process NR, Random Filter oraz Aperture Filter, które zapewniają naturalnie wyglądające zdjęcia, również podczas fotografowania przy słabym oświetleniu.",
-      category: "aparaty fotograficzne",
-      producent: "canon",
-      addInf: "Aparat LUMIX LX100 wyposażono w nowo opracowany dla firmy Panasonic obiektyw LEICA DC VARIO-SUMMILUX F1.7–F2.8, umożliwiający rejestrację zdjęć o doskonałej wyrazistości i ostrości, oszałamiających realizmem odwzorowania rzeczywistości. Oferowany przez obiektyw uniwersalny zakres ogniskowych wynoszący 24–75 mm (odpowiednik w standardzie 35 mm) sprawdza się w wielu sytuacjach, od fotografii ulicznej po portretową, natomiast szeroki kąt dla ogniskowej 24 mm oraz matryca zapewniają wiele proporcji obrazu pozwalając na fotografowanie krajobrazów w proporcjach 4:3, 3:2 lub 16:9"
-    },
-    {
-      id: 2,
-      name: "Dron DJI MAVIC",
-      img: "../../images/dronCombo3min.jpg",
-      price: 5245.00,
-      desc:
-        "Dron DJI MAVIC Pro Combo Quadrocopter",
-      inf: "Sale",
-      quantity: 1,
-      detail: "Mavic Pro to kompaktowy dron w ofercie DJI, którego niewielkie rozmiary umożliwiają z łatwością umieszczenie go w damskiej torebce czy kieszeni kurtki (waży 734 g). Uruchomienie drona zabiera dosłownie kilka chwil, dzięki rozkładanym ramionom i śmigłom. Mimo swoich niewielkich gabarytów jest tak funkcjonalny, jak większe platformy. DJI Mavic Pro może wykonywać nieporuszone zdjęcia i kręcić stabilne filmy, a to wszystko dzięki 3-osiowemu gimbalowi oraz kamerze wyposażonej w sensor 1/2.3”12 Mpix, która umożliwia rejestrowanie materiału wideo 4k/30fps 60 Mbps oraz wykonywanie zdjęć w rozdzielczości 4000x3000 również w trybie RAW. Posiada innowacyjny system wykrywania i omijania przeszkód z przodu oraz od dołu. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot. Dzięki nowej technologii nowo opracowanego systemu OcuSync zasięg transmisji w terenie wolnym od zakłóceń wynosi do 4 km, ale istnieje możliwość sterowania dronem w odległości do 80 m za pomocą samego smartfona lub tabletu (po uprzednim przełączeniu go w tryb WiFi). Dronem można sterować również za pomocą samego kontrolera. Prędkość maksymalna drona w trybie Sport to 65 km/h, szacunkowy czas lotu to 27 min, a ładowanie akumulatora nie przekracza 90 min.",
-      category: "drony",
-      producent: "DJI",
-      addInf: "DJI Mavic Pro posiada inteligentne tryby lotu: Follow Me, ActiveTrack, Gesture Mode czy Tripod."
-    },
-    {
-      id: 3,
       name: "CANON EOS 4000D",
       img: "../../images/aparat.jpg",
       price: 1145.00,
@@ -58,24 +31,8 @@ export default function () {
       producent: "canon",
       addInf: "Matryca CMOS 18.0 mega pixela. Filtry kreatywne – stosowanie wyjątkowych efektów. Łącze bezprzewodowe – Wi Fi Certified. Inteligentna scena auto – łatwe kadrowanie i robienie zdjęć. Filmy EOS – Cinematic1080p. Przewodnik po funkcjach – łatwe do zrozumienia wskazówki. Wizjer optyczny – 9 punktowy autofokus. Wyświetlacz LCD – 2, 7 cala."
     },
-   
-    
     {
-      id: 4,
-      name: "CANON Speedlite 600EX-RT",
-      img: "../../images/lampaBlyskowa1min.jpg",
-      price: 2315.00,
-      desc:
-        "Wszechstronna, wydajna lampa błyskowa montowana na aparacie lub poza nim. To pierwsza lampa błyskowa firmy Canon wyposażona we wbudowaną bezprzewodową łączność radiową. Zastępuje ona model Speedlite 580EX II.",
-      inf: "Sale",
-      quantity: 1,
-      detail: "Lampa błyskowa Speedlite 600EX-RT ma wbudowany wyzwalacz radiowy, który zapewnia niezawodną obsługę lampy z dala od aparatu na odległość do 30 m, nawet zza rogu. Dostęp do 15 kanałów częstotliwości — wystarczy wybrać ten, który zapewnia najlepszy odbiór w miejscu fotografowania. Jednoczesne użycie nawet 15 urządzeń Speedlite 600EX - RT pozwala wykonywać widowiskowe zdjęcia z wykorzystaniem wielu lamp — idealne rozwiązanie do fotografowania dużych obiektów, wnętrz lub portretów.Lampy błyskowe można ustawić w jednej z trzech grup(do pięciu w przypadku korzystania z wyzwalania radiowego), którymi można sterować oddzielnie lub łącznie. Niezależnie od tego, czy lampa Speedlite 600EX - RT jest używana na aparacie czy zdalnie, automatyka błysku E - TTL II zapewnia dokładny pomiar ekspozycji w każdych warunkach.Aparat EOS można ustawić w dowolnym miejscu i zainicjować go przez lampę Speedlite 600EX - RT z odległości nawet 30 m.Wystarczy wyposażyć aparat w wyzwalacz radiowy Speedlite ST - E3 - RT lub drugą lampę Speedlite 600EX - RT, aby podziwiać widowiskowe alternatywne perspektywy.Synchronizacja fotografowania umożliwia jednoczesną inicjację nawet 15 aparatów.Szybka synchronizacja błysku umożliwia lampom Speedlite 600EX - RT działanie niezależnie od czasu otwarcia migawki — doskonały błysk wypełniający w słoneczne dni. Liczba przewodnia 60(ISO 100, m) daje lampie wystarczającą moc do rozświetlania dużych przestrzeni, nawet jeśli światło odbija się od ścian lub sufitu.Cztery baterie AA / LR6 zapewniają bezgłośne ładowanie w zaledwie 0, 1 s.Ponadto skierowanie głowicy lampy błyskowej w górę lub w bok umożliwia odbicie błysku od sufitu lub ścian, zapewniając łagodny efekt oświetlenia portretu.Ogniskowanie głowicy pozwala dopasować kąt pokrycia do używanego obiektywu i uzyskać maksymalną skuteczność lampy błyskowej. Lampa Speedlite 600EX - RT charakteryzuje się tym samym poziomem odporności na warunki pogodowe, co profesjonalna lustrzanka EOS - 1D X firmy Canon.Ma również duży wyświetlacz LCD z matrycą punktową i podświetleniem, który umożliwia szybką i łatwą obsługę.",
-      category: "lampy błyskowe",
-      producent: "canon",
-      addInf: "Wyzwalanie radiowe z 30 m. Wykorzystanie 15 urządzeń jednocześnie. Wbudowane optyczne urządzenie podporządkowane. Bezprzewodowa obsługa za pomocą podczerwieni. Przycisk zdalnego wyzwalania. Obrotowa głowica z dyfuzorem i zbliżeniem 20–200 mm. Liczba przewodnia 60(m, ISO 100 przy 200 mm). Filtry korekcji balansu bieli. Szybkie, ciche ładowanie."
-    },
-    {
-      id: 5,
+      id: 2,
       name: "Lampa błyskowa MEIKE MK-320",
       img: "../../images/lampaBlyskowaMeike1min.jpg",
       price: 359.00,
@@ -88,6 +45,49 @@ export default function () {
       producent: "MEIKE",
       addInf: "Lampa działa w systemie TTL jako lampa automatyczna, ale posiada również rozbudowane inne tryby: manualne sterowanie mocą błysku, funkcję błysku stroboskopowego, grupowanie, sterowanie i wyzwalanie bezprzewodowe(MASTER / SLAVE), synchronizację błysku z krótkimi czasami otwarcia migawki(tylko jako lampa MASTER dla kompatybilnych lamp systemowych obsługujących synchronizację z krótkimi czasami), funkcję światła modelującego LED(dodatkowa dioda LED umieszczona jest w przedniej części lampy).Lampa z tyłu posiada wyświetlacz LCD wskazujący funkcje i tryby pracy lampy.Wyposażona jest w metalową gorącą stopkę."
     },
+    
+    {
+      id: 3,
+      name: "Aparat cyfrowy Lumix DMC-LX100",
+      img: "../../images/Panasonic1min.jpg",
+      price: 2059.00,
+      desc:
+        "LUMIX LX100 należy do najwyższej klasy aparatów kompaktowych Panasonic.",
+      inf: "Last item",
+      quantity: 1,
+      detail: "Dzięki matrycy MOS o wysokiej czułości i wielkości 4/3 cala oraz nowemu procesorowi obrazu Venus Engine aparat LUMIX LX100 oferuje wysoką jakość obrazu niezależnie od warunków. Duża wielkość matrycy oznacza płytką głębię ostrości na zdjęciach, natomiast doskonały stosunek poziomu sygnału do szumów zapewnia niezwykle skuteczne zmniejszenie zaszumienia na fotografiach robionych przy wysokiej czułości ISO. Świeżo opracowany procesor obrazu Venus Engine stworzony został w oparciu o czterordzeniowy procesor. Oferuje podwyższone parametry pracy oraz przetwarzanie danych z wysoką wydajnością niezbędną dla rejestracji nagrań wideo w jakości 4K. Nowy procesor Venus Engine zawiera także wiele nowych programów redukcji szumów, takich jak Multi Process NR, Random Filter oraz Aperture Filter, które zapewniają naturalnie wyglądające zdjęcia, również podczas fotografowania przy słabym oświetleniu.",
+      category: "aparaty fotograficzne",
+      producent: "canon",
+      addInf: "Aparat LUMIX LX100 wyposażono w nowo opracowany dla firmy Panasonic obiektyw LEICA DC VARIO-SUMMILUX F1.7–F2.8, umożliwiający rejestrację zdjęć o doskonałej wyrazistości i ostrości, oszałamiających realizmem odwzorowania rzeczywistości. Oferowany przez obiektyw uniwersalny zakres ogniskowych wynoszący 24–75 mm (odpowiednik w standardzie 35 mm) sprawdza się w wielu sytuacjach, od fotografii ulicznej po portretową, natomiast szeroki kąt dla ogniskowej 24 mm oraz matryca zapewniają wiele proporcji obrazu pozwalając na fotografowanie krajobrazów w proporcjach 4:3, 3:2 lub 16:9"
+    },
+    {
+      id: 4,
+      name: "BENRO głowica do tripodu B-0",
+      img: "../../images/glowicaBenro1min.jpg",
+      price: 359.00,
+      desc:
+        "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy.",
+      inf: "Sale",
+      quantity: 1,
+      detail: "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy. Głowice posiadają niezależne pokrętła regulacyjne do zamykania, panoramowania i kontroli naprężenia. Każde pokrętło regulacyjne umieszczone jest w wygodnym miejscu, zapewnia pewny chwyt oraz pozwala na dokładne ustawienie aparatu. Skala do panoramowania jest dodatkowym atutem głowicy. Dzięki niej bez problemu można ustawić prawidłowy kadr.",
+      category: "głowice",
+      producent: "Benro",
+      addInf: "Głowica Benro B-0 jest kompatybilna z głowicami Arca-Swiss."
+    },  
+    {
+      id: 5,
+      name: "CANON Speedlite 600EX-RT",
+      img: "../../images/lampaBlyskowa1min.jpg",
+      price: 2315.00,
+      desc:
+        "Wszechstronna, wydajna lampa błyskowa montowana na aparacie lub poza nim. To pierwsza lampa błyskowa firmy Canon wyposażona we wbudowaną bezprzewodową łączność radiową. Zastępuje ona model Speedlite 580EX II.",
+      inf: "Sale",
+      quantity: 1,
+      detail: "Lampa błyskowa Speedlite 600EX-RT ma wbudowany wyzwalacz radiowy, który zapewnia niezawodną obsługę lampy z dala od aparatu na odległość do 30 m, nawet zza rogu. Dostęp do 15 kanałów częstotliwości — wystarczy wybrać ten, który zapewnia najlepszy odbiór w miejscu fotografowania. Jednoczesne użycie nawet 15 urządzeń Speedlite 600EX - RT pozwala wykonywać widowiskowe zdjęcia z wykorzystaniem wielu lamp — idealne rozwiązanie do fotografowania dużych obiektów, wnętrz lub portretów.Lampy błyskowe można ustawić w jednej z trzech grup(do pięciu w przypadku korzystania z wyzwalania radiowego), którymi można sterować oddzielnie lub łącznie. Niezależnie od tego, czy lampa Speedlite 600EX - RT jest używana na aparacie czy zdalnie, automatyka błysku E - TTL II zapewnia dokładny pomiar ekspozycji w każdych warunkach.Aparat EOS można ustawić w dowolnym miejscu i zainicjować go przez lampę Speedlite 600EX - RT z odległości nawet 30 m.Wystarczy wyposażyć aparat w wyzwalacz radiowy Speedlite ST - E3 - RT lub drugą lampę Speedlite 600EX - RT, aby podziwiać widowiskowe alternatywne perspektywy.Synchronizacja fotografowania umożliwia jednoczesną inicjację nawet 15 aparatów.Szybka synchronizacja błysku umożliwia lampom Speedlite 600EX - RT działanie niezależnie od czasu otwarcia migawki — doskonały błysk wypełniający w słoneczne dni. Liczba przewodnia 60(ISO 100, m) daje lampie wystarczającą moc do rozświetlania dużych przestrzeni, nawet jeśli światło odbija się od ścian lub sufitu.Cztery baterie AA / LR6 zapewniają bezgłośne ładowanie w zaledwie 0, 1 s.Ponadto skierowanie głowicy lampy błyskowej w górę lub w bok umożliwia odbicie błysku od sufitu lub ścian, zapewniając łagodny efekt oświetlenia portretu.Ogniskowanie głowicy pozwala dopasować kąt pokrycia do używanego obiektywu i uzyskać maksymalną skuteczność lampy błyskowej. Lampa Speedlite 600EX - RT charakteryzuje się tym samym poziomem odporności na warunki pogodowe, co profesjonalna lustrzanka EOS - 1D X firmy Canon.Ma również duży wyświetlacz LCD z matrycą punktową i podświetleniem, który umożliwia szybką i łatwą obsługę.",
+      category: "lampy błyskowe",
+      producent: "canon",
+      addInf: "Wyzwalanie radiowe z 30 m. Wykorzystanie 15 urządzeń jednocześnie. Wbudowane optyczne urządzenie podporządkowane. Bezprzewodowa obsługa za pomocą podczerwieni. Przycisk zdalnego wyzwalania. Obrotowa głowica z dyfuzorem i zbliżeniem 20–200 mm. Liczba przewodnia 60(m, ISO 100 przy 200 mm). Filtry korekcji balansu bieli. Szybkie, ciche ładowanie."
+    }, 
     {
       id: 6,
       name: "LEXAR Professional 1000X 64GB",
@@ -132,18 +132,19 @@ export default function () {
     },
     {
       id: 9,
-      name: "RODE mikrofon zewnętrzny Stereo VideoMic X",
-      img: "../../images/mikrofonRode1min.jpg",
-      price: 3555.00,
+      name: "Dron DJI MAVIC",
+      img: "../../images/dronCombo3min.jpg",
+      price: 5245.00,
       desc:
-        "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej),przeznaczonym do montażu na kamerach i aparatach.",
+        "Dron DJI MAVIC Pro Combo Quadrocopter",
       inf: "Sale",
       quantity: 1,
-      detail: "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej), przeznaczonym do montażu na kamerach i aparatach. W pełni metalowa konstrukcja zapewnia wyjątkową odporność, przez mikrofon co idealnie nadaje się do regularnego, profesjonalnego wykorzystania, pozostając przy tym wyjątkowo odpornym na zakłócenia wywoływane przez fale radiowe. Mikrofon został wyposażony w parę kapsuł pojemnościowych(prawdziwie kondensatorowych), ustawionych w konfiguracji X- Y, zapewniających wysoce immersyjny pejzaż dźwiękowy.Każda z kapsuł jest wspierana przez antywstrząsowy system montażu Rycote Lyre, zapewniający izolację od wibracji a także puknięć i uderzeń. Cyfrowe przełączniki na tylnym panelu SVMX pozwalają użytkownikowi na regulację poziomu(-10 dB lub + 20 dB), filtra górnoprzepustowego(0 / 75 / 150 Hz) oraz innowacyjnego podbicia wysokich częstotliwości(+6 dB przy X Hz), zaprojektowanego w celu poprawy zrozumiałości dialogów.",
-      category: "mikrofony",
-      producent: "Rode",
-      addInf: "Rode Stereo VideoMic X Jako pierwszy mikrofon z serii VideoMic, w uzupełnieniu do ekranowanego kabla stereo 3, 5 mm, został wyposażony w profesjonalne wyjście symetryczne, umieszczone z boku obudowy. Konstrukcja zewnętrznej kopuły chroni delikatne kapsuły przed uszkodzeniami, redukując jednocześnie szum wiatru w taki sam sposób, jak zdobywca nagrody RedDot - RØDE Blimp."
+      detail: "Mavic Pro to kompaktowy dron w ofercie DJI, którego niewielkie rozmiary umożliwiają z łatwością umieszczenie go w damskiej torebce czy kieszeni kurtki (waży 734 g). Uruchomienie drona zabiera dosłownie kilka chwil, dzięki rozkładanym ramionom i śmigłom. Mimo swoich niewielkich gabarytów jest tak funkcjonalny, jak większe platformy. DJI Mavic Pro może wykonywać nieporuszone zdjęcia i kręcić stabilne filmy, a to wszystko dzięki 3-osiowemu gimbalowi oraz kamerze wyposażonej w sensor 1/2.3”12 Mpix, która umożliwia rejestrowanie materiału wideo 4k/30fps 60 Mbps oraz wykonywanie zdjęć w rozdzielczości 4000x3000 również w trybie RAW. Posiada innowacyjny system wykrywania i omijania przeszkód z przodu oraz od dołu. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot. Dzięki nowej technologii nowo opracowanego systemu OcuSync zasięg transmisji w terenie wolnym od zakłóceń wynosi do 4 km, ale istnieje możliwość sterowania dronem w odległości do 80 m za pomocą samego smartfona lub tabletu (po uprzednim przełączeniu go w tryb WiFi). Dronem można sterować również za pomocą samego kontrolera. Prędkość maksymalna drona w trybie Sport to 65 km/h, szacunkowy czas lotu to 27 min, a ładowanie akumulatora nie przekracza 90 min.",
+      category: "drony",
+      producent: "DJI",
+      addInf: "DJI Mavic Pro posiada inteligentne tryby lotu: Follow Me, ActiveTrack, Gesture Mode czy Tripod."
     },
+   
     {
       id: 10,
       name: "RODE RodeLink Filmmaker Kit do bezprzewodowego nagrywania dźwięku ",

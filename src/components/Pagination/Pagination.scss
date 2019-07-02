@@ -1,0 +1,41 @@
+@import "../../sass/variables";
+nav  {
+    width: 100%;
+.pagination{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    justify-content: flex-end;
+    width: 100%;
+    // background-color: #000;
+    .page-item {
+            
+            
+        margin: 1px;
+           border: 0.3px solid $third-color;
+        button {
+            border: none;
+            font-size: 10px;
+            padding: 6px 8px;
+            background-color: transparent;
+            transition: 0.7s;                
+                &:hover {
+                    cursor: pointer;
+                    background-color: $third-color;
+                    color: #fff;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.pagination .active {
+    background-color: #000;
+    button { 
+        color: #fff;
+    }
+}

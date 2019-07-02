@@ -29,7 +29,7 @@ class Layout extends React.Component {
             Newsletter
           </p>
           <p className="top-nav-item">
-            <i class="material-icons top-nav-icon">contact_mail</i>
+            <i className="material-icons top-nav-icon">contact_mail</i>
           Feedback
           </p>
         </div>

@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import styles from "./ProductsList.scss";
 import { ProductInList } from "../ProductInList/ProductInList";
+import Pagination from "react-reactstrap-pagination";
+import "../../Pagination/Pagination.scss";
 
 // import "../../Pagrination/bootstrap-pagination.css";
 // import "../../Pagrination/bootstrap-theme-pagination.css";
@@ -24,10 +26,11 @@ export class ProductsList extends React.Component {
 
   render() {
     return (
-      <div className="wrapperHomeRight">     
+      <div className="wrapperHomeRight">  
       {/* <Example /> */}
         {this.props.products.map(product => (
-          <ProductInList product={product} />
+          <ProductInList product={product} key={product.id}/>
+          
           // <div className="product" key={product.id}>
           //   <h1 className="productInf">{product.inf} </h1>
           //   <img className="productImg" src={product.img} alt={product.name} />
@@ -35,8 +38,6 @@ export class ProductsList extends React.Component {
           //   <h2 className="productPrice">{product.price}</h2>
           // </div>
         ))}
-        
-
       </div>
     );
   }
