@@ -45,7 +45,7 @@ class Order extends React.Component {
                     </tbody>
                 </table>
                 <h2 className="sum">Do zapłaty: {this.state.overallPrice} PLN</h2>
-                <button type="submit" className="btn btn-primary pay">zapłać</button>
+                <button type="submit" className="button button-primary pay">zapłać</button>
             </div>
         )
     }   

@@ -35,7 +35,7 @@ class Cart extends React.Component {
                     <h2 className="sum">Do zapłaty: {this.props.overallPrice} PLN</h2>
                     <Link
                         exact to={"/order"}>
-                        <button type="submit" className="btn-pay">Zamów</button> </Link>
+                        <button type="submit" className="button button-primary button-pay">Zamów</button> </Link>
                 </form>
             </div>
         );

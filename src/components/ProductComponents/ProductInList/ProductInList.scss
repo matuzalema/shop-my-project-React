@@ -34,14 +34,23 @@
     letter-spacing: 0.9px;
     color: red;
   }
-  .btn-product-list{
+  .button.button-product-list{
     position: absolute;
     bottom: 25px;
+    background-color: #000;
+    color: #fff;
+    &:hover{
+      transform: scale(1.02, 1.02);
+      cursor: pointer;
+    }
   }
-  .btn-more {
+  .button-more {
     position: absolute;
     bottom: 25px;
     right: 25px;
     padding: 9px 21px;
+    &:hover {
+      transform: scale(1.02, 1.02);
+    }
   }
 }

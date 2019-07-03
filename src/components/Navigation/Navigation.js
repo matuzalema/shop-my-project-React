@@ -9,8 +9,8 @@ const Navigation = props => (
       <nav className="topNav">
         <NavLink exact to="/" activeClassName="active">Home</NavLink>
         <NavLink exact to="/FAQ" activeClassName="active">FAQ</NavLink>
-        <NavLink exact to="/Rules" activeClassName="active">Rules</NavLink>
-        <NavLink exact to="/Contact" activeClassName="active">Contact</NavLink>
+        <NavLink exact to="/Promotions" activeClassName="active">Promocje</NavLink>
+        <NavLink exact to="/Contact" activeClassName="active">Kontakt</NavLink>
         <div className="cart-wrapper">
         <NavLink exact to="/Cart" activeClassName="active"><i className="material-icons">shopping_cart</i></NavLink>
         <p className="cart-quantity">{props.cartProductsQuantity}</p>

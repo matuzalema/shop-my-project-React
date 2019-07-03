@@ -23,7 +23,6 @@ class Home extends React.Component {
   }
 
   filterByCategory(category) {
-    debugger
     let productsAfterFilter;
     if(category==='all'){
       productsAfterFilter = this.props.products;
@@ -84,7 +83,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="test">
         <Pagination className="pagination-top"
           totalItems={this.state.products.length}
           pageSize={this.pageSize}
@@ -96,17 +95,17 @@ class Home extends React.Component {
             <p className="sort-by">
               Sortuj
             </p>
-              <button className="btn btn-sort" onClick={() => this.sortByKey("name")}>Sort by name</button>
-              <button className="btn btn-sort" onClick={() => this.sortByKey("price")}>Sort by price</button>
+              <button className="button-sort" onClick={() => this.sortByKey("name")}>Sort by name</button>
+              <button className="button-sort" onClick={() => this.sortByKey("price")}>Sort by price</button>
             <p className="sort-by">
               Kategorie
             </p>
-            <button className="btn btn-sort" onClick={() => this.filterByCategory("all")}>Wszystkie</button>
-            <button className="btn btn-sort" onClick={() => this.filterByCategory("aparaty fotograficzne")}>Aparaty fotograficzne</button>
-            <button className="btn btn-sort" >Drony</button>
-            <button className="btn btn-sort" >Głowice</button>
-            <button className="btn btn-sort" >Mikrofony</button>
-            <button className="btn btn-sort" >Nośniki pamięci</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("all")}>Wszystkie</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("aparaty fotograficzne")}>Aparaty fotograficzne</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("drony")}>Drony</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("głowice")}>Głowice</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("mikrofony")}>Mikrofony</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("karty pamięci")}>Nośniki pamięci</button>
 
           </div> 
                  

@@ -1,0 +1,36 @@
+.promotions {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 80vh; 
+  
+    .promotions-header {
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 60px;
+        position: relative;
+        z-index: 1;
+    }
+    .promotion-desc {
+        text-align: center;
+         position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    };
+    .promotions-span {
+        font-size: 64px;
+        color: red;
+    }
+    .promotions-top {
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+}
+// .promotions {
+//     background-image: url("../../images/dron-promotion.jpg")
+// }

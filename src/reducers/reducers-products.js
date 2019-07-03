@@ -4,7 +4,7 @@ export default function () {
     
     {
       id: 0,
-      name: "RODE mikrofon zewnętrzny Stereo VideoMic X",
+      name: "Mikrofon Stereo VideoMic X",
       img: "../../images/mikrofonRode1min.jpg",
       price: 3555.00,
       desc:
@@ -118,7 +118,7 @@ export default function () {
     },
     {
       id: 8,
-      name: "COMMLITE Mikrofon do kamer i aparatów",
+      name: "Mikrofon do kamer i aparatów",
       img: "../../images/mikrofon1min.jpg",
       price: 139.00,
       desc:
@@ -147,7 +147,7 @@ export default function () {
    
     {
       id: 10,
-      name: "RODE RodeLink Filmmaker Kit do bezprzewodowego nagrywania dźwięku ",
+      name: "RODE RodeLink ",
       img: "../../images/mikrofonRodeLinkmin.jpg",
       price: 1559.00,
       desc:
@@ -203,7 +203,7 @@ export default function () {
     },  
     {
       id: 14,
-      name: "Dron DJI MAVIC Air Fly More Combo Quadrocopter",
+      name: "Dron DJI MAVIC Air Fly",
       img: "../../images/DronDJI1.jpg",
       price: 4395.00,
       desc:
@@ -217,7 +217,7 @@ export default function () {
     },
     {
       id: 15,
-      name: "PANASONIC aparat cyfrowy Lumix DMC-TZ100",
+      name: "PANASONIC Lumix DMC-TZ100",
       img: "../../images/panasonicLumix1min.jpg",
       price: 2275.00,
       desc:
@@ -231,7 +231,7 @@ export default function () {
     },
     {
       id: 16,
-      name: "DJI Phantom 4 Advanced Quadrocopter",
+      name: "DJI Phantom 4",
       img: "../../images/dronPhanton1min.jpg",
       price: 5095.00,
       desc:
@@ -245,7 +245,7 @@ export default function () {
     },
     {
       id: 17,
-      name: "DJI SPARK Fly More Combo Quadrocopter",
+      name: "DJI SPARK",
       img: "../../images/dronSPARK1min.jpg",
       price: 2695.00,
       desc:

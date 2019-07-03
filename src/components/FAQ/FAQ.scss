@@ -1,0 +1,39 @@
+@import "../../sass/variables";
+.faq {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 80vh;
+    margin-top: -20px;
+    .faq-header{
+        font-size: 24px;
+    }
+    .button-faq {
+        width: 100%;
+    }
+    .card-header {
+    background-color: $third-color;
+    margin-top: 20px;
+    }
+    .card {
+    border: none;
+    }
+}
+
+.btn.btn-link {
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    &:hover {
+        
+        color: #000;
+         text-decoration: none;
+    }
+    &:focus {
+        text-decoration: none;
+    }
+    
+}
+

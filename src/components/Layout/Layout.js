@@ -18,7 +18,7 @@ class Layout extends React.Component {
   
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <div className='top-nav'>
           <p className="top-nav-item">
             <i className="material-icons top-nav-icon">perm_identity</i>

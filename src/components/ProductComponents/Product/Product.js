@@ -28,10 +28,10 @@ class Product extends React.Component{
                         <p className="product-price">{this.props.products[this.props.match.params.id].price} PLN</p>
                         <p className="product-description">{this.props.products[this.props.match.params.id].detail}</p>
                      <Link 
-                        exact to={"/cart"} className="btn btn-primary" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
+                        exact to={"/cart"} className="button button-primary" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> Add to cart
                     </Link>
                     <Link
-                        exact to={"/home"} className="btn"> Wróć 
+                        exact to={"/home"} className="button"> Wróć 
                     </Link>
                     </div>
                 </div>

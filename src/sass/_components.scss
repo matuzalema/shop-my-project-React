@@ -1,5 +1,5 @@
 @import "./variables.scss";
-.btn{
+.button{
     padding: 8px 20px;
     background-color: $third-color;
     border: none;
@@ -15,24 +15,42 @@
         outline: none;
     }
     &:hover {
-        background-color: #dfdede;
+        text-decoration: none;
+        color: #000;
+         background-color:$btn-hover-light;
     }
 }
 
-.btn-sort {
+.button-sort {
     background-color: inherit;
-    width: 200px;
-    margin-left: -40px;
+    width: 220px;
+    margin-left: -35px;
     text-align: left;
-    padding-left: 40px;
+    padding: 5px 0 30px 40px;
+    border: none;
+    margin-bottom: 8px;
+    height: 25px;
+    &:hover {
+        background-color: $fourth-color;
+    }
+    &:focus {
+        outline: none;
+    }
 }
 
-.btn.btn-primary {
+.button.button-primary {
     margin-right: 20px;
     background-color: $dark-color;
     color: $main-color;
     padding: 8px 20px;
+    border: none;
+    transition: 1s;
     &:hover {
-        background-color: rgb(46, 46, 46);
+        background-color:$btn-hover-dark;
+        color: $main-color;
+        color: #000;
+    }
+    &:active {
+        background-color: #000;
     }
 }

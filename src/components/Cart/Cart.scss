@@ -4,6 +4,7 @@
 .cart {
     max-width: 90%;
     margin: 0 auto;
+    min-height: 50vh;
 }
 .cart-header{
     text-align: center;
@@ -26,15 +27,18 @@
     }
     .sum {
         font-size: 20px;
+        margin-top: 15px;
     }
     
-    .btn-pay {
+    .button-primary.button-pay {
         width: 100px;
         background-color: #000;
         border: none;
         border-radius: 4px;
         color: #fff;
         padding: 10px;
+        margin-top: 15px;
+        margin-right: 0;
         &:focus {
             outline: none;
         }

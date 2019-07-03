@@ -28,12 +28,12 @@ const CartProductsList = props => (
                                     <p className="cart-product-price">{product.price} PLN</p>
                                </div>
                                <div className="cart-col cart-quantity">
-                                   <button className="btn btn-quantity" onClick={() => props.addQuantity(product.id)}>+</button>
+                                   <button className="button button-quantity" onClick={() => props.addQuantity(product.id)}>+</button>
                                    Ilość {product.quantity}
-                                   <button className="btn btn-quantity" onClick={() => props.substractQuantity(product.id)}>-</button>
+                                   <button className="button button-quantity" onClick={() => props.substractQuantity(product.id)}>-</button>
                                </div>
                                <div className="cart-col">
-                                   <button className="btn" onClick={() => props.removeCartProduct(product.id)}>Usuń</button>
+                                   <button className="button" onClick={() => props.removeCartProduct(product.id)}>Usuń</button>
                                </div>
                            </div>
                        </div>

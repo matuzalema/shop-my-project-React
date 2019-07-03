@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import styles from "./ProductsList.scss";
-import { ProductInList } from "../ProductInList/ProductInList";
+import ProductInList from "../ProductInList/ProductInList";
 
 // import "../../Pagrination/bootstrap-pagination.css";
 // import "../../Pagrination/bootstrap-theme-pagination.css";
