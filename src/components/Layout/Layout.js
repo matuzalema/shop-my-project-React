@@ -4,7 +4,6 @@ import Header  from "../Header/Header.js";
 import { connect } from "react-redux";
 
 import { Footer } from "../Footer/Footer";
-import { addToCart } from "../../actions/cartActions";
 import { bindActionCreators } from 'redux';
 import "./Layout.scss";
 
@@ -45,12 +44,12 @@ const mapStateToProps = state => ({
   cartProductsQuantity: state.cartContent.cartProductsQuantity
 });
 
-function matchDispatchToProps(dispatch) {
-  return bindActionCreators(
-    { addToCart: addToCart }, dispatch
-  )
-}
+// function matchDispatchToProps(dispatch) {
+//   return bindActionCreators(
+//     { addToCart: addToCart }, dispatch
+//   )
+// }
 
 export default connect(
-  mapStateToProps, matchDispatchToProps
+  mapStateToProps
 )(Layout);

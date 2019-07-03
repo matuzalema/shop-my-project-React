@@ -7,6 +7,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 class ProductInList extends React.Component {
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -25,6 +26,7 @@ class ProductInList extends React.Component {
                     <img className="productImg" src={this.props.product.img} alt={this.props.product.name} />
                     <h2 className="productName">{this.props.product.name}</h2>
                     <h2 className="productPrice">{this.props.product.price} PLN</h2>
+
                     <Link
                         exact to={"/cart"} onClick={() => this.props.addToCart(this.props.product)} >
                         <button type="submit" className="button button-product-list">dodaj do koszyka </button>

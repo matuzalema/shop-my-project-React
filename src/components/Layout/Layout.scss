@@ -6,7 +6,8 @@
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+	margin-left: auto;
+	min-height: 100vh;
 }
 
 .top-nav {
@@ -15,7 +16,7 @@
 	background-color: #000;
 	justify-content: flex-end;
 	align-items: center;
-	padding: 8px 70px 8px 0;
+	padding: 10px 70px 10px 0;
 	.top-nav-item {
 		color: #fff;
 		padding-right: 20px;
@@ -23,6 +24,8 @@
 		align-items: center;
 		font-size: 14px;
 		font-weight: 300;
+		margin-bottom: 0;
+	
 		.top-nav-icon {
 			margin: 5px;
 			font-size: 14px;

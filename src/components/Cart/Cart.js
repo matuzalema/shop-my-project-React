@@ -4,7 +4,7 @@ import { CartProduct } from "./CartProduct";
 import { connect } from "react-redux";
 import CartProductsList from "./CartProductsList";
 import "./Cart.scss";
-import { addQuantity, addToCart, substractQuantity, removeCartProduct, overallPrice} from "../../actions/cartActions";
+import { addQuantity, substractQuantity, removeCartProduct} from "../../actions/cartActions";
 import { bindActionCreators } from 'redux';
 import { Link } from 'react-router-dom';
 

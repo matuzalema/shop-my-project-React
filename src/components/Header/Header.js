@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "./Header.scss";
 import { connect } from "react-redux";
-import {addToCart} from "../../actions/cartActions";
 
 const Header = props => (
   <div className="top">
