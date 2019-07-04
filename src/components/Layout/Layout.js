@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 
 import { Footer } from "../Footer/Footer";
 import { bindActionCreators } from 'redux';
+import { Link } from "react-router-dom";
 import "./Layout.scss";
 
 class Layout extends React.Component {
@@ -20,16 +21,20 @@ class Layout extends React.Component {
       <div className="container-fluid">
         <div className='top-nav'>
           <p className="top-nav-item">
-            <i className="material-icons top-nav-icon">perm_identity</i>
+            <Link
+              exact to={"/log"} >
+              <i className="material-icons top-nav-icon">perm_identity</i>
             Zaloguj się
+            </Link>
           </p>
           <p className="top-nav-item">
             <i className="material-icons top-nav-icon"> mail_outline </i>
             Newsletter
           </p>
           <p className="top-nav-item">
+            <Link exact to={"/Feedback"}>
             <i className="material-icons top-nav-icon">contact_mail</i>
-          Feedback
+          Feedback </Link>
           </p>
         </div>
         <Header cartProductsQuantity={this.props.cartProductsQuantity}/>

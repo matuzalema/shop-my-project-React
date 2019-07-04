@@ -25,7 +25,7 @@ export class ProductsList extends React.Component {
   render() {
     return (
       <div className="wrapperHomeRight">  
-      {/* <Example /> */}
+      {/* <FAQ /> */}
         {this.props.products.map(product => (
           <ProductInList product={product} key={product.id}/>
           

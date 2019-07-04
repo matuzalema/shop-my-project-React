@@ -1,10 +1,10 @@
 import React from 'react';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
-export default class Example extends React.Component {
+export default class FAQ extends React.Component {
     render() {
         return (
-            <Pagination aria-label="Page navigation example">
+            <Pagination aria-label="Page navigation FAQ">
                 <PaginationItem>
                     <PaginationLink first href="#" />
                 </PaginationItem>

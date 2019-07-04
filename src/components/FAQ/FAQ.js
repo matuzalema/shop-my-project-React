@@ -1,13 +1,10 @@
 // import React, { Component } from 'react';
 // import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import "./FAQ.scss";
-
-
-
 import React from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';
 
-const Example = () => (
+const FAQ = () => (
   <div class="faq">
     <h1 className="faq-header"> FAQ</h1>
     <Accordion defaultActiveKey="0">
@@ -87,7 +84,7 @@ const Example = () => (
   </div>
 );
 
-export default Example;
+export default FAQ;
 
 
 //         <h2></h2>

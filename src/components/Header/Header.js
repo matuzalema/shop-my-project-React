@@ -2,9 +2,11 @@ import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "./Header.scss";
 import { connect } from "react-redux";
+import {Link} from "react-router-dom";
 
 const Header = props => (
   <div className="top">
+    <Link exact to={"/home"} className="logo-link">
     <div className="logo">
       <div className="logo-wrapper">
         <h1 className="logo-header">Ph&nbsp;&nbsp;&nbsp;</h1>
@@ -14,6 +16,7 @@ const Header = props => (
       </div>
       <h1 className="logo-header-second">inventions</h1>
     </div>
+    </Link>
     <Navigation cartProductsQuantity={props.cartProductsQuantity} />
   </div>
 

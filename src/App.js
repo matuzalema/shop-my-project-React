@@ -10,6 +10,8 @@ import {Promotions} from './components/Promotions/Promotions';
 import Product from './components/ProductComponents/Product/Product';
 import Cart from './components/Cart/Cart';
 import Order from './components/Order/Order';
+import Log from './components/Log/Log';
+import Feedback from './components/Feedback/Feedback';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -27,6 +29,9 @@ class App extends React.Component {
             <Route exact path={'/product/:id'} component={Product} />
             <Route exact path={'/cart'} component={Cart} />
             <Route exact path={'/order'} component={Order} />
+            <Route exact path={'/log'} component={Log} />
+            <Route exact path={'/feedback'} component={Feedback} />
+
           </Switch>
         </Layout>
       </BrowserRouter>

@@ -217,17 +217,17 @@ export default function () {
     },
     {
       id: 15,
-      name: "PANASONIC Lumix DMC-TZ100",
-      img: "../../images/panasonicLumix1min.jpg",
+      name: "PENTAX K-1 Mark",
+      img: "../../images/pentax1.jpg",
       price: 2275.00,
       desc:
-        "Matryca MOS o wysokiej czułości (typ 1) / Całkowita liczba pikseli 20,9 megapikseli / Podstawowy filtr koloru.",
+        "PENTAX K-1 Mark II posiada nowy, zaawansowany system przetwarzania obrazu, zapewnia wyjątkową jakość dzięki bogatej palecie barw, płynnej gradacji i wysokiej rozdzielczości matrycy.",
       inf: "New",
       quantity: 1,
-      detail: "PANASONIC LUMIX DMC-TZ100 został zaprojektowany z zachowaniem równowagi pomiędzy mocą a funkcjonalnością. Krystalicznie wyraźny obiektyw zmiennoogniskowy LEICA charakteryzuje się stylowym i zgrabnym kształtem. Koniec z ogromnymi torbami i topornym sprzętem – doskonała harmonia pomiędzy mocą a mobilnością. 5-płaszczyznowy system HYBRID O.I.S. +/ Kompensacja w 5 płaszczyznach umożliwia nagrywanie filmów z wyjątkiem filmów wideo w rozdzielczości 4K.",
+      detail: "PENTAX K-1 Mark II został wyposażony w innowacyjny moduł przyspieszający proces przetwarzania obrazu by wiernie odwzorować klimat fotografowanej sceny w całym zakresie czułości. Dodatkowy moduł wpływa zarówno na rozdzielczość obrazu, jak i odwzorowanie kolorów podczas fotografowania w wysokiej czułości, jednocześnie znacząco redukując szum w porównaniu do PENTAX K-1. Pomaga także w podniesieniu czułości aparatu do wartości ISO 819200 (przy standardowej czułości wyjściowej). Zastosowany w PENTAX K-1 Mark II procesor PRIME IV jest kwintesencją połączenia najnowszych technologii obróbki obrazu. Poza efektywnym procesem usuwania szumów funkcja Fine Sharpness i Extra Sharpness pozwala oddać kontury obiektu w bardziej naturalny sposób. Przełomowa technologia PENTAX Real-time Scene Analysis (analizy sceny w czasie rzeczywistym) skutecznie kompensuje zniekształcenia, winietowanie czy aberrację chromatyczną.",
       category: "aparaty fotograficzne",
-      producent: "panasonic",
-      addInf: "Wymiary: 110,5 x 64,5 x 44,3 mm/4,35 x 2,54 x 1,74 cali. Długość ogniskowej f = 9,1–91 mm/(odpowiednik 27–270 mm dla kliszy 35 mm w formacie 4:3)/(odpowiednik 25–250 mm dla kliszy 35 mm w formacie 3:2)/(odpowiednik 26–260 mm dla kliszy 35 mm w formacie 16:9)/(odpowiednik 32–320 mm dla kliszy 35 mm w formacie 1:1)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 4:3)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 3:2)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 16:9)/(odpowiednik 40–400 mm dla kliszy 35 mm przy nagrywaniu w formacie 4K Photo 1:1)/(odpowiada 26–260 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 28–280 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wył. funkcja Level Shot)/(odpowiada 31–310 mm w aparacie 35 mm przy nagrywaniu wideo w formacie 16:9 / wł. O.I.S. / wł. funkcja Level Shot)/(odpowiednik 37–370 mm dla kliszy 35 mm przy nagrywaniu wideo w formacie 4K)    "
+      producent: "PENTAX",
+      addInf: "Aparat K-1 Mark II został wyposażony w pełnoklatkową matrycę CMOS. Dzięki dużej powierzchni sensora i szerokiemu pokryciu pikseli aparat gwarantuje znakomite, bogate w detale zdjęcia z doskonałą gradacją kolorów. Zapewnia również doskonałą redukcję szumów oraz pozwala kontrolować poziom głębi ostrości i efekt bokeh. PENTAX K-1 Mark II został pozbawiony filtra AA (antyaliasingowego) dla uzyskania jeszcze bardziej szczegółowych ujęć. Wysoka rozdzielczość daje użytkownikowi możliwość swobodnej obróbki, kadrowania, przycinania i dopasowywania kompozycji zdjęcia. Dostosowany do obróbki plików wysokiej jakości, 14-bitowy system zapisu obrazu zapewnia płynna gradację i szeroką paletę barw. "
     },
     {
       id: 16,
@@ -256,6 +256,112 @@ export default function () {
       category: "drony",
       producent: "DJI",
       addInf: "Spark zaadoptował wszystkie tryby wykonywania zdjęć z poprzednich modeli DJI oraz posiadł dwa nowe: Pano - Spark wykonuje poziome i pionowe panoramy, za pośrednictwem automatycznego ustawiania kierunku gimbala ShallowFocus - Spark używa technologii 3D do wykonania zdjęć o małej głębi ostrości"
+    },
+    {
+      id: 18,
+      name: "CANON EOS 800D",
+      img: "../../images/canon80001.jpg",
+      price: 2693.00,
+      desc:
+        "Matryca nowej generacji o rozmiarze APS-C i rozdzielczości 24,2 megapiksela umożliwia rejestrowanie wielu drobnych szczegółów nawet w trudnych warunkach.",
+      inf: "Last item",
+      quantity: 1,
+      detail: "Aparat EOS 800D + 18-55 IS STM sprawia, że fotografowanie w wysokiej jakości jest łatwiejsze niż kiedykolwiek: na wyjątkowych zdjęciach i filmach uwiecznisz najważniejsze momenty swojego życia. Ogromną zaletą tej lustrzanki cyfrowej jest wyraźny wizjer optyczny, który pokazuje rzeczywisty obraz. Aparat EOS 800D pracuje odpowiednio szybko – rejestrując 6 klatek na sekundę przy wykonywaniu serii zdjęć – oraz ma wizjer optyczny pokazujący obraz w czasie rzeczywistym. Podczas komponowania zdjęcia na odchylanym ekranie aparatu najszybszy na świecie system AF Live View* potrzebuje zaledwie 0,03 sekundy, aby wykonać zdjęcia o nadzwyczajnej ostrości.",
+      category: "aparaty fotograficzne",
+      producent: "Canon",
+      addInf: "Matryca nowej generacji o rozmiarze APS-C i rozdzielczości 24,2 megapiksela umożliwia rejestrowanie wielu drobnych szczegółów nawet w trudnych warunkach."
+    },
+    {
+      id: 19,
+      name: "NIKON D5500",
+      img: "../../images/Nikon55001.jpg",
+      price: 2879.00,
+      desc:
+        "Aparat wyposażono w matrycę bez optycznego filtru dolnoprzepustowego oraz obsługę sieci Wi-Fi, która umożliwia sterowanie i udostępnianie wysokiej jakości zdjęć za pośrednictwem smartfonu lub tabletu.",
+      inf: "Last item",
+      quantity: 1,
+      detail: "D5500 - pierwszy aparat formatu DX z ruchomym ekranem dotykowym. Ta lekka i wyjątkowo poręczna cyfrowa lustrzanka jednoobiektywowa o dużych możliwościach umożliwia rejestrowanie zdjęć jeszcze lepszych niż dotychczas. Aparat wyposażono w matrycę bez optycznego filtru dolnoprzepustowego oraz obsługę sieci Wi-Fi, która umożliwia sterowanie i udostępnianie wysokiej jakości zdjęć za pośrednictwem smartfonu lub tabletu. Znacznie lżejszy i smuklejszy od wcześniejszego modelu, aparat D5500 charakteryzuje się zwartą konstrukcją, a mimo to uchwyt jest bardzo wygodny i ergonomiczny dzięki głębokiemu wyprofilowaniu. Aparat D5500 to idealny wybór dla kreatywnych użytkowników, pragnących doskonalić swój warsztat fotograficzny - świetnie radzi sobie zarówno z dynamicznymi scenami, jak i ze słabym oświetleniem.Pozwala on rejestrować zdjęcia do wydruków w dużym formacie oraz efektowne filmy.Dzięki matrycy formatu DX oraz dużemu zakresowi czułości ISO(100 - 25600) można łatwiej uzyskać wyraziste zdjęcia.Nawet na wydruku o dużym formacie lub na wielkim ekranie wszystkie zdjęcia i filmy będą wyraźnie odzwierciedlać uchwycone kadry.",
+      category: "aparaty fotograficzne",
+      producent: "Nikon",
+      addInf: "Proces fotografowania aparatem D5500 jest wyjątkowo płynny, gdyż po odsunięciu wizjera od oka użytkownika zdjęcie automatycznie wyświetla się na monitorze LCD. Jeśli użytkownikowi zależy na precyzyjnym dostosowaniu parametrów obrazu, może skorzystać z ustawień Picture Control firmy Nikon drugiej generacji, pozwalających na przejęcie pełnej kontroli nad wyostrzaniem zdjęć, kontrastem, jasnością, odcieniem i nasyceniem podczas rejestrowania zdjęć i filmów. Fotograf ma do dyspozycji siedem trybów, w tym nowe ustawienie równomierne, którego efektem jest zachowanie wszystkich szczegółów oraz informacji o zakresach tonalnych w obszarach prześwietlonych i zacienionych, idealne w przypadku retuszu po sesji fotograficznej."
+    },
+    {
+      id: 20,
+      name: "DJI MAVIC Air Quadrocopter",
+      img: "../../images/dronMavic1.jpg",
+      price: 3695.00,
+      desc:
+        "DJI Mavic Air to quadrocopter charakteryzujący się niewielką wagą (430g). Posiada składane ramiona oraz przetwornik obrazu CMOS 1/2.3 32 Mpx. Kamera Mavic Air z 3-osiowąstabilizacją potrafi teraz zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR.Natomiast tryb slow motion zapisuje obraz w 120 fps przy rozdzielczości 1080p.",
+      quantity: 1,
+      detail: "DJI Mavic Air to quadrocopter charakteryzujący się niewielką wagą (430g). Posiada składane ramiona oraz przetwornik obrazu CMOS 1/2.3 32 Mpx. Kamera Mavic Air z 3-osiowąstabilizacją potrafi teraz zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR.Natomiast tryb slow motion zapisuje obraz w 120 fps przy rozdzielczości 1080p.",
+      category: "drony",
+      producent: "DJI",
+      addInf: "Kamera Mavic Air z 3-osiowąstabilizacją potrafi teraz zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR. Natomiast tryb slow motion zapisuje obraz w 120 fps przy rozdzielczości 1080p."
+    },
+    {
+      id: 21,
+      name: "DJI SPARK Quadrocopter ",
+      img: "../../images/DJISPARKFly1.jpg",
+      price: 2695.00,
+      desc:
+        "DJI Spark to mini quadrocopter, który mimo swoich kompaktowych rozmiarów (143×143×55 mm), oraz wagi (zaledwie 300g) posiada wszystkie niesamowite rozwiązania znane z poprzednich wersji quadrocopterów DJI, jak np. inteligentne tryby lotu ActiveTrack, TapFly oraz dwa nowe.",
+      quantity: 1,
+      detail: "QuickShot pomaga w realizacji materiału, bez udziału operatora. Można wybrać jeden z czterech funkcji tego trybu: Rocket - pionowy wznios z kamerą skierowaną w dół Dronie - lot do tyłu i w górę z kamerą zablokowaną na wybranym obiekcie Circle - symetryczny lot wokół wybranego obiektu Helix - spieralny lot do góry wokół wybranego obiektu Gesture umożliwia sterowanie dronem bez konieczności używania nadajnika RC lub urządzenia mobilnego.Dzięki funkcji FaceAware startuje on z dłoni zaraz po rozpoznaniu twarzy.Można wybrać jedną z dwóch funkcji tego trybu: Selfies - wystarczy podnieść ramiona, pomachać rękami lub zrobić palcami ramkę aby zdalnie manewrować Sparkiem i robić zdjęcia. PalmControl - Spark może śledzić ruchy ręki(przybliżać się i oddalać) a nawet startować i lądować na dłoni.",
+      category: "drony",
+      producent: "DJI",
+      addInf: "Wszystkie obrazy ze Sparka są ostre i żywe z bardzo małym współczynnikiem abberacji chromatycznej oraz dystorsji. Kamera Sparka posiada szerokokątny obiektyw f/2.6 z ogniskową odpowiadającą 25 mm. Pięć soczewek zostało połączonych w jedną grupę. "
+    },
+    {
+      id: 22,
+      name: "BENRO głowica do tripodu IH1 ",
+      img: "../../images/głowicatripodu1.jpg",
+      price: 2655.00,
+      desc:
+        "Wysokiej jakości, solidna głowica adresowana do fotografów poszukujących lekkich i intuicyjnych głowic kulowych. Mimo niskiej wagi głowica pozwala na używanie nawet cięższych aparatów. ",
+      quantity: 1,
+      detail: "Wysokiej jakości, solidna głowica adresowana do fotografów poszukujących lekkich i intuicyjnych głowic kulowych. Mimo niskiej wagi głowica pozwala na używanie nawet cięższych aparatów. Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada 1 pokrętło blokady umożliwiające prostą i intuicyjną obsługę. Idealne rozwiązanie dla tych którzy potrzebują lekkiej i prostej w obsłudze głowicy. Przechył o 90 stopni pozwala na łatwe wykonywanie portretów.Głowica charakteryzuje się maksymalną nośnością wynoszącą 8 kg. Szybkozłączka PU60 jest kompatybilna z systemem Arca- Swiss.",
+      category: "głowice",
+      producent: "Benro",
+      addInf: "Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada 1 pokrętło blokady umożliwiające prostą i intuicyjną obsługę. Idealne rozwiązanie dla tych którzy potrzebują lekkiej i prostej w obsłudze głowicy. Przechył o 90 stopni pozwala na łatwe wykonywanie portretów."
+    },
+    {
+      id: 23,
+      name: "BOYA BY-V01 mikrofon",
+      img: "../../images/mikrofonBoya2.jpg",
+      price: 125.00,
+      desc:
+        "Mikrofon stereo BOYA BY-V01 stworzony do współpracy z lustrzankami, kamerami video, rejestratorami audio. Mikrofon pozwala rejestrować dźwięk stereo wysokiej jakości, a dziękiuniwersalnemu mocowaniu (gorąca stopka) możliwe jest zamocowanie doaparatu, kamery. Przełącznik 90° lub 120° pozwala na dostosowanie kierunkowość mikrofonu.",
+      quantity: 1,
+      detail: "Mikrofon stereo BOYA BY-V01 stworzony do współpracy z lustrzankami, kamerami video, rejestratorami audio. Mikrofon pozwala rejestrować dźwięk stereo wysokiej jakości, a dziękiuniwersalnemu mocowaniu (gorąca stopka) możliwe jest zamocowanie doaparatu, kamery. Przełącznik 90° lub 120° pozwala na dostosowanie kierunkowość mikrofonu.",
+      category: "mikrofony",
+      producent: "Benro",
+      addInf: "Mikrofon stereo BOYA BY-V01 stworzony do współpracy z lustrzankami, kamerami video, rejestratorami audio. Mikrofon pozwala rejestrować dźwięk stereo wysokiej jakości, a dziękiuniwersalnemu mocowaniu (gorąca stopka) możliwe jest zamocowanie doaparatu, kamery. Przełącznik 90° lub 120° pozwala na dostosowanie kierunkowość mikrofonu."
+    },
+    {
+      id: 24,
+      name: "RODE mikrofon zewnętrzny",
+      img: "../../images/rode1.jpg",
+      price: 679.00,
+      desc:
+        "Nowy model Stereo VideoMic Pro to wysokiej jakości mikrofon stereofoniczny do rejestracji dźwięku dla potrzeb video, który idealnie sprawdzi się również przy nagrywaniu muzyki i realistycznych odgłosów otoczenia.",
+      quantity: 1,
+      detail: "Konstrukcję mikrofonu oparto na dobranej parze wysokiej czułości, kardioidalnych kapsuł pojemnościowych o średnicy 12.7 mm (1/2”), w ustawieniu zbieżnym XY, co pozwoliło uzyskać szeroki obraz stereo o naturalnej głębi. Stereo VideoMic Pro, tak jak i model VideoMic Pro wyróżniają ergonomiczne kształty, idealnie dobrane pod kątem aparatów DSLR, popularnych kamer i kamer video z dużą matrycą.Zintegrowany system anty- wstrząsowy doskonale chroni przez wibracjami i zakłóceniami mechanicznymi, które w innym przypadku mogłyby obniżać jakość nagrań.Dodatkowo, lekki, a przy tym wytrzymały kabel wielożyłowy doskonale izoluje przez zakłóceniami akustycznymi ze strony kamery i cechuje się niższym poziomem szumów niż zwykłe przewody audio.",
+      category: "mikrofony",
+      producent: "Rode",
+      addInf: "Z tyłu mikrofonu, dla zwiększenia wygody użytkownika umieszczono włącznik zasilania i regulację korekcji, w tym filtr górno-przepustowy 75 Hz do redukcji szumów generowanych przez układy klimatyzacji, ruch uliczny i innych niechcianych zakłóceń w dolnym zakresie pasma. Tłumik -10 dB służy do zmniejszenia czułości mikrofonu w przypadku rejestracji głośnych źródeł dźwięku, np. w czasie koncertów na żywo lub wydarzeń sportowych."
+    },
+    {
+      id: 25,
+      name: "SanDisk microSDHC 16 GB",
+      img: "../../images/karta1min.jpg",
+      price: 69.00,
+      desc:
+        "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB.",
+      quantity: 1,
+      detail: "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB. Karty microSD są rozwinięciem kart Transflash. Mimo niezwykle małych rozmiarów oferują wydajność taką samą jak standardowe karty Secure Digital. Karty te przeznaczone są w szczególności do ultra-małych telefonów komórkowych czy PDA, zgodnych z microSDHC (logo SDHC na obudowie urządzenia lub jego opakowaniu). Podobnie jak karty miniSD, są idealne do przechowywania muzyki, wideo i zdjęć. Karta microSD jest czterokrotnie mniejsza od standardowej karty Secure Digital. W zestawie oprogramowanie Memory Zone Android APP dzięki czemu można stosować kartę w smartphonach z systemem Android.",
+      category: "karty pamięci",
+      producent: "Rode",
+      addInf: "Z tyłu mikrofonu, dla zwiększenia wygody użytkownika umieszczono włącznik zasilania i regulację korekcji, w tym filtr górno-przepustowy 75 Hz do redukcji szumów generowanych przez układy klimatyzacji, ruch uliczny i innych niechcianych zakłóceń w dolnym zakresie pasma. Tłumik -10 dB służy do zmniejszenia czułości mikrofonu w przypadku rejestracji głośnych źródeł dźwięku, np. w czasie koncertów na żywo lub wydarzeń sportowych."
     },
   ];
 }

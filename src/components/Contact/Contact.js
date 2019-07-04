@@ -2,6 +2,8 @@ import React from "react";
 import MapContainer from "../Maps/Maps";
 import "./Contact.scss";
 import "../Maps/Maps";
+import Log from "../Log/Log";
+import FormPage from "../Feedback/Feedback";
 
 export class Contact extends React.Component {
   render() {
@@ -10,8 +12,8 @@ export class Contact extends React.Component {
       <div className="adress-wrapper">
         <h1 className="company">Photo Inventions</h1>
         <p className="adress">ul. Gwintowa 266 </p>
-        <p className="adress">01-432 Warszawa</p>
-        <p className="adress"> infolinia:</p>
+        <p className="adress">01-432 Warszawa</p><br /><br/>
+        <p className="adress"> Infolinia:</p>
         <p className="adress">PN-PT 8:00-20:00 </p>
         <p className="adress">SOB-ND 9:00-17:00 </p>
         <p className="adress">022 600-34-24 </p>

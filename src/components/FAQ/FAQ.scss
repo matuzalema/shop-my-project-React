@@ -1,6 +1,6 @@
 @import "../../sass/variables";
 .faq {
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     margin: 0 auto;
     min-height: 80vh;
@@ -12,8 +12,13 @@
         width: 100%;
     }
     .card-header {
-    background-color: $third-color;
+    background-color:$btn-hover-dark;
     margin-top: 20px;
+    padding: 0;
+    &:hover{
+        background-color: $btn-hover-light;
+        color: #fff;
+    }
     }
     .card {
     border: none;
@@ -21,14 +26,15 @@
 }
 
 .btn.btn-link {
-    color: #000;
+    color: #fff;
+    background-color: $btn-hover-dark;
     width: 100%;
     padding: 10px;
     margin: 0;
     text-decoration: none;
     &:hover {
-        
-        color: #000;
+        background-color: $btn-hover-light;
+        color: #fff;
          text-decoration: none;
     }
     &:focus {
@@ -37,3 +43,6 @@
     
 }
 
+.card-header {
+    
+}

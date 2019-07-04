@@ -35,7 +35,13 @@
 }
 
 .social {
-	width: 100%;
+  width: 100%;
+  .fab {
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1, 1.1);
+    }
+  }
 }
 .fa-facebook {
   background: #3B5998;
