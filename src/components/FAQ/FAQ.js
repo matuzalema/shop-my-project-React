@@ -1,5 +1,3 @@
-// import React, { Component } from 'react';
-// import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import "./FAQ.scss";
 import React from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';

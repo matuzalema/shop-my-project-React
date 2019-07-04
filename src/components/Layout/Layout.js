@@ -28,11 +28,13 @@ class Layout extends React.Component {
             </Link>
           </p>
           <p className="top-nav-item">
+            <Link exact to={"/newsletter"}>
             <i className="material-icons top-nav-icon"> mail_outline </i>
             Newsletter
+            </Link>
           </p>
           <p className="top-nav-item">
-            <Link exact to={"/Feedback"}>
+            <Link exact to={"/feedback"}>
             <i className="material-icons top-nav-icon">contact_mail</i>
           Feedback </Link>
           </p>
