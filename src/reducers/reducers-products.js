@@ -315,7 +315,7 @@ export default function () {
       id: 22,
       name: "BENRO głowica do tripodu IH1 ",
       img: "../../images/głowicatripodu1.jpg",
-      price: 2655.00,
+      price: 255.00,
       desc:
         "Wysokiej jakości, solidna głowica adresowana do fotografów poszukujących lekkich i intuicyjnych głowic kulowych. Mimo niskiej wagi głowica pozwala na używanie nawet cięższych aparatów. ",
       quantity: 1,

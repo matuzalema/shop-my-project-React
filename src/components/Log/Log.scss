@@ -1,62 +1,15 @@
 @import "../../sass/variables";
 
-.log .form-control:focus{
-        border-color:$btn-hover-dark;
-        box-shadow: none;
-    }
-.form-elegant .font-small {
-  font-size: 0.8rem; }
-
-.form-elegant .z-depth-1a {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
-  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
-
-.form-elegant .z-depth-1-half,
-.form-elegant .btn:hover {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
-  box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
-// .log {
-//   text-align: left;
-//   padding: 1em;
-//   margin: 1em;
-//   border: 2px solid #d3d3d3;
-//   border-radius: .5em;
-//   vertical-align: middle;
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 300px;
-//   &.container {
-//       max-width: 800px;
-//       min-height: 300px;
-//   }
-// }
-
-// .log .form-control:focus {
-//     border-color: #545b62;
-//     box-shadow: none;
-// }
-// .form {
-//   padding: 1em;
-// }
-
-// label {
-//   display: flex;
-//   font-weight: 600;
-// }
-
-// button {
-//   justify-content: flex-end;
-// }
-
-// .App-title {
-//   font-size: 1.5em;
-// }
-
-// .App-intro {
-//   font-size: large;
-// }
-
-// @keyframes App-logo-spin {
-//   from { transform: rotate(0deg); }
-//   to { transform: rotate(360deg); }
-// }
+.log-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+.link-register {
+  color:#5a6268;
+  margin-left: 15px;
+  &:hover {
+    text-decoration: none;
+  }
+}
