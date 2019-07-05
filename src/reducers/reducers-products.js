@@ -70,7 +70,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "Benro B-0  to precyzyjna głowica kulowa, której powierzchnia została wykonana z najwyższej jakości anodowego aluminium, które zapobiega korozji, zapewniając długie lata korzystania z głowicy. Głowice posiadają niezależne pokrętła regulacyjne do zamykania, panoramowania i kontroli naprężenia. Każde pokrętło regulacyjne umieszczone jest w wygodnym miejscu, zapewnia pewny chwyt oraz pozwala na dokładne ustawienie aparatu. Skala do panoramowania jest dodatkowym atutem głowicy. Dzięki niej bez problemu można ustawić prawidłowy kadr.",
-      category: "głowice",
+      category: "glowice",
       producent: "Benro",
       addInf: "Głowica Benro B-0 jest kompatybilna z głowicami Arca-Swiss."
     },  
@@ -98,7 +98,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "Wykonuj wysokiej jakości obrazy i filmy w rozdzielczości 1080p Full-HD, 3D i 4K wideo za pomocą aparatu, kamery HD lub kamery 3D. Duża pojemność pozwala cieszyć się dłuższym robieniem zdęć bez konieczności zamiany karty. Szybki transfer plików z karty na komputer, aby znacznie przyspieszyć czas pracy.",
-      category: "karty pamięci",
+      category: "karty pamieci",
       producent: "Lexar",
       addInf: "Karta zawiera oprogramowanie do pobrania Image Rescue® do odzyskiwania zdjęć i plików wideo."
     },
@@ -112,7 +112,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "SANDISK EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3 to najbardziej zaawansowana karta pamięci SD™ UHS-I zapewnia wydajność, która przeniesie Twoją kreatywność na wyższy poziom. Dzięki szybkości zapisu nawet do 90 MB/s* i klasie szybkości nagrywania UHS 3 (U3)2 możesz nagrywać płynne filmy w fantastycznej jakości 4K UHD1. A ponieważ nie zwalniasz tempa również po zakończeniu zdjęć, zapewnia szybkość przesyłania danych aż do 170 MB/s [64 GB-512 GB], aby usprawnić przepływ pracy na etapie postprodukcji. Ponadto karta jest przystosowana do pracy w trudnych warunkach pogodowych i odporna na wodę oraz wstrząsy, więc możesz na niej polegać w każdych okolicznościach.",
-      category: "karty pamięci",
+      category: "karty pamieci",
       producent: "SanDisk",
       addInf: "Czasami potrzebujesz szybkości. Karta SanDisk Extreme PRO® SD™ UHS-I zapewnia wydajność umożliwiającą płynne nagrywanie wspaniałych filmów w jakości 4K UHD. Dzięki klasie szybkości UHS 3 (U3) i Video Speed Class 30 (V30)2 karta SanDisk Extreme PRO® SD™ UHS-I umożliwia natychmiastowe zapisywanie zdjęć seryjnych. Zaprojektowana i przetestowana pod kątem pracy w trudnych warunkach3 karta Extreme PRO® SD™ UHS-I jest odporna na wstrząsy oraz działanie temperatury, wody i promieni rentgenowskich. Oferta obejmuje oprogramowanie do odzyskiwana danych RescuePRO® Deluxe do pobrania (licencja na 2 lata), umożliwiające odzyskiwanie przypadkowo skasowanych zdjęć."
     },
@@ -183,7 +183,7 @@ export default function () {
       inf: "Sale",
       quantity: 1,
       detail: "Wysokiej jakości, solidna głowica adresowana do zaawansowanych fotografów oczekujących najwyższego poziomu kontroli, funkcjonalności i pełnej niezawodności. Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada potrójny system sterowania umożliwiający łatwą i precyzyjną kontrolę aparatu z ciężkim obiektywem. Blokada panoromowania ułatwia znacznie ułatwia pracę. Podziałka pozwala na precyzyjne ustawienie. Wbudowana poziomica ułatwia precyzyjne ustawianie kadru.",
-      category: "głowice",
+      category: "glowice",
       producent: "Benro",
       addInf: "Głowica charakteryzuje się maksymalną nośnością wynoszącą 10 kg."
     },
@@ -320,7 +320,7 @@ export default function () {
         "Wysokiej jakości, solidna głowica adresowana do fotografów poszukujących lekkich i intuicyjnych głowic kulowych. Mimo niskiej wagi głowica pozwala na używanie nawet cięższych aparatów. ",
       quantity: 1,
       detail: "Wysokiej jakości, solidna głowica adresowana do fotografów poszukujących lekkich i intuicyjnych głowic kulowych. Mimo niskiej wagi głowica pozwala na używanie nawet cięższych aparatów. Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada 1 pokrętło blokady umożliwiające prostą i intuicyjną obsługę. Idealne rozwiązanie dla tych którzy potrzebują lekkiej i prostej w obsłudze głowicy. Przechył o 90 stopni pozwala na łatwe wykonywanie portretów.Głowica charakteryzuje się maksymalną nośnością wynoszącą 8 kg. Szybkozłączka PU60 jest kompatybilna z systemem Arca- Swiss.",
-      category: "głowice",
+      category: "glowice",
       producent: "Benro",
       addInf: "Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada 1 pokrętło blokady umożliwiające prostą i intuicyjną obsługę. Idealne rozwiązanie dla tych którzy potrzebują lekkiej i prostej w obsłudze głowicy. Przechył o 90 stopni pozwala na łatwe wykonywanie portretów."
     },
@@ -359,7 +359,7 @@ export default function () {
         "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB.",
       quantity: 1,
       detail: "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB. Karty microSD są rozwinięciem kart Transflash. Mimo niezwykle małych rozmiarów oferują wydajność taką samą jak standardowe karty Secure Digital. Karty te przeznaczone są w szczególności do ultra-małych telefonów komórkowych czy PDA, zgodnych z microSDHC (logo SDHC na obudowie urządzenia lub jego opakowaniu). Podobnie jak karty miniSD, są idealne do przechowywania muzyki, wideo i zdjęć. Karta microSD jest czterokrotnie mniejsza od standardowej karty Secure Digital. W zestawie oprogramowanie Memory Zone Android APP dzięki czemu można stosować kartę w smartphonach z systemem Android.",
-      category: "karty pamięci",
+      category: "karty pamieci",
       producent: "Rode",
       addInf: "Z tyłu mikrofonu, dla zwiększenia wygody użytkownika umieszczono włącznik zasilania i regulację korekcji, w tym filtr górno-przepustowy 75 Hz do redukcji szumów generowanych przez układy klimatyzacji, ruch uliczny i innych niechcianych zakłóceń w dolnym zakresie pasma. Tłumik -10 dB służy do zmniejszenia czułości mikrofonu w przypadku rejestracji głośnych źródeł dźwięku, np. w czasie koncertów na żywo lub wydarzeń sportowych."
     },

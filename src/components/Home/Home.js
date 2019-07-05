@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import styles from "./Home.scss";
+import "./Home.scss";
 import cloneDeep from 'lodash/cloneDeep';
 import {ProductsList} from "../ProductComponents/ProductList/ProductsList";
 import "../../sass/_components.scss";
@@ -13,28 +13,26 @@ class Home extends React.Component {
     this.pageSize = 6;
     this.state = {
       selectedPage: 1,
-      products: cloneDeep(props.products),
-      productsToDisplay: cloneDeep(props.products).slice(0, this.pageSize),
-      
+      sortedProducts: cloneDeep(props.products),
+      productsToDisplay: cloneDeep(props.products).slice(0, this.pageSize),      
       direction: "asc",
       lastSortKey: "name"
     };
-    this.handleSelected = this.handleSelected.bind(this);
+    this.handlePaginationSelected = this.handlePaginationSelected.bind(this);
   }
 
   filterByCategory(category) {
     let productsAfterFilter;
     if(category==='all'){
       productsAfterFilter = this.props.products;
-    }else{
+    } else{
       productsAfterFilter = this.props.products.filter(product => product.category === category)
     }
     this.setState({
-      products: cloneDeep(productsAfterFilter),
+      sortedProducts: cloneDeep(productsAfterFilter),
       selectedPage: 1,
       productsToDisplay: productsAfterFilter.slice((this.pageSize) - this.pageSize, (this.pageSize))
-    });
-    
+    }); 
   }
 
   sortByKey(key) {
@@ -44,8 +42,7 @@ class Home extends React.Component {
     } else {
       direction = "asc"
     }
-
-   let productsSorted = this.state.products.sort((a, b) => {
+    let productsSorted = this.state.sortedProducts.sort((a, b) => {
       if(isNaN(a[key])){
         if (direction === "asc") {
           return (a[key]).localeCompare(b[key])
@@ -61,7 +58,7 @@ class Home extends React.Component {
       }
     })
     this.setState({
-      products: productsSorted,
+      sortedProducts: productsSorted,
       direction: direction,
       lastSortKey: key,
       selectedPage: 1,
@@ -69,56 +66,45 @@ class Home extends React.Component {
     })
   }
 
-  
-
-  handleSelected(selectedPage) {
+  handlePaginationSelected(selectedPage) {
     this.setState({
       selectedPage: selectedPage,
-      productsToDisplay: this.state.products.slice((selectedPage * this.pageSize) - this.pageSize, (selectedPage * this.pageSize))
-    
+      productsToDisplay: this.state.sortedProducts.slice((selectedPage * this.pageSize) - this.pageSize, (selectedPage * this.pageSize)) 
     })
   }
   
-  
-
   render() {
     return (
-      <div class="test">
+      <div>
         <Pagination className="pagination-top"
-          totalItems={this.state.products.length}
+          totalItems={this.state.sortedProducts.length}
           pageSize={this.pageSize}
           onSelect={this.handleSelected}
           activePage={this.state.selectedPage}
         />
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
-            <p className="sort-by">
-              Sortuj
-            </p>
+            <p className="sort-by"> Sortuj </p>
               <button className="button-sort" onClick={() => this.sortByKey("name")}>Sort by name</button>
               <button className="button-sort" onClick={() => this.sortByKey("price")}>Sort by price</button>
-            <p className="sort-by">
-              Kategorie
-            </p>
+            <p className="sort-by"> Kategorie </p>
             <button className="button-sort" onClick={() => this.filterByCategory("all")}>Wszystkie</button>
             <button className="button-sort" onClick={() => this.filterByCategory("aparaty fotograficzne")}>Aparaty fotograficzne</button>
             <button className="button-sort" onClick={() => this.filterByCategory("drony")}>Drony</button>
-            <button className="button-sort" onClick={() => this.filterByCategory("głowice")}>Głowice</button>
+            <button className="button-sort" onClick={() => this.filterByCategory("glowice")}>Głowice</button>
             <button className="button-sort" onClick={() => this.filterByCategory("mikrofony")}>Mikrofony</button>
-            <button className="button-sort" onClick={() => this.filterByCategory("karty pamięci")}>Nośniki pamięci</button>
-
+            <button className="button-sort" onClick={() => this.filterByCategory("karty pamieci")}>Nośniki pamięci</button>
           </div> 
-                 
-            <ProductsList products={this.state.productsToDisplay}/>
+          <ProductsList products={this.state.productsToDisplay}/>
         </div>
-          <div className="container-fluid">
-            <Pagination className="pagination-bottom"
-              totalItems={this.state.products.length}
-              pageSize={this.pageSize}
-              onSelect={this.handleSelected}
-              activePage={this.state.selectedPage}
-            />
-          </div>
+        <div className="container-fluid">
+          <Pagination className="pagination-bottom"
+            totalItems={this.state.sortedProducts.length}
+            pageSize={this.pageSize}
+            onSelect={this.handlePaginationSelected}
+            activePage={this.state.selectedPage}
+          />
+        </div>
       </div>
     );
   }
