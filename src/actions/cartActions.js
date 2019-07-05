@@ -4,6 +4,7 @@ export const SUBSTRACT_QUANTITY = "SUBSTRACT_QUANTITY";
 export const REMOVE_CART_PRODUCT = "REMOVE_CART_PRODUCT";
 
 export const addToCart = (product) => {
+    //console.log(product);
     return {
         type: ADD_TO_CART,
         product

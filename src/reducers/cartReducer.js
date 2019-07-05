@@ -30,6 +30,8 @@ function setStateWithNewPropertis(state, newCart){
 
 }
 export default function(state = initialState, action) {
+    console.log(action);
+    debugger
     switch (action.type) {
         case ADD_TO_CART:
             let quantityUpdated = false;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./ProductInList.scss";
-import { NavLink } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import { addToCart } from "../../../actions/cartActions";
 import { bindActionCreators } from 'redux';
@@ -26,12 +25,10 @@ class ProductInList extends React.Component {
                     <img className="productImg" src={this.props.product.img} alt={this.props.product.name} />
                     <h2 className="productName">{this.props.product.name}</h2>
                     <h2 className="productPrice">{this.props.product.price} PLN</h2>
+                    <button type="submit" className="button button-product-list" onClick={() => this.props.addToCart(this.props.product)}>dodaj do koszyka </button>
 
                     <Link
-                        exact to={"/cart"} onClick={() => this.props.addToCart(this.props.product)} >
-                        <button type="submit" className="button button-product-list">dodaj do koszyka </button>
-                    </Link>
-                    <Link
+
                         exact to={"/product/" + this.props.product.id} >
                         <button type="submit" className="button button-more">więcej &nbsp;>></button>
                     </Link>
@@ -48,14 +45,18 @@ class ProductInList extends React.Component {
 //     }
 // }
 
-function matchDispatchToProps(dispatch) {
-    return bindActionCreators(
-        { addToCart: addToCart }, dispatch
-    )
+function mapDispatchToProps(dispatch) {
+   // debugger
+    return {
+        addToCart: product => dispatch(addToCart(product))
+    }
+    // return bindActionCreators(
+    //     { addToCart: addToCart }, dispatch
+    // )
 }
 
 
-export default connect(matchDispatchToProps)(ProductInList);
+export default connect(null, mapDispatchToProps)(ProductInList);
 // const ProductInList = (props) => (
     // <div 
     //     exact to={"/product/" + props.product.id}

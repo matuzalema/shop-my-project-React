@@ -11,7 +11,7 @@ export class Promotions extends React.Component {
 		
 			
 			<Jumbotron>
-				{/* <img src="../../images/dron-promotion.jpg" alt=""/> */}
+				<img src="../../images/dron-promotion.jpg" alt=""/>
 				<p className="promotions-top">Kolejne obniżki</p>
 				<h1 className="promotions-header">Wyprzedaż, teraz nawet <br /> <span class="promotions-span">30% taniej </span> <br />w sklepach stacjonarnych</h1>
 				<p className="promotion-desc">
