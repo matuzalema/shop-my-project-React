@@ -8,20 +8,20 @@ export default function () {
       img: "../../images/mikrofonRode1min.jpg",
       price: 3555.00,
       desc:
-        "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej),przeznaczonym do montażu na kamerach i aparatach.",
+        "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej),przeznaczonym do montażu na kamerach i aparatach. Mikrofon został wyposażony w parę kapsuł pojemnościowych(prawdziwie kondensatorowych), ustawionych w konfiguracji X- Y, zapewniających wysoce immersyjny pejzaż dźwiękowy.",
       inf: "Sale",
       quantity: 1,
-      detail: "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej), przeznaczonym do montażu na kamerach i aparatach. W pełni metalowa konstrukcja zapewnia wyjątkową odporność, przez mikrofon co idealnie nadaje się do regularnego, profesjonalnego wykorzystania, pozostając przy tym wyjątkowo odpornym na zakłócenia wywoływane przez fale radiowe. Mikrofon został wyposażony w parę kapsuł pojemnościowych(prawdziwie kondensatorowych), ustawionych w konfiguracji X- Y, zapewniających wysoce immersyjny pejzaż dźwiękowy.Każda z kapsuł jest wspierana przez antywstrząsowy system montażu Rycote Lyre, zapewniający izolację od wibracji a także puknięć i uderzeń. Cyfrowe przełączniki na tylnym panelu SVMX pozwalają użytkownikowi na regulację poziomu(-10 dB lub + 20 dB), filtra górnoprzepustowego(0 / 75 / 150 Hz) oraz innowacyjnego podbicia wysokich częstotliwości(+6 dB przy X Hz), zaprojektowanego w celu poprawy zrozumiałości dialogów.",
+      detail: "Rode Stereo VideoMic X jest stereofonicznym mikrofonem  najwyższej jakości (transmisyjnej), przeznaczonym do montażu na kamerach i aparatach. W pełni metalowa konstrukcja zapewnia wyjątkową odporność przez mikrofon, co idealnie nadaje się do regularnego, profesjonalnego wykorzystania, pozostając przy tym wyjątkowo odpornym na zakłócenia wywoływane przez fale radiowe. Mikrofon został wyposażony w parę kapsuł pojemnościowych(prawdziwie kondensatorowych), ustawionych w konfiguracji X- Y, zapewniających wysoce immersyjny pejzaż dźwiękowy.Każda z kapsuł jest wspierana przez antywstrząsowy system montażu Rycote Lyre, zapewniający izolację od wibracji a także puknięć i uderzeń. Cyfrowe przełączniki na tylnym panelu SVMX pozwalają użytkownikowi na regulację poziomu(-10 dB lub + 20 dB), filtra górnoprzepustowego(0 / 75 / 150 Hz) oraz innowacyjnego podbicia wysokich częstotliwości(+6 dB przy X Hz), zaprojektowanego w celu poprawy zrozumiałości dialogów.",
       category: "mikrofony",
       producent: "Rode",
-      addInf: "Rode Stereo VideoMic X Jako pierwszy mikrofon z serii VideoMic, w uzupełnieniu do ekranowanego kabla stereo 3, 5 mm, został wyposażony w profesjonalne wyjście symetryczne, umieszczone z boku obudowy. Konstrukcja zewnętrznej kopuły chroni delikatne kapsuły przed uszkodzeniami, redukując jednocześnie szum wiatru w taki sam sposób, jak zdobywca nagrody RedDot - RØDE Blimp."
+      addInf: "Rode Stereo VideoMic X Jako pierwszy mikrofon z serii VideoMic w uzupełnieniu do ekranowanego kabla stereo 3, 5 mm, został wyposażony w profesjonalne wyjście symetryczne, umieszczone z boku obudowy. Konstrukcja zewnętrznej kopuły chroni delikatne kapsuły przed uszkodzeniami, redukując jednocześnie szum wiatru w taki sam sposób, jak zdobywca nagrody RedDot - RØDE Blimp."
     },
     {
       id: 1,
       name: "CANON EOS 4000D",
       img: "../../images/aparat.jpg",
       price: 1145.00,
-      desc: "Matryca o wyskoiej rozdzielczości 18mpix. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+. Ekran LCD o przekątnej 4.8 cm.",
+      desc: "Matryca o wyskoiej rozdzielczości 18mpix. Możliwość uzyskania miękko rozmytego  tła. Filmowanie w full HD. Szybki procesor DIGIC 4+. Ekran LCD o przekątnej 4.8 cm. Szybki procesor DIGIC 4+, ekran LCD o przekątnej 4.8 cm ułatwiający kadrowanie.",
 
       inf: "Sale",
       quantity: 1,
@@ -52,7 +52,7 @@ export default function () {
       img: "../../images/Panasonic1min.jpg",
       price: 2059.00,
       desc:
-        "LUMIX LX100 należy do najwyższej klasy aparatów kompaktowych Panasonic.",
+        "LUMIX LX100 należy do najwyższej klasy aparatów kompaktowych Panasonic. Dzięki matrycy MOS o wysokiej czułości i wielkości 4/3 cala oraz nowemu procesorowi obrazu Venus Engine aparat LUMIX LX100 oferuje wysoką jakość obrazu niezależnie od warunków.",
       inf: "Last item",
       quantity: 1,
       detail: "Dzięki matrycy MOS o wysokiej czułości i wielkości 4/3 cala oraz nowemu procesorowi obrazu Venus Engine aparat LUMIX LX100 oferuje wysoką jakość obrazu niezależnie od warunków. Duża wielkość matrycy oznacza płytką głębię ostrości na zdjęciach, natomiast doskonały stosunek poziomu sygnału do szumów zapewnia niezwykle skuteczne zmniejszenie zaszumienia na fotografiach robionych przy wysokiej czułości ISO. Świeżo opracowany procesor obrazu Venus Engine stworzony został w oparciu o czterordzeniowy procesor. Oferuje podwyższone parametry pracy oraz przetwarzanie danych z wysoką wydajnością niezbędną dla rejestracji nagrań wideo w jakości 4K. Nowy procesor Venus Engine zawiera także wiele nowych programów redukcji szumów, takich jak Multi Process NR, Random Filter oraz Aperture Filter, które zapewniają naturalnie wyglądające zdjęcia, również podczas fotografowania przy słabym oświetleniu.",
@@ -108,7 +108,7 @@ export default function () {
       img: "../../images/kartaPamieciSanDisk1min.jpg",
       price: 159.00,
       desc:
-        "SanDisk EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3",
+        "SanDisk EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3. Dzięki klasie szybkości UHS 3 (U3) i Video Speed Class 30 (V30)2 karta SanDisk Extreme PRO® SD™ UHS-I umożliwia natychmiastowe zapisywanie zdjęć seryjnych.",
       inf: "Sale",
       quantity: 1,
       detail: "SANDISK EXTREME PRO SDXC 128 GB 170/90 MB/s V30 UHS-I U3 to najbardziej zaawansowana karta pamięci SD™ UHS-I zapewnia wydajność, która przeniesie Twoją kreatywność na wyższy poziom. Dzięki szybkości zapisu nawet do 90 MB/s* i klasie szybkości nagrywania UHS 3 (U3)2 możesz nagrywać płynne filmy w fantastycznej jakości 4K UHD1. A ponieważ nie zwalniasz tempa również po zakończeniu zdjęć, zapewnia szybkość przesyłania danych aż do 170 MB/s [64 GB-512 GB], aby usprawnić przepływ pracy na etapie postprodukcji. Ponadto karta jest przystosowana do pracy w trudnych warunkach pogodowych i odporna na wodę oraz wstrząsy, więc możesz na niej polegać w każdych okolicznościach.",
@@ -136,7 +136,7 @@ export default function () {
       img: "../../images/dronCombo3min.jpg",
       price: 5245.00,
       desc:
-        "Dron DJI MAVIC Pro Combo Quadrocopter",
+        "Dron DJI MAVIC Pro Combo Quadrocopter. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot",
       inf: "Sale",
       quantity: 1,
       detail: "Mavic Pro to kompaktowy dron w ofercie DJI, którego niewielkie rozmiary umożliwiają z łatwością umieszczenie go w damskiej torebce czy kieszeni kurtki (waży 734 g). Uruchomienie drona zabiera dosłownie kilka chwil, dzięki rozkładanym ramionom i śmigłom. Mimo swoich niewielkich gabarytów jest tak funkcjonalny, jak większe platformy. DJI Mavic Pro może wykonywać nieporuszone zdjęcia i kręcić stabilne filmy, a to wszystko dzięki 3-osiowemu gimbalowi oraz kamerze wyposażonej w sensor 1/2.3”12 Mpix, która umożliwia rejestrowanie materiału wideo 4k/30fps 60 Mbps oraz wykonywanie zdjęć w rozdzielczości 4000x3000 również w trybie RAW. Posiada innowacyjny system wykrywania i omijania przeszkód z przodu oraz od dołu. Położenie drona określane jest na podstawie systemu GPS oraz GLONASS, a w zamkniętych pomieszczeniach wykorzystuje system VPS, aby zachować stabilny lot. Dzięki nowej technologii nowo opracowanego systemu OcuSync zasięg transmisji w terenie wolnym od zakłóceń wynosi do 4 km, ale istnieje możliwość sterowania dronem w odległości do 80 m za pomocą samego smartfona lub tabletu (po uprzednim przełączeniu go w tryb WiFi). Dronem można sterować również za pomocą samego kontrolera. Prędkość maksymalna drona w trybie Sport to 65 km/h, szacunkowy czas lotu to 27 min, a ładowanie akumulatora nie przekracza 90 min.",
@@ -179,7 +179,7 @@ export default function () {
       img: "../../images/glowicaDoTripodu1min.jpg",
       price: 415.00,
       desc:
-        "Wysokiej jakości, solidna głowica adresowana do zaawansowanych fotografów.",
+        "Wysokiej jakości, solidna głowica adresowana do zaawansowanych fotografów oczekujących najwyższego poziomu kontroli, funkcjonalności i pełnej niezawodności.",
       inf: "Sale",
       quantity: 1,
       detail: "Wysokiej jakości, solidna głowica adresowana do zaawansowanych fotografów oczekujących najwyższego poziomu kontroli, funkcjonalności i pełnej niezawodności. Wykonanie ze stopu magnezu gwarantuje wysoką trwałość i odporność na uszkodzenia. Głowica posiada potrójny system sterowania umożliwiający łatwą i precyzyjną kontrolę aparatu z ciężkim obiektywem. Blokada panoromowania ułatwia znacznie ułatwia pracę. Podziałka pozwala na precyzyjne ustawienie. Wbudowana poziomica ułatwia precyzyjne ustawianie kadru.",
@@ -193,7 +193,7 @@ export default function () {
       img: "../../images/nikon1min.jpg",
       price: 1559.00,
       desc:
-        "Lustrzanka cyfrowa Nikon D3400 zapewnia niezrównaną szybkość, precyzję i łatwość obsługi.",
+        "Lustrzanka cyfrowa Nikon D3400 zapewnia niezrównaną szybkość, precyzję i łatwość obsługi. Duży monitor LCD o przekątnej 7, 5 cm(3 cale) i wysokiej rozdzielczości zapewnia doskonałą ostrość obrazu podczas komponowania ujęć.",
       inf: "Sale",
       quantity: 1,
       detail: "Lustrzanka cyfrowa Nikon D3400 zapewnia niezrównaną szybkość, precyzję i łatwość obsługi, co przekłada się na świetne zdjęcia. Niezależnie od tego, czy fotografujesz z małej czy dużej odległości, niezwykle precyzyjny system autofokusa (AF) błyskawicznie ustawi ostrość na wskazanym obiekcie i już jej nie straci. Gdy akcja nabiera tempa, model D3400 pozwala wykonywać zdjęcia z prędkością 5 kl./s. Energooszczędna konstrukcja i akumulator o dużej pojemności pozwalają wykonać do 1200 zdjęć na jednym ładowaniu. Niezależnie od tego, czy wykonujesz zdjęcia, czy nagrywasz filmy, duża matryca formatu DX o rozdzielczości 24, 2 mln pikseli, potężny procesor EXPEED 4 firmy Nikon i obiektyw NIKKOR gwarantują wysoki poziom szczegółowości.Szeroki zakres czułości ISO(100–25600). Duży monitor LCD o przekątnej 7, 5 cm(3 cale) i wysokiej rozdzielczości zapewnia doskonałą ostrość obrazu podczas komponowania ujęć, przeglądania zdjęć i stosowania efektów specjalnych.W razie potrzeby można skorzystać z trybu podręcznika, który zawiera instrukcje fotografowania krok po kroku.Tryb podręcznika przeznaczony jest dla użytkowników, którzy dopiero wkraczają do świata lustrzanek cyfrowych lub chcą pogłębić swoją wiedzę.Działanie tego trybu można porównać do towarzystwa profesjonalnego fotografa – pomaga dobrać ustawienia aparatu tak, aby uzyskać doskonałej jakości zdjęcia i filmy. Funkcja nagrywania filmów D- Movie umożliwia rejestrowanie płynnych filmów Full HD o dużej szczegółowości z prędkością do 50p / 60p.Ciągły autofokus pozwala zachować doskonałą ostrość obrazu nawet w przypadku dynamicznych scen.Szeroki zakres czułości ISO daje swobodę filmowania scen ulicznych nocą lub zabawy na przyjęciach we wnętrzach.",
@@ -207,13 +207,13 @@ export default function () {
       img: "../../images/DronDJI1.jpg",
       price: 4395.00,
       desc:
-        "Dron DJI Mavic Air",
+        "Dron DJI Mavic Air. Kamera Mavic Air z 3-osiowąstabilizacją potrafi zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR.",
       inf: "Sale",
       quantity: 1,
       detail: "DJI Mavic Air to quadrocopter charakteryzujący się niewielką wagą (430g). Posiada składane ramiona oraz przetwornik obrazu CMOS 1/2.3 32 Mpx.Dron posiada czujniki przeszkód w trzech kierunkach(przód, tył, dół). Czas lotu - 21 min. Pamięć wewnętrzna 8 GB + slot micro SDHC(USB 3.0, port Type - C). Zasięga pośrednictwem WiFi 2.4 / 5.8 GHz do 2 km. Możliwość podłączenia DJI Googles. Odłączane drążki nadajnika. Nowe tryby lotu: Rocket, Dronie, Circle, Helix, Ateroid oraz Boomerang Smart Capture– sterowanie dronem gestami. Prędkość maksymalna 68.4 km / h(S - mode) oraz 28.8 km / h(P - mode)",
       category: "drony",
       producent: "DJI",
-      addInf: "Kamera Mavic Air z 3-osiowąstabilizacją potrafi teraz zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR. Natomiast tryb slow motion zapisuje obraz w 120 fps przy rozdzielczości 1080p."
+      addInf: "Kamera Mavic Air z 3-osiowąstabilizacją potrafi zapisywać obraz w 4K przy bitrate 100 Mbps oraz wykonywać zdjęcia panoramiczne 360°oraz HDR. Natomiast tryb slow motion zapisuje obraz w 120 fps przy rozdzielczości 1080p."
     },
     {
       id: 15,
@@ -235,7 +235,7 @@ export default function () {
       img: "../../images/dronPhanton1min.jpg",
       price: 5095.00,
       desc:
-        "DJI Phantom 4 Advanced Quadrocopter",
+        "DJI Phantom 4 Advanced Quadrocopter. Najnowszy model Phantom 4 Advanced wyposażony jest w kamerę z 1-calowym, 20 Mpx sensorem Exmor R (CMOS). ",
       inf: "Sale",
       quantity: 1,
       detail: "Najnowszy model Phantom 4 Advanced wyposażony jest w kamerę z 1-calowym, 20 Mpx sensorem Exmor R (CMOS). Kamera ma również mechaniczną migawkę, dzięki czemu wyeliminowano efekt rolling shutter, czyli zakrzywienie obrazu, który występuje podczas robienia zdjęć w szybkim ruchu, a materiał wideo można teraz rejestrować w rozdzielczości 4K/60fps H.264 oraz 4k/30fps H.265 przy prędkości zapisu zwiększonego do 100 Mb/s. Dzięki czujnikom zbliżeniowym zamontowanym z przodu oraz od dołu, quadrocopter potrafi wykryć oraz ominąć przeszkodę na swojej drodze. Phantom 4 Advanced wyposażony jest w podwójny satelitarny system pozycjonowania GPS/GLONASS oraz w zwiększone pole widzenia. Dzięki analizie danych z podwójnych modułów IMU oraz obydwu kompasów, dane są na bieżąco analizowane, a błędy korygowane. Oprogramowanie drona konwertuje obraz otoczenia z kamer na trójwymiarową mapę terenu, dzięki czemu loty nowym Phantomem są znacznie bezpieczniejsze i bardziej przewidywalne zarówno na otwartej przestrzeni, jak i w zamkniętych pomieszczeniach.",
@@ -356,7 +356,7 @@ export default function () {
       img: "../../images/karta1min.jpg",
       price: 69.00,
       desc:
-        "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB.",
+        "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB. W zestawie oprogramowanie Memory Zone Android APP dzięki czemu można stosować kartę w smartphonach z systemem Android.",
       quantity: 1,
       detail: "Karta pamięci microSDHC (microSD High Capacity) o pojemności 16 GB. Karty microSD są rozwinięciem kart Transflash. Mimo niezwykle małych rozmiarów oferują wydajność taką samą jak standardowe karty Secure Digital. Karty te przeznaczone są w szczególności do ultra-małych telefonów komórkowych czy PDA, zgodnych z microSDHC (logo SDHC na obudowie urządzenia lub jego opakowaniu). Podobnie jak karty miniSD, są idealne do przechowywania muzyki, wideo i zdjęć. Karta microSD jest czterokrotnie mniejsza od standardowej karty Secure Digital. W zestawie oprogramowanie Memory Zone Android APP dzięki czemu można stosować kartę w smartphonach z systemem Android.",
       category: "karty pamieci",
