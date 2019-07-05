@@ -3,10 +3,7 @@ import "./ProductInList.scss";
 import {Link} from 'react-router-dom';
 import { addToCart } from "../../../actions/cartActions";
 import { connect } from 'react-redux';
-
-const styles = {
-    transition: "all 1s ease-out"
-};
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
 class ProductInList extends React.Component {
     render() {

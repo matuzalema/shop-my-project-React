@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navigation.scss";
 import {NavLink} from "react-router-dom";
+import { connect } from "react-redux";
 
-const Navigation = props => (
-  
+class Navigation extends React.Component {
+
+  render() {
+    return (
     <div className="top">
       <nav className="topNav">
         <NavLink exact to="/" activeClassName="active">Home</NavLink>
@@ -13,11 +15,16 @@ const Navigation = props => (
         <NavLink exact to="/Contact" activeClassName="active">Kontakt</NavLink>
         <div className="cart-wrapper">
         <NavLink exact to="/Cart" activeClassName="active"><i className="material-icons">shopping_cart</i></NavLink>
-        <p className="cart-quantity">{props.cartProductsQuantity}</p>
+        <p className="cart-quantity">{this.props.cartProductsQuantity}</p>
         </div>
       </nav>
     </div>
+    );
+  }
+}
 
-);
+const mapStateToProps = state => ({
+  cartProductsQuantity: state.cartContent.cartProductsQuantity
+});
 
-export default Navigation;
+export default connect(mapStateToProps)(Navigation);

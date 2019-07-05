@@ -17,7 +17,6 @@ import Register from './components/Register/Register';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 class App extends React.Component {
   render() {
     return (
@@ -36,9 +35,6 @@ class App extends React.Component {
             <Route exact path={'/feedback'} component={Feedback} />
             <Route exact path={'/newsletter'} component={Newsletter} />
             <Route exact path={'/register'} component={Register} />
-
-
-
           </Switch>
         </Layout>
       </BrowserRouter>

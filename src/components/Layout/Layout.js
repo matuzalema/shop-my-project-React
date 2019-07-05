@@ -1,21 +1,11 @@
 import React from "react";
-
 import Header  from "../Header/Header.js";
-import { connect } from "react-redux";
-
 import { Footer } from "../Footer/Footer";
-import { bindActionCreators } from 'redux';
 import { Link } from "react-router-dom";
 import "./Layout.scss";
 
 class Layout extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      cartProductsQuantity: props.cartProductsQuantity
-    }
-  }
-  
+
   render() {
     return (
       <div className="container-fluid">
@@ -47,16 +37,4 @@ class Layout extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({
-  cartProductsQuantity: state.cartContent.cartProductsQuantity
-});
-
-// function matchDispatchToProps(dispatch) {
-//   return bindActionCreators(
-//     { addToCart: addToCart }, dispatch
-//   )
-// }
-
-export default connect(
-  mapStateToProps
-)(Layout);
+export default Layout;

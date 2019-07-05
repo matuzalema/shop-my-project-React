@@ -8,6 +8,7 @@
     "google-maps-react": "^2.0.2",
     "mdbreact": "^4.17.0",
     "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-reactstrap-pagination": "^1.0.5",

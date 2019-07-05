@@ -13,6 +13,9 @@
 		align-items: center;
 		margin-left: 30px;
 		margin-top: 10px;
+		&:hover {
+			animation: scale 2s;
+		}
 		.logo-wrapper{
 			display: flex;
 			flex-direction: row;

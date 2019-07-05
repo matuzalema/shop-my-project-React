@@ -3,7 +3,8 @@ import "./CartProductsList.scss";
 
 const CartProductsList = props => (   
     <ul>
-        {props.cartContent.map((product, i) => {
+        { props.cartContent.length===0? <div>jest pusty</div>:
+            props.cartContent.map((product, i) => {
             return (
                 <div className="cart-product-wrapper">
                     <div className="cart-product-wrapper-letf">

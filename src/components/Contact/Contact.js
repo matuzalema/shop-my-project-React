@@ -1,9 +1,5 @@
 import React from "react";
-import MapContainer from "../Maps/Maps";
 import "./Contact.scss";
-import "../Maps/Maps";
-import Log from "../Log/Log";
-import FormPage from "../Feedback/Feedback";
 
 export class Contact extends React.Component {
   render() {

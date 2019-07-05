@@ -1,22 +1,13 @@
 import React from "react";
-// import EmptyCart from "./EmptyCart";
 import { connect } from "react-redux";
 import './Order.scss';
 import { Link } from "react-router-dom";
 
 
 class Order extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            products: props.products,
-            cartContent: props.cartContent,
-            overallPrice: props.overallPrice
-        };
-    }
 
     renderTableData() {
-        return this.state.cartContent.map((product, index) => {
+        return this.props.cartContent.map((product, index) => {
             const { id, name, quantity, price } = product
             return (
                 <tr key={id}>
@@ -44,7 +35,7 @@ class Order extends React.Component {
                         {this.renderTableData()}
                     </tbody>
                 </table>
-                <h2 className="sum">Do zapłaty: {this.state.overallPrice} PLN</h2>
+                <h2 className="sum">Do zapłaty: {this.props.overallPrice} PLN</h2>
                 <button type="submit" className="button button-primary pay">zapłać</button>
             </div>
         )
@@ -52,7 +43,6 @@ class Order extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    products: state.products,
     cartContent: state.cartContent.cartContent,
     overallPrice: state.cartContent.overallPrice,
 });

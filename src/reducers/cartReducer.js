@@ -1,5 +1,4 @@
 import { ADD_TO_CART, ADD_QUANTITY, SUBSTRACT_QUANTITY, REMOVE_CART_PRODUCT } from "../actions/cartActions";
-// import { voidTypeAnnotation } from "@babel/types";
 
 const initialState = {
     cartContent: [],
@@ -27,65 +26,44 @@ function setStateWithNewPropertis(state, newCart){
         overallPrice: sumCartPrices(newCart),
         cartProductsQuantity: sumProductsInCart(newCart)
     })
-
 }
+
 export default function(state = initialState, action) {
-    console.log(action);
     switch (action.type) {
         case ADD_TO_CART:
             let quantityUpdated = false;
-            let cartContent = state.cartContent;
-            for(let i=0; i<cartContent.length; i++){
-                if(cartContent[i].id === action.product.id){
-                    cartContent[i].quantity += 1;
+            let newCartContent = state.cartContent;
+            for (let i = 0; i < newCartContent.length; i++){
+                if (newCartContent[i].id === action.product.id){
+                    newCartContent[i].quantity += 1;
                     quantityUpdated = true;
                 }
             }
             if(!quantityUpdated) {
-                cartContent = [...cartContent, action.product];
+                newCartContent = [...newCartContent, action.product];
             }
+            return setStateWithNewPropertis(state, newCartContent);
 
-            return setStateWithNewPropertis(state, cartContent);
-            // return {
-            //     cartContent : cartContent,
-            //     overallPrice: sumCartPrices(cartContent),
-            //     cartProductsQuantity: sumProductsInCart(cartContent)
-            // }
+        case ADD_QUANTITY:
+            const newCartContentAfterAddQuantity = state.cartContent.map(product => {
+                return product.id === action.productId
+                    ? Object.assign({}, product, {quantity: product.quantity + 1})
+                    : product;
+            });
+            return setStateWithNewPropertis(state, newCartContentAfterAddQuantity);
+        
+        case SUBSTRACT_QUANTITY:
+            let newCartContentAfterSubstractQuantity = state.cartContent.map(product => {
+                return product.id === action.productId
+                    ? Object.assign({}, product, {quantity: product.quantity -1}) 
+                    : product;
+            });
+            newCartContentAfterSubstractQuantity = newCartContentAfterSubstractQuantity.filter(product => product.quantity > 0)
+            return setStateWithNewPropertis(state, newCartContentAfterSubstractQuantity);
 
-            case ADD_QUANTITY:
-                const addQuantity = state.cartContent.map(product => {
-                    return product.id === action.productId
-                        ? Object.assign({}, product, {quantity: product.quantity + 1})
-                        : product;
-                });
-
-                // let pricesArray = cartContent.map(product => product.price);
-                
-                // return Object.assign({}, state, {
-                //     cartContent: addQuantity,
-                //     overallPrice: sumCartPrices(addQuantity)
-                // })
-            return setStateWithNewPropertis(state, addQuantity);
-            
-            case SUBSTRACT_QUANTITY:
-                let substractQuantity = state.cartContent.map(product => {
-                    return product.id === action.productId
-                        ? Object.assign({}, product, {quantity: product.quantity -1}) 
-                        : product;
-                });
-                //remove product with 0 quantity
-                substractQuantity = substractQuantity.filter(product => product.quantity > 0)
-
-            return setStateWithNewPropertis(state, substractQuantity);
-
-            case REMOVE_CART_PRODUCT:
-            const remove = state.cartContent.filter(product => product.id !== action.productId)
-            
-            return setStateWithNewPropertis(state, remove);
-
-
-    
-
+        case REMOVE_CART_PRODUCT:
+            const removenewCartContentAfterRemove = state.cartContent.filter(product => product.id !== action.productId)
+            return setStateWithNewPropertis(state, removenewCartContentAfterRemove);
 
         default: return state;
     }
