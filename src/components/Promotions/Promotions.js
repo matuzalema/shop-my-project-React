@@ -1,7 +1,8 @@
 import React from 'react';
 import {Jumbotron} from 'react-bootstrap';
+
+//import styles
 import "./Promotions.scss";
-import { relative } from 'path';
 
 
 export class Promotions extends React.Component {
@@ -17,8 +18,6 @@ export class Promotions extends React.Component {
 				<p className="promotion-desc">
 					Oferta dotyczy wybranych produktów w sklepach stacjonarnych i obowiązuje do wyczerpania zapasów. Ceny w sklepie stacjonarnym oraz internetowym mogą się różnić.
   				</p>
-				<p>
-				</p>
 			</Jumbotron>
 			
 		</div>

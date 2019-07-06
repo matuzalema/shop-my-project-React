@@ -1,6 +1,8 @@
 import React from 'react';
-import "./CartProductsList.scss";
 import { Link } from "react-router-dom";
+
+//import styles
+import "./CartProductsList.scss";
 
 const CartProductsList = props => (   
     <ul>

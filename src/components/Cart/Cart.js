@@ -1,9 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import CartProductsList from "./CartProductsList";
-import "./Cart.scss";
 import { addQuantity, substractQuantity, removeCartProduct} from "../../actions/cartActions";
 import { Link } from 'react-router-dom';
+
+//import styles
+import "./Cart.scss";
+
+//import components
+import CartProductsList from "./CartProductsList";
 
 class Cart extends React.Component {
 

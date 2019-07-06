@@ -1,7 +1,9 @@
 import React from "react";
-import "./Navigation.scss";
 import {NavLink} from "react-router-dom";
 import { connect } from "react-redux";
+
+//import styles
+import "./Navigation.scss";
 
 class Navigation extends React.Component {
 

@@ -1,8 +1,9 @@
 .promotions {
     .jumbotron {
-       background: rgb(251,4,4);
-background: linear-gradient(90deg, rgba(251,4,4,1) 0%, rgba(242,206,83,0.96656162464986) 51%, rgba(247,2,2,1) 100%);
+        background: rgb(251,4,4);
+        background: linear-gradient(90deg, rgba(251,4,4,1) 0%, rgba(242,206,83,0.96656162464986) 51%, rgba(247,2,2,1) 100%);
     }
+
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -19,26 +20,23 @@ background: linear-gradient(90deg, rgba(251,4,4,1) 0%, rgba(242,206,83,0.9665616
         position: relative;
         z-index: 1;
     }
+
     .promotion-desc {
         text-align: center;
          position: relative;
         z-index: 1;
         margin-top: 20px;
-    };
+    }
+
     .promotions-span {
         font-size: 64px;
         color: red;
     }
+
     .promotions-top {
         font-size: 24px;
         text-align: center;
         position: relative;
         z-index: 1;
     }
-
-
 }
-
-// .promotions {
-//     background-image: url("../../images/dron-promotion.jpg")
-// }

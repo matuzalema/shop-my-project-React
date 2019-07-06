@@ -1,6 +1,8 @@
-import "./FAQ.scss";
 import React from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';
+
+//import styles
+import "./FAQ.scss";
 
 const FAQ = () => (
   <div class="faq">

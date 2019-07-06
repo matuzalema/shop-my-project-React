@@ -12,11 +12,10 @@
     margin-left: 40px;
     padding-left: 35px;
     width: 230px;
-    // align-items: flex-end;
+
     h1 {
       font-size: 24px;
       font-weight: 400;
-
     }
 
     .sort-by {
@@ -24,17 +23,18 @@
       margin: 20px 0 10px 0;
     }
   }
+
   .wrapperHomeRight {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    // max-width: 66.66%;
   }
 }
 
 ul {
   list-style-type: none;
   margin-top: 10px;
+
   li {
     margin-top: 5px;
   }

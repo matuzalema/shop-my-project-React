@@ -1,7 +1,11 @@
 import React from "react";
-import Navigation from "../Navigation/Navigation";
-import "./Header.scss";
 import {Link} from "react-router-dom";
+
+//import styles
+import "./Header.scss";
+
+//import components
+import Navigation from "../Navigation/Navigation";
 
 const Header = () => (
   <div className="top">

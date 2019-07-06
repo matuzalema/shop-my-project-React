@@ -1,11 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
-import "./Home.scss";
 import cloneDeep from 'lodash/cloneDeep';
-import {ProductsList} from "../ProductComponents/ProductList/ProductsList";
-import "../../sass/_components.scss";
 import Pagination from "react-reactstrap-pagination";
+
+//import styles
+import "./Home.scss";
 import "../Pagination/Pagination.scss"
+
+//import components
+import {ProductsList} from "../ProductComponents/ProductList/ProductsList";
 
 class Home extends React.Component {
   constructor(props) {
@@ -76,12 +79,6 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Pagination className="pagination-top"
-          totalItems={this.state.sortedProducts.length}
-          pageSize={this.pageSize}
-          onSelect={this.handleSelected}
-          activePage={this.state.selectedPage}
-        />
         <div className="homeContainer">
           <div className="wrapperHomeLeft">
             <p className="sort-by"> Sortuj </p>

@@ -5,6 +5,7 @@
 	justify-content: flex-end;
 	padding: 20px;
 	padding-right: 30px;
+
 	a {
 		text-decoration: none;
 		margin-left: 20px;
@@ -12,6 +13,7 @@
 		text-transform: uppercase;
 		letter-spacing: 6px;
 		font-size: 14px;
+
 		&:hover {
     	text-decoration: none;
 		}
@@ -21,17 +23,20 @@
 .topNav a:visited {
   color: black;
 }
+
 .topNav a.active {
   color: red;
 }
 
 .cart-wrapper {
 	position: relative;
+
 	.cart-icon {
 		margin-left: -25px;
 		margin-top: -10px;
 		padding: 10px;
 	}
+	
 	.cart-quantity {
 		color: #000;
 		min-height: 20px;

@@ -1,8 +1,10 @@
 import React from "react";
 import { connect } from 'react-redux';
-import "./Product.scss";
 import { Link } from "react-router-dom";
 import {addToCart} from "../../../actions/cartActions";
+
+//import styles
+import "./Product.scss";
 
 class Product extends React.Component {
    

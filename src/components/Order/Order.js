@@ -1,7 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
+
+//import styles
 import './Order.scss';
-import { Link } from "react-router-dom";
 
 
 class Order extends React.Component {

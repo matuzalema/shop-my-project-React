@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+//import styles
+import "./Layout.scss";
+
+//import components
 import Header  from "../Header/Header.js";
 import { Footer } from "../Footer/Footer";
-import { Link } from "react-router-dom";
-import "./Layout.scss";
 
 class Layout extends React.Component {
 

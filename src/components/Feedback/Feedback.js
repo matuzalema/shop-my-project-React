@@ -1,5 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
+
+//import styles
 import "./Feedback.scss";
 
 const Feedback = () => {

@@ -7,19 +7,23 @@
 	padding: 0 30px;
 	margin-top: 10px;
 	margin-bottom: 40px;
+
 	.logo {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin-left: 30px;
 		margin-top: 10px;
+
 		&:hover {
 			animation: scale 2s;
 		}
+
 		.logo-wrapper{
 			display: flex;
 			flex-direction: row;
 			position: relative;
+
 			.logo-header {
 				font-size: 24px;
 				font-weight: 900;
@@ -29,20 +33,24 @@
 				font-family: 'Orbitron', sans-serif;
 				color: red;
 			}
+
 			.logo-icon {
 				position: absolute;
 				top: 9px;
     			left: 46px;
 			}
 		}
+
 		.logo-header-second {
 			color: #000;
 			font-family: 'Orbitron', sans-serif;
 			font-size: 24px;
+
 			&:hover {
 				text-decoration: none;
 			}
 		}
+
 		.logo-icon {
 			font-size: 40px;
 		}
@@ -51,6 +59,7 @@
 
 .logo-link {
 	color: #000;
+	
 	&:hover {
 		color: #000;
 		text-decoration: none;

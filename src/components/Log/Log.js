@@ -1,6 +1,8 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBBtn } from "mdbreact";
 import {Link} from "react-router-dom";
+import { MDBRow, MDBCol, MDBBtn } from "mdbreact";
+
+//import styles
 import "./Log.scss";
 
 class Log extends React.Component {

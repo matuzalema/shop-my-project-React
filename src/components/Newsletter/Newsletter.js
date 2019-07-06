@@ -1,6 +1,9 @@
-import "./Newsletter.scss";
 import React from 'react';
-import {Jumbotron, Button} from 'react-bootstrap'; 
+
+//import styles
+import "./Newsletter.scss";
+
+//import components
 import  NewsletterForm  from './NewsletterForm';
 
 

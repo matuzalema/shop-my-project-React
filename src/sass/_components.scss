@@ -1,4 +1,5 @@
 @import "./variables.scss";
+
 .button{
     padding: 8px 20px;
     background-color: $third-color;
@@ -11,9 +12,11 @@
     text-decoration: none;
     transition: 0.5s;
     text-decoration: none;
+
     &:focus {
         outline: none;
     }
+
     &:hover {
         text-decoration: none;
         color: #000;
@@ -30,9 +33,11 @@
     border: none;
     margin-bottom: 8px;
     height: 25px;
+
     &:hover {
         background-color: $fourth-color;
     }
+
     &:focus {
         outline: none;
     }
@@ -45,11 +50,13 @@
     padding: 8px 20px;
     border: none;
     transition: 1s;
+
     &:hover {
         background-color:$btn-hover-dark;
         color: $main-color;
         color: #000;
     }
+    
     &:active {
         background-color: #000;
     }

@@ -1,7 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
+
+//import styles
 import './App.scss';
+
+//import components
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import {Contact} from './components/Contact/Contact';

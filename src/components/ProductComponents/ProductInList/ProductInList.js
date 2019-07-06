@@ -1,9 +1,11 @@
 import React from "react";
-import "./ProductInList.scss";
 import {Link} from 'react-router-dom';
 import { addToCart } from "../../../actions/cartActions";
 import { connect } from 'react-redux';
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+
+//import styles
+import "./ProductInList.scss";
+
 
 class ProductInList extends React.Component {
     render() {
