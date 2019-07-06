@@ -1,10 +1,18 @@
 import React from 'react';
 import "./CartProductsList.scss";
+import { Link } from "react-router-dom";
 
 const CartProductsList = props => (   
     <ul>
-        { props.cartContent.length===0? <div>jest pusty</div>:
-            props.cartContent.map((product, i) => {
+        { props.cartContent.length===0
+            ?<div className="emptyCart">   
+                <div className="descEmptyCart">nie zawiera produktów</div>
+                <Link exact to={"/home"}>
+                    <button className="button button-continue-shopping">Przejdź do zakupów
+                    </button>
+                </Link>
+            </div>
+            : props.cartContent.map((product, i) => {
             return (
                 <div className="cart-product-wrapper">
                     <div className="cart-product-wrapper-letf">

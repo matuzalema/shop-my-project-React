@@ -14,8 +14,8 @@ class Navigation extends React.Component {
         <NavLink exact to="/Promotions" activeClassName="active">Promocje</NavLink>
         <NavLink exact to="/Contact" activeClassName="active">Kontakt</NavLink>
         <div className="cart-wrapper">
-        <NavLink exact to="/Cart" activeClassName="active"><i className="material-icons">shopping_cart</i></NavLink>
-        <p className="cart-quantity">{this.props.cartProductsQuantity}</p>
+        <NavLink exact to="/Cart" activeClassName="active"><i className="material-icons cart-icon">shopping_cart</i>
+              <p className="cart-quantity">{this.props.cartProductsQuantity}</p></NavLink>
         </div>
       </nav>
     </div>
