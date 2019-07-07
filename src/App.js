@@ -18,6 +18,7 @@ import Log from './components/Log/Log';
 import Feedback from './components/Feedback/Feedback';
 import Newsletter from './components/Newsletter/Newsletter';
 import Register from './components/Register/Register';
+import { NoMatch } from './components/NoMatch';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -39,6 +40,7 @@ class App extends React.Component {
             <Route exact path={'/feedback'} component={Feedback} />
             <Route exact path={'/newsletter'} component={Newsletter} />
             <Route exact path={'/register'} component={Register} />
+            <Route component={NoMatch} />
           </Switch>
         </Layout>
       </BrowserRouter>

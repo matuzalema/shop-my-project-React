@@ -73,3 +73,27 @@
     transform: acale(1);
   }
 }
+
+@keyframes puls {
+  0% {
+    font-size: 38px;
+  }
+   50% {
+    font-size: 44px;
+  }
+  100% {
+    font-size: 38px;
+  }
+}
+
+@keyframes change-colors {
+  0% {
+    background-color: #ff9d0a;
+  }
+   50% {
+    background-color: #e1b12c;
+  }
+  100% {
+    background-color: #ff9d0a;
+  }
+}

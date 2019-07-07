@@ -6,7 +6,6 @@ import "./Newsletter.scss";
 //import components
 import  NewsletterForm  from './NewsletterForm';
 
-
 const Newsletter = () => (
     <>
     <div class="newsletter">
@@ -34,9 +33,6 @@ const Newsletter = () => (
                 <h4 className="nawsletter-h4">Tylko przy pierwszej rejestracji, ważne przez 14 dni, minimalna wartość zamówienia to 100PLN.</h4>
         </div>
          <NewsletterForm />
-   
-          
-   
     </div>
     </>
 );

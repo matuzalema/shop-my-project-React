@@ -102,6 +102,8 @@ class Home extends React.Component {
             activePage={this.state.selectedPage}
           />
         </div>
+        <div className="carousel">
+        </div>
       </div>
     );
   }

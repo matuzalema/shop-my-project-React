@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { addQuantity, substractQuantity, removeCartProduct} from "../../actions/cartActions";
+import { addQuantity, substractQuantity, removeCartProduct, enablePromotion} from "../../actions/cartActions";
 import { Link } from 'react-router-dom';
 
 //import styles
@@ -10,7 +10,6 @@ import "./Cart.scss";
 import CartProductsList from "./CartProductsList";
 
 class Cart extends React.Component {
-
     render() {
         return (
             <div className="cart">
@@ -22,6 +21,7 @@ class Cart extends React.Component {
                     removeCartProduct={this.props.removeCartProduct.bind(this)}/>
                 <form className="payForm">
                     <input placeholder="kod rabatowy" className="discount" type="text" name="input" />
+                    <button onClick={() => this.props.enablePromotion("kaka")}>Aktywuj kod</button>
                     <h2 className="sum">Do zapłaty: {this.props.overallPrice} PLN</h2>
                     <Link exact to={"/order"}>
                         <button type="submit" className="button button-primary button-pay">Zamów</button>
@@ -40,7 +40,8 @@ const mapStateToProps = state => ({
 const mapDispatchToProps =  {
     addQuantity, 
     substractQuantity,
+    enablePromotion,
     removeCartProduct,
 }
 
-export default connect( mapStateToProps, mapDispatchToProps)(Cart);
+export default connect(mapStateToProps, mapDispatchToProps)(Cart);

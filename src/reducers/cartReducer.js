@@ -1,15 +1,19 @@
-import { ADD_TO_CART, ADD_QUANTITY, SUBSTRACT_QUANTITY, REMOVE_CART_PRODUCT } from "../actions/cartActions";
+import { ADD_TO_CART, ADD_QUANTITY, SUBSTRACT_QUANTITY, REMOVE_CART_PRODUCT, ENABLE_PROMOTION } from "../actions/cartActions";
 
 const initialState = {
     cartContent: [],
     overallPrice: 0,
-    cartProductsQuantity: 0
+    cartProductsQuantity: 0,
+    promotionEnabled: false
 }
 
-function sumCartPrices(cart) {
+function sumCartPrices(promotionActive, cart) {
     let sumPrices = cart.reduce(function(prev, cur){
         return prev + (cur.price * cur.quantity);
     }, 0);
+    if (promotionActive){
+        sumPrices = sumPrices * 0.9;
+    }
     return sumPrices.toFixed(2);   
 }
 
@@ -23,7 +27,7 @@ function sumProductsInCart(cart) {
 function setStateWithNewPropertis(state, newCart){
     return Object.assign({}, state, {
         cartContent: newCart,
-        overallPrice: sumCartPrices(newCart),
+        overallPrice: sumCartPrices(state.promotionEnabled, newCart),
         cartProductsQuantity: sumProductsInCart(newCart)
     })
 }
@@ -64,6 +68,15 @@ export default function(state = initialState, action) {
         case REMOVE_CART_PRODUCT:
             const removenewCartContentAfterRemove = state.cartContent.filter(product => product.id !== action.productId)
             return setStateWithNewPropertis(state, removenewCartContentAfterRemove);
+        
+        case ENABLE_PROMOTION:
+            if (action.discountCode === "kaka") {
+                return Object.assign({}, state, {
+                    promotionEnabled: true,
+                    overallPrice: sumCartPrices(true, state.cartContent)
+                }); 
+            }
+            return state;
 
         default: return state;
     }
