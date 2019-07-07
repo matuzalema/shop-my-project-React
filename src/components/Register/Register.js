@@ -81,7 +81,7 @@ class Register extends React.Component {
                                 value={this.state.email}
                                 onChange={this.changeHandler}
                                 type="password"
-                                id="defaultFormRegisterConfirmEx3"
+                                // id="defaultFormRegisterConfirmEx3"
                                 className="form-control"
                                 name="password"
                                 placeholder="Twoje hasło"
@@ -100,7 +100,7 @@ class Register extends React.Component {
                                 value={this.state.email}
                                 onChange={this.changeHandler}
                                 type="password"
-                                id="defaultFormRegisterConfirmEx3"
+                                // id="defaultFormRegisterConfirmEx3"
                                 className="form-control"
                                 name="password"
                                 placeholder="Twoje hasło"
