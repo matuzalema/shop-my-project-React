@@ -1,3 +1,18 @@
+## Aplikacja [photo-inventions-shop](https://photo-inventions.firebaseapp.com) napisana w React zawiera:
+
+- dodawanie produktów do koszyka
+- paginacja listy produktów
+- możliwość zwiększania/zmniejszania liczby sztuk produktu,
+- usuwanie produktu,
+- funkcjonalność kodu rabatowego,
+- podsumowanie zamówienia
+- formularze logowania, rejestracji i feedback
+- animacje
+
+ ## Inicjalizacja projektu
+- npm install
+- npm run start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
