@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
+import { AnimatedSwitch } from 'react-router-transition';
 
 //import styles
 import './App.scss';
@@ -27,7 +28,12 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Layout>
-          <Switch>
+          <AnimatedSwitch
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0}}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+          >
             <Route exact path={'/'} component={Home} />
             <Route exact path={'/home'} component={Home} />
             <Route exact path={'/contact'} component={Contact} />
@@ -41,7 +47,7 @@ class App extends React.Component {
             <Route exact path={'/newsletter'} component={Newsletter} />
             <Route exact path={'/register'} component={Register} />
             <Route component={NoMatch} />
-          </Switch>
+          </AnimatedSwitch>
         </Layout>
       </BrowserRouter>
     );
