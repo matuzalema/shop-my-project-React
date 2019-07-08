@@ -9,13 +9,14 @@
 	a {
 		text-decoration: none;
 		margin-left: 20px;
-		color: white;
+		color: #000;
 		text-transform: uppercase;
 		letter-spacing: 6px;
 		font-size: 14px;
 
 		&:hover {
-    	text-decoration: none;
+		text-decoration: none;
+		color: red;
 		}
 	}
 }
@@ -26,6 +27,7 @@
 
 .topNav a.active {
   color: red;
+  border: none;
 }
 
 .cart-wrapper {

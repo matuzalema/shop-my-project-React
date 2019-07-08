@@ -13,7 +13,7 @@ export class Promotions extends React.Component {
 			<Jumbotron>
 				<img src="../../images/dron-promotion.jpg" alt=""/>
 				<p className="promotions-top">Kolejne obniżki</p>
-				<h1 className="promotions-header">Wyprzedaż, teraz nawet <br /> <span class="promotions-span">30% taniej </span> <br />Aparat CANON EOS 4000D już od 700 PLN !!!</h1>
+				<h1 className="promotions-header">Wyprzedaż, teraz nawet <br /> <span className="promotions-span">30% taniej </span> <br />Aparat CANON EOS 4000D już od 700 PLN !!!</h1>
 				<p className="promotion-desc">Oferta dotyczy wybranych produktów w sklepach stacjonarnych i obowiązuje do wyczerpania zapasów. Ceny w sklepie stacjonarnym oraz internetowym mogą się różnić.</p>
 			</Jumbotron>
 			<div className="promotion-carousel">

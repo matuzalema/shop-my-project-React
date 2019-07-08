@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBBtn } from "mdbreact";
+import "./Register.scss";
 
 class Register extends React.Component {
     state = {
@@ -22,7 +23,7 @@ class Register extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='register'>
                 <form
                     className="needs-validation"
                     onSubmit={this.submitHandler}
@@ -75,32 +76,13 @@ class Register extends React.Component {
                             <label
                                 htmlFor="defaultFormRegisterConfirmEx3"
                                 className="grey-text">
-                                Hasło
+                               Podaja nowe hasło
                             </label>
                             <input
-                                value={this.state.email}
+                                value={this.state.password}
                                 onChange={this.changeHandler}
                                 type="password"
-                                // id="defaultFormRegisterConfirmEx3"
-                                className="form-control"
-                                name="password"
-                                placeholder="Twoje hasło"
-                                required
-                            />
-                        </MDBCol>
-                    </MDBRow>
-                    <MDBRow>
-                        <MDBCol md="4" className="mb-3">
-                            <label
-                                htmlFor="defaultFormRegisterConfirmEx3"
-                                className="grey-text">
-                                Powtórz hasło
-                            </label>
-                            <input
-                                value={this.state.email}
-                                onChange={this.changeHandler}
-                                type="password"
-                                // id="defaultFormRegisterConfirmEx3"
+                                id="defaultFormRegisterConfirmEx3"
                                 className="form-control"
                                 name="password"
                                 placeholder="Twoje hasło"
@@ -129,7 +111,7 @@ class Register extends React.Component {
                     </MDBRow>
                     <MDBRow>
                         <MDBCol md="4" className="mb-3">
-                            <MDBBtn color="primary" type="submit">
+                            <MDBBtn className="button button-primary" type="submit">
                             Zarejestruj
                             </MDBBtn>
                         </MDBCol>

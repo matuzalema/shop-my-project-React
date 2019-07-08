@@ -70,7 +70,7 @@ export default function(state = initialState, action) {
             return setStateWithNewPropertis(state, removenewCartContentAfterRemove);
         
         case ENABLE_PROMOTION:
-            if (action.discountCode === "kaka") {
+            if (action.discountCode === "foto") {
                 return Object.assign({}, state, {
                     promotionEnabled: true,
                     overallPrice: sumCartPrices(true, state.cartContent)

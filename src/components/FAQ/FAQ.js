@@ -5,7 +5,7 @@ import { Accordion, Card, Button} from 'react-bootstrap';
 import "./FAQ.scss";
 
 const FAQ = () => (
-  <div class="faq">
+  <div className="faq">
     <h1 className="faq-header"> FAQ</h1>
     <Accordion defaultActiveKey="0">
       <Card>

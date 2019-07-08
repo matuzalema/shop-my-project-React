@@ -22,9 +22,7 @@ class Product extends React.Component {
                     <p className="product-price">{this.props.products[this.props.match.params.id].price} PLN</p>
                     <p className="product-description">{this.props.products[this.props.match.params.id].detail}</p>
                     <button type="submit" className="button button-primary" onClick={() => this.props.addToCart(this.props.products[this.props.match.params.id])}> dodaj do koszyka </button>
-                    <Link
-                        exact to={"/home"} className="button"> Wróć 
-                    </Link>
+                    <Link to="/home" className="button"> Wróć </Link>
                 </div>
             </div>
         )

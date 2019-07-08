@@ -4,58 +4,117 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreac
 //import styles
 import "./Feedback.scss";
 
-const Feedback = () => {
-    return (
-        <MDBContainer>
-            <MDBRow>
-                <MDBCol md="6">
-                    <form className="feedback">
-                        <p className="h5 text-center mb-4">Write to us</p>
-                        <div className="grey-text">
-                            <MDBInput
-                                label="Your name"
-                                icon="user"
-                                group
+class Feedback extends React.Component {
+    state = {
+        fname: "",
+        lname: "",
+        email: "",
+    };
+
+    submitHandler = event => {
+        event.preventDefault();
+        event.target.className += " was-validated";
+    };
+
+    changeHandler = event => {
+        this.setState({ [event.target.name]: event.target.value });
+    };
+
+    render() {
+        return (
+            <div className='register'>
+                <form
+                    className="needs-validation"
+                    onSubmit={this.submitHandler}
+                    noValidate
+                >
+                    <MDBRow>
+                        <MDBCol md="4" className="mb-3">
+                            <label
+                                htmlFor="defaultFormRegisterNameEx"
+                                className="grey-text">
+                                Nick
+                            </label>
+                            <input
+                                value={this.state.fname}
+                                name="fname"
+                                onChange={this.changeHandler}
                                 type="text"
-                                validate
-                                error="wrong"
-                                success="right"
+                                id="defaultFormRegisterNameEx"
+                                className="form-control"
+                                placeholder="Your nick"
+                                required
                             />
-                            <MDBInput
-                                label="Your email"
-                                icon="envelope"
-                                group
+                            <div className="valid-feedback">Ok</div>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="4" className="mb-3">
+                            <label
+                                htmlFor="defaultFormRegisterConfirmEx3"
+                                className="grey-text">
+                                Email
+                            </label>
+                            <input
+                                value={this.state.email}
+                                onChange={this.changeHandler}
                                 type="email"
-                                validate
-                                error="wrong"
-                                success="right"
+                                id="defaultFormRegisterConfirmEx3"
+                                className="form-control"
+                                name="email"
+                                placeholder="Twój email"
+                                required
                             />
-                            <MDBInput
-                                label="Subject"
-                                icon="tag"
-                                group
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="4" className="mb-3">
+                            <label
+                                htmlFor="defaultFormRegisterConfirmEx3"
+                                className="grey-text">
+                                Tytuł wiadomości
+                            </label>
+                            <input
+                                value={this.state.password}
+                                onChange={this.changeHandler}
                                 type="text"
-                                validate
-                                error="wrong"
-                                success="right"
+                                id="defaultFormRegisterConfirmEx3"
+                                className="form-control"
+                                name="text"
+                                placeholder="tytuł"
+                                required
                             />
-                            <MDBInput
-                                type="textarea"
-                                rows="2"
-                                label="Your message"
-                                icon="pencil-alt"
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="4" className="mb-3">
+                            <label
+                                htmlFor="defaultFormRegisterConfirmEx3"
+                                className="grey-text">
+                                Napisz wiadomość
+                            </label>
+                            <textarea
+                                value={this.state.password}
+                                onChange={this.changeHandler}
+                                type="area"
+                                id="defaultFormRegisterConfirmEx3"
+                                className="form-control"
+                                name="text"
+                                required
                             />
-                        </div>
-                        <div className="text-center">
-                            <MDBBtn outline color="secondary">
-                                Send <MDBIcon far icon="paper-plane" className="ml-1" />
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol md="4" className="mb-3">
+                            <MDBBtn className="button button-primary" type="submit">
+                                Wyślij
                             </MDBBtn>
-                        </div>
-                    </form>
-                </MDBCol>
-            </MDBRow>
-        </MDBContainer>
-    );
-};
+                        </MDBCol>
+                    </MDBRow>
+                </form>
+            </div>
+        );
+    }
+}
 
 export default Feedback;

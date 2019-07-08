@@ -22,7 +22,7 @@ class Log extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="log-wrapper">
                 <h1 className="log-header">Zaloguj się</h1>
                 <form
                     className="needs-validation"
@@ -43,7 +43,7 @@ class Log extends React.Component {
                                 type="text"
                                 id="defaultFormRegisterNameEx"
                                 className="form-control"
-                                placeholder="First name"
+                                placeholder="nick"
                                 required
                             />
                             <div className="invalid-feedback">
@@ -66,7 +66,7 @@ class Log extends React.Component {
                                 id="defaultFormRegisterPasswordEx4"
                                 className="form-control"
                                 name="city"
-                                placeholder="City"
+                                placeholder="hasło"
                                 required
                             />
                             <div className="invalid-feedback">
@@ -77,10 +77,10 @@ class Log extends React.Component {
                     </MDBRow>
                     <MDBRow>
                         <MDBCol md="4" className="mb-4">
-                            <MDBBtn color="primary" type="submit">
+                            <MDBBtn className="button button-primary" type="submit">
                             Zaloguj
                             </MDBBtn> 
-                            <Link exact to={"/register"} className="link-register">
+                            <Link to="/register" className="link-register">
                             Zazrejestruj się
                             </Link>
                         </MDBCol>

@@ -15,19 +15,19 @@ class Layout extends React.Component {
       <div className="container-fluid">
         <div className='top-nav'>
           <p className="top-nav-item">
-            <Link exact to={"/log"} >
+            <Link to={"/log"} >
               <i className="material-icons top-nav-icon">perm_identity</i>
               Zaloguj się
             </Link>
           </p>
           <p className="top-nav-item">
-            <Link exact to={"/newsletter"}>
+            <Link to={"/newsletter"}>
             <i className="material-icons top-nav-icon"> mail_outline </i>
               Newsletter
             </Link>
           </p>
           <p className="top-nav-item">
-            <Link exact to={"/feedback"}>
+            <Link to={"/feedback"}>
             <i className="material-icons top-nav-icon">contact_mail</i>
               Feedback 
             </Link>

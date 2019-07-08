@@ -19,7 +19,7 @@ class Home extends React.Component {
       sortedProducts: cloneDeep(props.products),
       productsToDisplay: cloneDeep(props.products).slice(0, this.pageSize),      
       direction: "asc",
-      lastSortKey: "name"
+      lastSortKey: ""
     };
     this.handlePaginationSelected = this.handlePaginationSelected.bind(this);
   }
@@ -28,7 +28,7 @@ class Home extends React.Component {
     let productsAfterFilter;
     if(category==='all'){
       productsAfterFilter = this.props.products;
-    } else{
+    } else {
       productsAfterFilter = this.props.products.filter(product => product.category === category)
     }
     this.setState({
@@ -37,6 +37,7 @@ class Home extends React.Component {
       productsToDisplay: productsAfterFilter.slice((this.pageSize) - this.pageSize, (this.pageSize))
     }); 
   }
+
 
   sortByKey(key) {
     let direction;

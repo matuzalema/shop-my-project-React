@@ -9,7 +9,7 @@ import Navigation from "../Navigation/Navigation";
 
 const Header = () => (
   <div className="top">
-    <Link exact to={"/home"} className="logo-link">
+    <Link to={"/home"} className="logo-link">
     <div className="logo">
       <div className="logo-wrapper">
         <h1 className="logo-header">Ph&nbsp;&nbsp;&nbsp;</h1>

@@ -9,7 +9,7 @@ const CartProductsList = props => (
         { props.cartContent.length===0
             ?<div className="emptyCart">   
                 <div className="descEmptyCart">nie zawiera produktów</div>
-                <Link exact to={"/home"}>
+                <Link to="/home">
                     <button className="button button-continue-shopping">Przejdź do zakupów
                     </button>
                 </Link>
@@ -40,6 +40,7 @@ const CartProductsList = props => (
                             <button className="button" onClick={() => props.removeCartProduct(product.id)}>Usuń</button>
                         </div>
                     </div>
+                            {/* <button className="button button-promotion" onClick={() => props.enablePromotion("foto")}>Aktywuj kod</button> */}
                 </div>
             ) 
         })}
